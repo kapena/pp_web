@@ -1,0 +1,93 @@
+$color-head:#1aabe8;
+$color-phone:#2989da;
+$color-email:#1571be;
+$font:avenir,medium,sans-serif;
+$color-font:white;
+$fontsize: 25pt;
+
+.image-container1{
+	width: 100%;
+	position: absolute;
+	margin-top: 2%;
+}
+
+.image-highres{
+	display: inline-block;
+	position: absolute;
+}
+
+
+.headline-container{
+	position: absolute;
+	display: inline-block;
+	width: 70.2%;
+	height: 254px;
+	margin-top: 42%;
+}
+
+.headline-box{
+	display: inline-block;
+	background-color: $color-head;
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 254px;
+	width: 100%;
+}
+
+.contact-container{
+	// display: inline-block;
+	// position: absolute;
+	// width: 30%;
+	// block elements have a width of "auto" by default
+	height: 254px;
+	// margin-top: 42%;
+	background-color: $color-head;
+	.row {
+		width: 100%;
+		max-width: 100%;
+	}
+	.columns {
+		padding: 0;
+	}
+}
+
+.phone-box{
+	// display: inline-block;
+	// position: absolute;
+	background-color: $color-phone;
+	height: 127px;
+	// width: 300%;
+	// left: 0px;
+}
+
+.email-box{
+	// display: inline-block;
+	// position:absolute;
+	background-color: $color-email;
+	height: 127px;
+	// width: 300%;
+	// left: 0px;
+	// top:127px;
+}
+
+/* Media Queries */
+
+/* Highres retina home image display @2x */
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (-min-moz-device-pixel-ratio: 2),
+only screen and (o-min-device-pixel-ratio: 2/1),
+only screen and (-min-moz-device-pixel-ratio: 2), 
+only screen and ( min-device-pixel-ratio: 2),
+only screen and ( min-resolution: 192dpi),
+only screen and ( min-resolution: 2dppx){
+
+.image-highres{
+	background-image: url(../images/home@2x.jpg);
+	background-repeat: no-repeat;
+	background-size: 1920px; 
+
+	}	
+}
+
