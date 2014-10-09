@@ -1,0 +1,88 @@
+.logo {
+  background-image: url(../images/Pointplumbing.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: relative;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-bottom: 2%;
+  right: 5%; }
+
+.icons {
+  position: relative;
+  display: inline; }
+
+.home {
+  display: inline-block;
+  position: relative;
+  margin-left: 20%;
+  left: 3%; }
+
+.services {
+  display: inline-block;
+  position: relative;
+  margin-left: 2%;
+  left: 3%; }
+
+.about {
+  display: inline-block;
+  position: relative;
+  margin-left: 2%;
+  left: 3%; }
+
+.contact {
+  display: inline-block;
+  position: relative;
+  margin-left: 2%;
+  left: 3%; }
+
+.image-container1 {
+  width: 100%;
+  position: absolute;
+  margin-top: 2%; }
+
+.image-highres {
+  display: inline-block;
+  position: absolute; }
+
+.headline-container {
+  position: absolute;
+  display: inline-block;
+  width: 70.2%;
+  height: 254px;
+  margin-top: 42%; }
+
+.headline-box {
+  display: inline-block;
+  background-color: #1aabe8;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 254px;
+  width: 100%; }
+
+.contact-container {
+  height: 254px;
+  background-color: #1aabe8; }
+  .contact-container .row {
+    width: 100%;
+    max-width: 100%; }
+  .contact-container .columns {
+    padding: 0; }
+
+.phone-box {
+  background-color: #2989da;
+  height: 127px; }
+
+.email-box {
+  background-color: #1571be;
+  height: 127px; }
+
+/* Media Queries */
+/* Highres retina home image display @2x */
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-min-moz-device-pixel-ratio: 2), only screen and (o-min-device-pixel-ratio: 2 / 1), only screen and (-min-moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .image-highres {
+    background-image: url(../images/home@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: 1920px; } }
+img.full {
+  width: 100%; }
