@@ -36,30 +36,6 @@
   margin-left: 2%;
   left: 3%; }
 
-.image-container1 {
-  width: 100%;
-  position: absolute;
-  margin-top: 2%; }
-
-.image-highres {
-  display: inline-block;
-  position: absolute; }
-
-.headline-container {
-  position: absolute;
-  display: inline-block;
-  width: 70.2%;
-  height: 254px;
-  margin-top: 42%; }
-
-.headline-box {
-  display: inline-block;
-  background-color: #1aabe8;
-  background-repeat: no-repeat;
-  position: absolute;
-  height: 254px;
-  width: 100%; }
-
 .contact-container {
   height: 254px;
   background-color: #1aabe8; }
@@ -82,7 +58,9 @@
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-min-moz-device-pixel-ratio: 2), only screen and (o-min-device-pixel-ratio: 2 / 1), only screen and (-min-moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .image-highres {
     background-image: url(../images/home@2x.jpg);
-    background-repeat: no-repeat;
-    background-size: 1920px; } }
+    background-repeat: no-repeat; } }
 img.full {
+  width: 100%; }
+
+.image-highres {
   width: 100%; }
