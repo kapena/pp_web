@@ -36,13 +36,13 @@
   margin-left: 2%;
   left: 3%; }
 
-.contact-container {
+.headline-container {
   height: 254px;
   background-color: #1aabe8; }
-  .contact-container .row {
+  .headline-container .row {
     width: 100%;
     max-width: 100%; }
-  .contact-container .columns {
+  .headline-container .columns {
     padding: 0; }
 
 .phone-box {
@@ -54,6 +54,9 @@
   height: 127px; }
 
 /* Media Queries */
+@media (max-width: 642px) {
+  .headline-container {
+    padding-top: 254px; } }
 /* Highres retina home image display @2x */
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-min-moz-device-pixel-ratio: 2), only screen and (o-min-device-pixel-ratio: 2 / 1), only screen and (-min-moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .image-highres {

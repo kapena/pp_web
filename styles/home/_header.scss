@@ -5,7 +5,7 @@ $font:avenir,medium,sans-serif;
 $color-font:white;
 $fontsize: 25pt;
 
-.contact-container{
+.headline-container{
 	// block elements have a width of "auto" by default
 	height: 254px;
 	background-color: $color-head;
@@ -15,7 +15,7 @@ $fontsize: 25pt;
 	}
 	.columns {
 		padding: 0;
-	}
+			}
 }
 
 .phone-box{
@@ -29,6 +29,13 @@ $fontsize: 25pt;
 }
 
 /* Media Queries */
+
+@media (max-width:642px) {
+ .headline-container {
+padding-top: 254px;
+}
+
+}
 
 /* Highres retina home image display @2x */
 
