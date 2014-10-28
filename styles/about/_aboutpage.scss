@@ -1,0 +1,36 @@
+$color-headline-about:#1aabe8;
+$color-aboutsect1:#1571be;
+$color-aboutsect2:#4392d4;
+
+.headline-about{
+	height: 254px;
+	background-color:$color-headline-about;
+}
+
+.aboutsect1{
+	height: 350px;
+	background-color: $color-aboutsect1;
+
+	.row{
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.columns {
+		padding: 0;
+			}
+}
+
+.aboutsect2{
+	height: 350px;
+	background-color:$color-aboutsect2;
+}
+
+/* Media Queries */
+
+@media (max-width:642px) {
+	.aboutsect2{
+		position: relative;
+		top: 350px;
+	}
+}

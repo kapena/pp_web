@@ -1,3 +1,198 @@
 $color-info:#6fdae7;
 $color-headline:#1ca5b6;
+$color-serviceblock:#1aabe8;
 
+
+.headline-services{
+	height: 254px;
+	background-color: $color-headline;
+}
+
+.services-block{
+	height: 80px;
+	background-color:$color-serviceblock;
+	width: 257px;
+	margin: 0 auto;
+	position: relative;
+	bottom: 70px;
+}
+
+.block-grid{
+	position: relative;
+	padding:10%;
+}
+
+// Media queries for block grid adjustments on desktop screens //
+
+@media only screen and (min-width:1185px) {
+.services-block {
+	right:15px;
+	}
+}
+
+@media only screen and (min-width:1300px) {
+.services-block {
+	right:35px;
+	}
+}
+
+@media only screen and (min-width:1600px) {
+.services-block {
+	right:45px;
+	}
+}
+
+@media only screen and (min-width:1800px) {
+.services-block {
+	right:70px;
+	}
+}
+
+@media only screen and (min-width:1900px) {
+.services-block {
+	width:320px;
+	right:80px;
+	}
+}
+
+@media only screen and (min-width:2030px) {
+.services-block {
+	width:320px;
+	right:90px;
+	}
+}
+
+// Just incase someone opens on a huge screen :) 
+
+@media only screen and (min-width:1380px) {
+.block-grid{
+	left:1%;
+	}
+}
+
+@media only screen and (min-width:1550px) {
+.block-grid{
+	left:2%;
+	}
+}
+
+@media only screen and (min-width:1800px) {
+.block-grid{
+	left:3%;
+	}
+}
+// Media queries for block grid adjustments on tablet devices // 
+
+
+@media only screen and (max-width:1024px) {
+.block-grid{
+	top: 30px;
+	left: 15%;
+	display:inline-block;
+	}	
+}
+
+@media only screen and (max-width:960px) {
+.block-grid{
+	top: 30px;
+	left:13%;
+	display:inline-block;
+	}	
+}
+
+@media only screen and (max-width:900px) {
+.block-grid{
+	top:30px;
+	left:13%;
+	display:inline-block;
+	}	
+}
+
+@media only screen and (max-width:800px) {
+.block-grid{
+	top:30px;
+	left:10%;
+	display:inline-block;
+	}	
+}
+
+@media only screen and (max-width:760px) {
+.block-grid{
+	top:30px;
+	left:9%;
+	display:inline-block;
+	}	
+}
+
+@media only screen and (max-width:740px) {
+.block-grid{
+	top:30px;
+	left:7%;
+	display:inline-block;
+	}	
+}
+
+@media only screen and (max-width:690px) {
+.block-grid{
+	top:30px;
+	left:4%;
+	display:inline-block;
+	}	
+}
+
+// Media queries for block grid adjustments on mobile devices // 
+
+@media only screen and (max-width:640px) {
+.services-block{
+	width:218px;
+	bottom:30px;
+	}	
+}
+
+@media only screen and (max-width:640px) {
+.block-grid{
+	left:20%;
+	}	
+}
+
+@media only screen and (max-width:540px) {
+.block-grid{
+	left:18%;
+	}	
+}
+
+@media only screen and (max-width:480px) {
+.block-grid{
+	left:15%;
+	}	
+}
+
+@media only screen and (max-width:420px) {
+.block-grid{
+	left:13%;
+	}	
+}
+
+@media only screen and (max-width:415px) {
+.block-grid{
+	left:11%;
+	}	
+}
+
+@media only screen and (max-width:361px) {
+.block-grid{
+	left:9%;
+	}	
+}
+
+@media only screen and (max-width:351px) {
+.block-grid{
+	left:7%;
+	}	
+}
+
+@media only screen and (max-width:341px) {
+.block-grid{
+	left:4%;
+	}	
+}
