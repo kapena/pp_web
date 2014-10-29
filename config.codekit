@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "17682",
+"creatorBuild": "18027",
 "files": {
 	"\/css\/main.css": {
 		"fileType": 16,
@@ -300,13 +300,13 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/images\/about.jpg": {
+	"\/images\/About.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 302593,
-		"inputAbbreviatedPath": "\/images\/about.jpg",
-		"outputAbbreviatedPath": "\/images\/about.jpg",
+		"inputAbbreviatedPath": "\/images\/About.jpg",
+		"outputAbbreviatedPath": "\/images\/About.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -344,6 +344,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/contact.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 378520,
+		"inputAbbreviatedPath": "\/images\/contact.jpg",
+		"outputAbbreviatedPath": "\/images\/contact.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/Contact.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -351,6 +362,28 @@
 		"initialSize": 2991,
 		"inputAbbreviatedPath": "\/images\/Contact.png",
 		"outputAbbreviatedPath": "\/images\/Contact.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/contact@1024px.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 389794,
+		"inputAbbreviatedPath": "\/images\/contact@1024px.jpg",
+		"outputAbbreviatedPath": "\/images\/contact@1024px.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/contact@700px.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 305430,
+		"inputAbbreviatedPath": "\/images\/contact@700px.jpg",
+		"outputAbbreviatedPath": "\/images\/contact@700px.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -992,6 +1025,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/pp_web_gh-pages\/images\/about@1024px.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 440562,
+		"inputAbbreviatedPath": "\/pp_web_gh-pages\/images\/about@1024px.jpg",
+		"outputAbbreviatedPath": "\/pp_web_gh-pages\/images\/about@1024px.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pp_web_gh-pages\/images\/about@700px.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 321019,
+		"inputAbbreviatedPath": "\/pp_web_gh-pages\/images\/about@700px.jpg",
+		"outputAbbreviatedPath": "\/pp_web_gh-pages\/images\/about@700px.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/pp_web_gh-pages\/images\/Contact.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1212,6 +1267,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/pp_web_gh-pages\/images\/services@1024px.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 367786,
+		"inputAbbreviatedPath": "\/pp_web_gh-pages\/images\/services@1024px.jpg",
+		"outputAbbreviatedPath": "\/pp_web_gh-pages\/images\/services@1024px.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pp_web_gh-pages\/images\/services@700px.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 247610,
+		"inputAbbreviatedPath": "\/pp_web_gh-pages\/images\/services@700px.jpg",
+		"outputAbbreviatedPath": "\/pp_web_gh-pages\/images\/services@700px.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/pp_web_gh-pages\/images\/Serviceshov.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1234,13 +1311,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/pp_web_gh-pages\/images\/waste-systems.png": {
+	"\/pp_web_gh-pages\/images\/wastesystems.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 20330,
-		"inputAbbreviatedPath": "\/pp_web_gh-pages\/images\/waste-systems.png",
-		"outputAbbreviatedPath": "\/pp_web_gh-pages\/images\/waste-systems.png",
+		"inputAbbreviatedPath": "\/pp_web_gh-pages\/images\/wastesystems.png",
+		"outputAbbreviatedPath": "\/pp_web_gh-pages\/images\/wastesystems.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1298,15 +1375,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/pp_web_gh-pages\/README.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pp_web_gh-pages\/README.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/pp_web_gh-pages\/README.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,
@@ -1319,15 +1387,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/pp_web_gh-pages\/styles\/about \/_content.scss": {
+	"\/pp_web_gh-pages\/styles\/about\/_aboutpage.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 5,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pp_web_gh-pages\/styles\/about \/_content.scss",
-		"outputAbbreviatedPath": "\/pp_web_gh-pages\/styles\/css\/_content.css",
+		"inputAbbreviatedPath": "\/pp_web_gh-pages\/styles\/about\/_aboutpage.scss",
+		"outputAbbreviatedPath": "\/pp_web_gh-pages\/styles\/css\/_aboutpage.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1335,15 +1403,31 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/pp_web_gh-pages\/styles\/about \/_headabout.scss": {
+	"\/pp_web_gh-pages\/styles\/about\/_all.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 5,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pp_web_gh-pages\/styles\/about \/_headabout.scss",
-		"outputAbbreviatedPath": "\/pp_web_gh-pages\/styles\/css\/_headabout.css",
+		"inputAbbreviatedPath": "\/pp_web_gh-pages\/styles\/about\/_all.scss",
+		"outputAbbreviatedPath": "\/pp_web_gh-pages\/styles\/css\/_all.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/pp_web_gh-pages\/styles\/about\/_maincontent.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pp_web_gh-pages\/styles\/about\/_maincontent.scss",
+		"outputAbbreviatedPath": "\/pp_web_gh-pages\/styles\/css\/_maincontent.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1392,6 +1476,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/pp_web_gh-pages\/styles\/contact\/_headcontact.scss",
 		"outputAbbreviatedPath": "\/pp_web_gh-pages\/styles\/css\/_headcontact.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/pp_web_gh-pages\/styles\/contact\/maincontent.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pp_web_gh-pages\/styles\/contact\/maincontent.scss",
+		"outputAbbreviatedPath": "\/pp_web_gh-pages\/styles\/css\/maincontent.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1527,22 +1627,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/pp_web_gh-pages\/styles\/services\/_icons.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 5,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pp_web_gh-pages\/styles\/services\/_icons.scss",
-		"outputAbbreviatedPath": "\/pp_web_gh-pages\/styles\/css\/_icons.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/README.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,
@@ -1555,15 +1639,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/styles\/about\/_aboutpage.scss": {
+	"\/styles\/about\/_about.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 5,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/styles\/about\/_aboutpage.scss",
-		"outputAbbreviatedPath": "\/styles\/css\/_aboutpage.css",
+		"inputAbbreviatedPath": "\/styles\/about\/_about.scss",
+		"outputAbbreviatedPath": "\/styles\/css\/_about.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1587,22 +1671,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/styles\/about\/_maincontent.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 5,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/styles\/about\/_maincontent.scss",
-		"outputAbbreviatedPath": "\/styles\/css\/_maincontent.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/styles\/contact\/_all.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1619,6 +1687,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/styles\/contact\/_contact.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/styles\/contact\/_contact.scss",
+		"outputAbbreviatedPath": "\/styles\/css\/_contact.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/styles\/contact\/_form.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1628,38 +1712,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/styles\/contact\/_form.scss",
 		"outputAbbreviatedPath": "\/styles\/css\/_form.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/styles\/contact\/_headcontact.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 5,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/styles\/contact\/_headcontact.scss",
-		"outputAbbreviatedPath": "\/styles\/css\/_headcontact.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/styles\/contact\/maincontent.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 5,
-		"fileType": 4,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/styles\/contact\/maincontent.scss",
-		"outputAbbreviatedPath": "\/styles\/css\/maincontent.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1927,6 +1979,10 @@
 			"flagValue": -1
 			},
 		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prefer_english_operator": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -2405,6 +2461,7 @@
 	"stylusAutoOutputPathReplace1": "stylus",
 	"stylusAutoOutputPathReplace2": "css",
 	"stylusAutoOutputPathStyle": 2,
+	"stylusCreateSourceMap": 0,
 	"stylusDebugStyle": 0,
 	"stylusImportCSS": 0,
 	"stylusOutputStyle": 0,

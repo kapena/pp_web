@@ -3,7 +3,7 @@ $color-aboutsect1:#1571be;
 $color-aboutsect2:#4392d4;
 
 .headline-about{
-	height: 254px;
+	height: 250px;
 	background-color:$color-headline-about;
 }
 
@@ -28,7 +28,7 @@ $color-aboutsect2:#4392d4;
 
 /* Media Queries */
 
-@media (max-width:642px) {
+@media only screen and (max-width:642px) {
 	.aboutsect2{
 		position: relative;
 		top: 350px;

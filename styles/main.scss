@@ -1,12 +1,25 @@
 @import "home/all";
 @import "services/all";
-@import"about/all";
+@import "about/all";
+@import "contact/all";
 
 // all images with the class "full"
 img.full {
 	width: 100%;
 }
 
+img.full-contact{
+	width: 100%;
+}
+
 .image-highres{
 	width: 100%;
+}
+
+
+@media only screen and (max-width:642px) {
+	img.full-contact {
+		position: relative;
+		top: 350px;
+	}
 }

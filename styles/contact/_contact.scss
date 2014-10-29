@@ -1,0 +1,15 @@
+$color-headline-about:#1aabe8;
+
+.headline-contact{
+	height: 300px;
+	background-color:$color-headline-about;
+}
+
+/* Media Queries */
+
+@media (max-width:642px) {
+	.headline-contact{
+		position: relative;
+		top: 350px;
+	}
+}

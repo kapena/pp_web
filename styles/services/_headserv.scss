@@ -4,7 +4,7 @@ $color-serviceblock:#1aabe8;
 
 
 .headline-services{
-	height: 254px;
+	height: 300px;
 	background-color: $color-headline;
 }
 
@@ -95,28 +95,20 @@ $color-serviceblock:#1aabe8;
 @media only screen and (max-width:960px) {
 .block-grid{
 	top: 30px;
-	left:13%;
+	left:15%;
 	display:inline-block;
 	}	
 }
 
 @media only screen and (max-width:900px) {
 .block-grid{
-	top:30px;
-	left:13%;
+	top: 30px;
+	left:12%;
 	display:inline-block;
 	}	
 }
 
-@media only screen and (max-width:800px) {
-.block-grid{
-	top:30px;
-	left:10%;
-	display:inline-block;
-	}	
-}
-
-@media only screen and (max-width:760px) {
+@media only screen and (max-width:813px) {
 .block-grid{
 	top:30px;
 	left:9%;
@@ -127,7 +119,7 @@ $color-serviceblock:#1aabe8;
 @media only screen and (max-width:740px) {
 .block-grid{
 	top:30px;
-	left:7%;
+	left:8%;
 	display:inline-block;
 	}	
 }
@@ -135,7 +127,7 @@ $color-serviceblock:#1aabe8;
 @media only screen and (max-width:690px) {
 .block-grid{
 	top:30px;
-	left:4%;
+	left:5%;
 	display:inline-block;
 	}	
 }
@@ -163,25 +155,19 @@ $color-serviceblock:#1aabe8;
 
 @media only screen and (max-width:480px) {
 .block-grid{
-	left:15%;
+	left:16%;
 	}	
 }
 
-@media only screen and (max-width:420px) {
+@media only screen and (max-width:430px) {
+.block-grid{
+	left:14%;
+	}	
+}
+
+@media only screen and (max-width:418px) {
 .block-grid{
 	left:13%;
-	}	
-}
-
-@media only screen and (max-width:415px) {
-.block-grid{
-	left:11%;
-	}	
-}
-
-@media only screen and (max-width:361px) {
-.block-grid{
-	left:9%;
 	}	
 }
 
