@@ -135,11 +135,28 @@
 /* Media Queries */
 @media (max-width: 640px) {
   .headline-contact {
-    position: relative;
-    top: 350px; } }
+    margin-top: 350px; } }
 @media (max-width: 640px) {
   .sub-headline {
     padding-top: 300px; } }
+.headline-form {
+  height: 300px;
+  background-color: #1571be; }
+  .headline-form .row {
+    margin: 0px; }
+  .headline-form .columns {
+    padding: 0px; }
+
+.plumbing-fact {
+  height: 300px;
+  background-color: #2989da; }
+
+@media (max-width: 640px) {
+  .headline-form {
+    margin-top: 300px; } }
+@media (max-width: 640px) {
+  #fact {
+    top: 300px; } }
 img.full {
   width: 100%; }
 
@@ -148,7 +165,3 @@ img.full-contact {
 
 .image-highres {
   width: 100%; }
-
-@media only screen and (max-width: 640px) {
-  img.full-contact {
-    margin-top: 300px; } }
