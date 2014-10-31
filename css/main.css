@@ -61,8 +61,8 @@
   height: 127px; }
 
 /* Media Queries */
-@media (max-width: 642px) {
-  .headline-container {
+@media (max-width: 640px) {
+  #contact-info {
     padding-top: 254px; } }
 /* Highres retina home image display @2x */
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-min-moz-device-pixel-ratio: 2), only screen and (o-min-device-pixel-ratio: 2 / 1), only screen and (-min-moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
@@ -81,94 +81,16 @@
   position: relative;
   bottom: 70px; }
 
-.block-grid {
-  position: relative;
-  padding: 10%; }
+.block-grid-li {
+  text-align: center;
+  padding-bottom: 150px;
+  padding-top: 150px;
+  margin: 0px; }
 
-@media only screen and (min-width: 1185px) {
-  .services-block {
-    right: 15px; } }
-@media only screen and (min-width: 1300px) {
-  .services-block {
-    right: 35px; } }
-@media only screen and (min-width: 1600px) {
-  .services-block {
-    right: 45px; } }
-@media only screen and (min-width: 1800px) {
-  .services-block {
-    right: 70px; } }
-@media only screen and (min-width: 1900px) {
-  .services-block {
-    width: 320px;
-    right: 80px; } }
-@media only screen and (min-width: 2030px) {
-  .services-block {
-    width: 320px;
-    right: 90px; } }
-@media only screen and (min-width: 1380px) {
-  .block-grid {
-    left: 1%; } }
-@media only screen and (min-width: 1550px) {
-  .block-grid {
-    left: 2%; } }
-@media only screen and (min-width: 1800px) {
-  .block-grid {
-    left: 3%; } }
-@media only screen and (max-width: 1024px) {
-  .block-grid {
-    top: 30px;
-    left: 15%;
-    display: inline-block; } }
-@media only screen and (max-width: 960px) {
-  .block-grid {
-    top: 30px;
-    left: 15%;
-    display: inline-block; } }
-@media only screen and (max-width: 900px) {
-  .block-grid {
-    top: 30px;
-    left: 12%;
-    display: inline-block; } }
-@media only screen and (max-width: 813px) {
-  .block-grid {
-    top: 30px;
-    left: 9%;
-    display: inline-block; } }
-@media only screen and (max-width: 740px) {
-  .block-grid {
-    top: 30px;
-    left: 8%;
-    display: inline-block; } }
-@media only screen and (max-width: 690px) {
-  .block-grid {
-    top: 30px;
-    left: 5%;
-    display: inline-block; } }
-@media only screen and (max-width: 640px) {
-  .services-block {
-    width: 218px;
-    bottom: 30px; } }
-@media only screen and (max-width: 640px) {
-  .block-grid {
-    left: 20%; } }
-@media only screen and (max-width: 540px) {
-  .block-grid {
-    left: 18%; } }
-@media only screen and (max-width: 480px) {
-  .block-grid {
-    left: 16%; } }
-@media only screen and (max-width: 430px) {
-  .block-grid {
-    left: 14%; } }
-@media only screen and (max-width: 418px) {
-  .block-grid {
-    left: 13%; } }
-@media only screen and (max-width: 351px) {
-  .block-grid {
-    left: 7%; } }
-@media only screen and (max-width: 341px) {
-  .block-grid {
-    left: 4%; } }
+#align {
+  display: inline-block;
+  margin: 0px; }
+
 .headline-about {
   height: 250px;
   background-color: #1aabe8; }
@@ -187,19 +109,37 @@
   background-color: #4392d4; }
 
 /* Media Queries */
-@media only screen and (max-width: 642px) {
+@media (max-width: 640px) {
   .aboutsect2 {
-    position: relative;
-    top: 350px; } }
+    margin-top: 350px; } }
 .headline-contact {
   height: 300px;
   background-color: #1aabe8; }
 
+.sub-headline {
+  height: 300px;
+  background-color: #289cab; }
+  .sub-headline .columns {
+    padding: 0px; }
+  .sub-headline .row {
+    margin: 0px; }
+
+.phone-contact {
+  height: 150px;
+  background-color: #0874a1; }
+
+.email-contact {
+  height: 150px;
+  background-color: #20bbcf; }
+
 /* Media Queries */
-@media (max-width: 642px) {
+@media (max-width: 640px) {
   .headline-contact {
     position: relative;
     top: 350px; } }
+@media (max-width: 640px) {
+  .sub-headline {
+    padding-top: 300px; } }
 img.full {
   width: 100%; }
 
@@ -209,7 +149,6 @@ img.full-contact {
 .image-highres {
   width: 100%; }
 
-@media only screen and (max-width: 642px) {
+@media only screen and (max-width: 640px) {
   img.full-contact {
-    position: relative;
-    top: 350px; } }
+    margin-top: 300px; } }

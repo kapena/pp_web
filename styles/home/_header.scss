@@ -30,8 +30,8 @@ $fontsize: 25pt;
 
 /* Media Queries */
 
-@media (max-width:642px) {
- .headline-container {
+@media (max-width:640px) {
+ #contact-info { 
 padding-top: 254px;
 	}
 
