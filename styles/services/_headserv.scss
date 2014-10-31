@@ -1,3 +1,32 @@
 $color-info:#6fdae7;
 $color-headline:#1ca5b6;
+$color-serviceblock:#1aabe8;
 
+
+.headline-services{
+	height: 300px;
+	background-color: $color-headline;
+}
+
+.services-block{
+	height: 80px;
+	background-color:$color-serviceblock;
+	width: 257px;
+	margin: 0 auto;
+	position: relative;
+	bottom: 70px;
+}
+
+.block-grid-li{
+	text-align: center;
+	padding-bottom: 150px;
+	padding-top: 150px;
+	margin: 0px;
+}
+
+#align {
+	display: inline-block;
+	margin: 0px;
+}
+
+// Media queries for block grid adjustments on desktop screens //

@@ -1,0 +1,32 @@
+$color-headline-form:#1571be;
+$color-plumbing-fact:#2989da;
+
+.headline-form{
+	height: 300px;
+	background-color:$color-headline-form;
+
+	.row{
+		margin:0px;
+	}
+
+	.columns{
+		padding:0px;
+	}
+}
+
+.plumbing-fact{
+	height: 300px;
+	background-color:$color-plumbing-fact;
+}
+
+@media (max-width:640px) {
+	.headline-form{
+		margin-top:300px;
+	}
+}
+
+@media (max-width:640px) {
+	#fact{
+		top:300px;
+	}
+}

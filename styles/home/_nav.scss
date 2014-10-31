@@ -1,23 +1,23 @@
-.logo{
+.navbar {
+	padding:45px;
+}
+
+.logo {
 	background-image:url(../images/Pointplumbing.png);
 	background-repeat: no-repeat;
-	display: inline-block;
-	position: relative;
-	margin-top: 5%;
-	margin-left: 10%;
-	margin-bottom: 2%;
-	right:5%;
+	position: absolute;
 }
 
 .icons{
+	display:inline;
 	position: relative;
-	display: inline;
+	left:67%;
 }
 
 .home{
 	display: inline-block;
 	position: relative;
-	margin-left:20%;
+	margin-left:12%;
 	left:3%;
 }
 
@@ -41,3 +41,18 @@
 	margin-left: 2%;
 	left: 3%;
 }
+
+@media (max-width:774px) {
+	.icons { 
+	visibility: hidden;
+	position: absolute;
+	}
+
+	.logo{
+		position: relative;
+		left:7%;
+	}
+
+}
+
+
