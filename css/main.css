@@ -151,12 +151,37 @@
   height: 300px;
   background-color: #2989da; }
 
+.form-bg {
+  height: 900px;
+  background-color: #bcbec0; }
+
+#name {
+  padding-top: 30px; }
+
+#email {
+  padding-top: 30px; }
+
+#phone {
+  padding-top: 30px; }
+
+#location {
+  padding-top: 30px; }
+
+#message-area {
+  padding-top: 30px; }
+
+#message {
+  height: 200px; }
+
 @media (max-width: 640px) {
   .headline-form {
     margin-top: 300px; } }
 @media (max-width: 640px) {
   #fact {
     top: 300px; } }
+@media (max-width: 640px) {
+  .form-bg {
+    margin-top: 300px; } }
 img.full {
   width: 100%; }
 

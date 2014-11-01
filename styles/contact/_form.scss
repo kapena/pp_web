@@ -1,5 +1,7 @@
 $color-headline-form:#1571be;
 $color-plumbing-fact:#2989da;
+$color-form-bg:#bcbec0;
+$form-imput-spacing:30px;
 
 .headline-form{
 	height: 300px;
@@ -19,6 +21,35 @@ $color-plumbing-fact:#2989da;
 	background-color:$color-plumbing-fact;
 }
 
+.form-bg{
+	height: 900px;
+	background-color: $color-form-bg;
+}
+
+#name{
+	padding-top: $form-imput-spacing;
+}
+
+#email{
+	padding-top: $form-imput-spacing;
+}
+
+#phone{
+	padding-top: $form-imput-spacing;
+}
+
+#location{
+	padding-top: $form-imput-spacing;
+}
+
+#message-area{
+	padding-top: $form-imput-spacing;
+}
+
+#message{
+	height: 200px;
+}
+
 @media (max-width:640px) {
 	.headline-form{
 		margin-top:300px;
@@ -30,3 +61,10 @@ $color-plumbing-fact:#2989da;
 		top:300px;
 	}
 }
+
+@media (max-width:640px) {
+	.form-bg{
+		margin-top:300px;
+	}
+}
+

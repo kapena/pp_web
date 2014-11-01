@@ -344,13 +344,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/contact.jpg": {
+	"\/images\/Contact.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 378520,
-		"inputAbbreviatedPath": "\/images\/contact.jpg",
-		"outputAbbreviatedPath": "\/images\/contact.jpg",
+		"inputAbbreviatedPath": "\/images\/Contact.jpg",
+		"outputAbbreviatedPath": "\/images\/Contact.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1047,6 +1047,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/pp_web_gh-pages\/images\/Contact.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 378520,
+		"inputAbbreviatedPath": "\/pp_web_gh-pages\/images\/Contact.jpg",
+		"outputAbbreviatedPath": "\/pp_web_gh-pages\/images\/Contact.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/pp_web_gh-pages\/images\/Contact.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1054,6 +1065,28 @@
 		"initialSize": 2991,
 		"inputAbbreviatedPath": "\/pp_web_gh-pages\/images\/Contact.png",
 		"outputAbbreviatedPath": "\/pp_web_gh-pages\/images\/Contact.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pp_web_gh-pages\/images\/contact@1024px.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 389794,
+		"inputAbbreviatedPath": "\/pp_web_gh-pages\/images\/contact@1024px.jpg",
+		"outputAbbreviatedPath": "\/pp_web_gh-pages\/images\/contact@1024px.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pp_web_gh-pages\/images\/contact@700px.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 305797,
+		"inputAbbreviatedPath": "\/pp_web_gh-pages\/images\/contact@700px.jpg",
+		"outputAbbreviatedPath": "\/pp_web_gh-pages\/images\/contact@700px.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1387,15 +1420,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/pp_web_gh-pages\/styles\/about\/_aboutpage.scss": {
+	"\/pp_web_gh-pages\/styles\/about\/_about.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 5,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pp_web_gh-pages\/styles\/about\/_aboutpage.scss",
-		"outputAbbreviatedPath": "\/pp_web_gh-pages\/styles\/css\/_aboutpage.css",
+		"inputAbbreviatedPath": "\/pp_web_gh-pages\/styles\/about\/_about.scss",
+		"outputAbbreviatedPath": "\/pp_web_gh-pages\/styles\/css\/_about.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1419,22 +1452,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/pp_web_gh-pages\/styles\/about\/_maincontent.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 5,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pp_web_gh-pages\/styles\/about\/_maincontent.scss",
-		"outputAbbreviatedPath": "\/pp_web_gh-pages\/styles\/css\/_maincontent.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/pp_web_gh-pages\/styles\/contact\/_all.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1451,6 +1468,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/pp_web_gh-pages\/styles\/contact\/_contact.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pp_web_gh-pages\/styles\/contact\/_contact.scss",
+		"outputAbbreviatedPath": "\/pp_web_gh-pages\/styles\/css\/_contact.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/pp_web_gh-pages\/styles\/contact\/_form.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1460,38 +1493,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/pp_web_gh-pages\/styles\/contact\/_form.scss",
 		"outputAbbreviatedPath": "\/pp_web_gh-pages\/styles\/css\/_form.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/pp_web_gh-pages\/styles\/contact\/_headcontact.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 5,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pp_web_gh-pages\/styles\/contact\/_headcontact.scss",
-		"outputAbbreviatedPath": "\/pp_web_gh-pages\/styles\/css\/_headcontact.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/pp_web_gh-pages\/styles\/contact\/maincontent.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 5,
-		"fileType": 4,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pp_web_gh-pages\/styles\/contact\/maincontent.scss",
-		"outputAbbreviatedPath": "\/pp_web_gh-pages\/styles\/css\/maincontent.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
