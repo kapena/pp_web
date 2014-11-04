@@ -207,7 +207,8 @@
 
 .navagation {
   text-align: center;
-  margin-top: 80px; }
+  margin-top: 80px;
+  margin-left: 0px; }
 
 .home2 {
   display: inline;
@@ -291,6 +292,39 @@
 @media (max-width: 1024px) {
   .social-media {
     padding-bottom: 400px; } }
+@media (max-width: 480px) {
+  #social-links {
+    text-align: 0px;
+    margin: 0px;
+    padding-left: 22px;
+    padding-right: 22px; } }
+@media (max-width: 467px) {
+  .facebook {
+    padding-right: 0px; }
+
+  .twitter {
+    padding-right: 0px; }
+
+  .linkedin {
+    padding-right: 0px; }
+
+  .googleplus {
+    padding-right: 0px; } }
+@media (max-width: 380px) {
+  .facebook {
+    display: inherit; }
+
+  .twitter {
+    display: inherit; }
+
+  .linkedin {
+    display: inherit; }
+
+  .googleplus {
+    display: inherit; } }
+@media (max-width: 380px) {
+  .social-media {
+    padding-bottom: 650px; } }
 .bottom-bar {
   height: 200px;
   background-color: #1aabe8; }
