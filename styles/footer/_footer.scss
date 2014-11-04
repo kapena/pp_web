@@ -1,0 +1,141 @@
+$navlinkmargin:30px; // margins between each link
+$fontsize-navlinks:18pt; // font size for each nav link
+$social-padd:30px;
+
+.secondary-nav {
+	height: 200px;
+	background-color:#029bae;
+}
+
+.navagation{
+	text-align: center;
+	margin-top: 80px;
+}
+
+.home2{
+	display: inline;
+	font-size: $fontsize-navlinks;
+
+	#color-home{
+		color: white;
+	}
+}
+
+.services2{
+	display: inline;
+	margin-left: $navlinkmargin;
+	font-size: $fontsize-navlinks;
+
+	#color-services{
+		color:white;
+	}
+}
+
+.about2{
+	display: inline;
+	margin-left: $navlinkmargin;
+	font-size: $fontsize-navlinks;
+
+	#color-about{
+		color:white;
+	}
+}
+
+.contact2{
+	display: inline;
+	margin-left: $navlinkmargin;
+	font-size: $fontsize-navlinks;
+
+	#color-contact{
+		color:white;
+	}
+}
+
+.blog{
+	display: inline;
+	margin-left: $navlinkmargin;
+	font-size: $fontsize-navlinks;
+
+	#color-blog{
+		color:white;
+	}
+}
+
+@media (max-width:640px){
+	.secondary-nav{
+		height:400px;
+	}
+}
+
+
+@media (max-width:640px){
+	.home2{
+		margin-left:30px;
+	}
+}
+
+@media (max-width:640px){
+	.blog{
+		display: block;
+	}
+}
+
+.social-media{
+	height: 200px;
+	background-color:#b9c4cf;
+
+	.row{
+		margin: 0px
+	}
+
+	.columns{
+		padding: 0px;
+	}
+}
+
+#social-links{
+	padding-top: 55px;
+	text-align: center;
+}
+
+.facebook{
+	display: inline;
+	padding-right: $social-padd;
+}
+
+.twitter{
+	display: inline;
+	padding-right: $social-padd;
+}
+
+.linkedin{
+	display: inline;
+	padding-right: $social-padd;
+}
+
+.googleplus{
+	display: inline;
+	padding-right: $social-padd;
+}
+
+.phone-foot{
+	height: 100px;
+	background-color:#1571be
+}
+
+.email-foot{
+	height:100px;
+	background-color:#2989da;
+}
+
+@media (max-width:1024px){
+	.social-media{
+		padding-bottom:400px;
+	}
+}
+
+.bottom-bar{
+	height: 200px;
+	background-color: #1aabe8;
+}
+

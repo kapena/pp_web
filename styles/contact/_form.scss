@@ -14,6 +14,7 @@ $form-imput-spacing:30px;
 	.columns{
 		padding:0px;
 	}
+
 }
 
 .plumbing-fact{
@@ -22,28 +23,50 @@ $form-imput-spacing:30px;
 }
 
 .form-bg{
-	height: 900px;
+	height: 700px;
 	background-color: $color-form-bg;
 }
 
+
+// Cancels out the deafult margin spacing of 0 0 1rem from the foundation form. 
+#spaceing{
+	margin: 0px;
+	}
+
 #name{
 	padding-top: $form-imput-spacing;
+	padding-left: $form-imput-spacing;
+	padding-right: $form-imput-spacing;
 }
 
 #email{
 	padding-top: $form-imput-spacing;
+	padding-left: $form-imput-spacing;
+	padding-right: $form-imput-spacing;
 }
 
 #phone{
 	padding-top: $form-imput-spacing;
+	padding-left: $form-imput-spacing;
+	padding-right: $form-imput-spacing;
 }
 
 #location{
 	padding-top: $form-imput-spacing;
+	padding-left: $form-imput-spacing;
+	padding-right: $form-imput-spacing;
 }
 
 #message-area{
 	padding-top: $form-imput-spacing;
+	padding-left: $form-imput-spacing;
+	padding-right: $form-imput-spacing;
+}
+
+#submit{
+	padding-top:$form-imput-spacing;
+	padding-left: $form-imput-spacing;
+	padding-right: $form-imput-spacing;
 }
 
 #message{
@@ -65,6 +88,6 @@ $form-imput-spacing:30px;
 @media (max-width:640px) {
 	.form-bg{
 		margin-top:300px;
+		height:850px;
 	}
 }
-
