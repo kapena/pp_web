@@ -52,6 +52,23 @@
   .headline-container .columns {
     padding: 0; }
 
+#satisfaction {
+  font-family: Avenir;
+  padding-top: 35px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 50pt;
+  color: white;
+  margin: 0px; }
+
+#strongest {
+  font-family: Avenir;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 50pt;
+  color: white;
+  margin: 0px; }
+
 .phone-box {
   background-color: #2989da;
   height: 127px; }
@@ -63,7 +80,22 @@
 /* Media Queries */
 @media (max-width: 1024px) {
   #contact-info {
-    padding-top: 209px; } }
+    padding-top: 28px; } }
+@media (max-width: 664px) {
+  .headline-container {
+    height: 354px; }
+
+  #satisfaction {
+    font-size: 40pt; }
+
+  #strongest {
+    font-size: 40pt; } }
+@media (max-width: 424px) {
+  #satisfaction {
+    font-size: 30pt; }
+
+  #strongest {
+    font-size: 30pt; } }
 /* Highres retina home image display @2x */
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-min-moz-device-pixel-ratio: 2), only screen and (o-min-device-pixel-ratio: 2 / 1), only screen and (-min-moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .image-highres {
@@ -294,11 +326,10 @@
     padding-bottom: 400px; } }
 @media (max-width: 480px) {
   #social-links {
-    text-align: 0px;
     margin: 0px;
     padding-left: 22px;
     padding-right: 22px; } }
-@media (max-width: 467px) {
+@media (max-width: 500px) {
   .facebook {
     padding-right: 0px; }
 
