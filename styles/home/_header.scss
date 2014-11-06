@@ -18,7 +18,6 @@ $fontsize: 25pt;
 			}
 }
 
-
 @mixin satisfaction-is {
 	font-family: Avenir;
 	padding-top: 35px;
@@ -38,6 +37,15 @@ $fontsize: 25pt;
 	margin: 0px;
 }
 
+@mixin contact-info {
+	font-family: Avenir;
+	padding-left: 30px;
+	font-size: 20pt;
+	color: white;
+	font-weight: bold;
+	letter-spacing: 0.4px;
+}
+
 #satisfaction{
 	@include satisfaction-is;
 }
@@ -45,6 +53,27 @@ $fontsize: 25pt;
 #strongest{
 	@include our-strongest-point;
 }
+
+.number{
+	padding-top: 55px;
+
+	#phone-number {
+	@include contact-info;
+}
+
+	}
+
+
+.email-box{
+	padding-top: 55px;
+
+		#email-contact {
+		@include contact-info;
+	}
+
+}
+
+
 
 
 .phone-box{

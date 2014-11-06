@@ -69,6 +69,26 @@
   color: white;
   margin: 0px; }
 
+.number {
+  padding-top: 55px; }
+  .number #phone-number {
+    font-family: Avenir;
+    padding-left: 30px;
+    font-size: 20pt;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.4px; }
+
+.email-box {
+  padding-top: 55px; }
+  .email-box #email-contact {
+    font-family: Avenir;
+    padding-left: 30px;
+    font-size: 20pt;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.4px; }
+
 .phone-box {
   background-color: #2989da;
   height: 127px; }
