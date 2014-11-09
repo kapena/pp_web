@@ -143,6 +143,33 @@
   display: inline-block;
   margin: 0px; }
 
+#plumbing-repairs {
+  font-family: Avenir;
+  padding-left: 35px;
+  padding-right: 35px;
+  font-size: 50pt;
+  color: white;
+  margin: 0px;
+  text-align: center;
+  padding-top: 55px; }
+
+@media (max-width: 1024px) {
+  .headline-services {
+    height: 400px; } }
+@media (max-width: 664px) {
+  #plumbing-repairs {
+    font-size: 45px; }
+
+  .headline-services {
+    height: 300px; } }
+@media (max-width: 447px) {
+  .headline-services {
+    height: 400px; } }
+@media (max-width: 429px) {
+  .headline-services {
+    height: 450px;
+    padding-right: 40px;
+    padding-left: 40px; } }
 .headline-about {
   height: 250px;
   background-color: #1aabe8; }
