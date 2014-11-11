@@ -98,10 +98,10 @@
     height: 354px; }
 
   .satisfaction {
-    font-size: 40pt; } }
+    font-size: 3em; } }
 @media (max-width: 424px) {
   .satisfaction {
-    font-size: 30pt; } }
+    font-size: 2.5em; } }
 /* Highres retina home image display @2x */
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-min-moz-device-pixel-ratio: 2), only screen and (o-min-device-pixel-ratio: 2 / 1), only screen and (-min-moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .image-highres {
@@ -150,7 +150,7 @@
     height: 400px; } }
 @media (max-width: 664px) {
   .plumbing-repairs {
-    font-size: 45px; }
+    font-size: 2.5em; }
 
   .headline-services {
     height: 250px; } }
@@ -203,6 +203,9 @@
 @media (max-width: 640px) {
   .aboutsect2 {
     margin-top: 350px; } }
+@media (max-width: 915px) {
+  .headline-about {
+    height: 400px; } }
 .headline-contact {
   height: 300px;
   background-color: #1aabe8; }

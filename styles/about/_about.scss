@@ -54,3 +54,9 @@ $color-aboutsect2:#4392d4;
 		margin-top:350px;
 	}
 }
+
+@media (max-width:915px){
+	.headline-about{
+		height: 400px;
+	}
+}
