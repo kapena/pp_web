@@ -26,6 +26,27 @@ $color-aboutsect2:#4392d4;
 	background-color:$color-aboutsect2;
 }
 
+// ALIGNMENT OF TEXT -- YOUR PIPELINE
+
+%pipline-align{ 
+	position: relative;
+	top: 50%;
+	-webkit-transform:translateY(-50%);
+	-ms-transform:translateY(-50%);
+	transform:translateY(-50%);
+}
+
+.pipeline{
+	text-align: center;
+	font-family: Avenir;
+	padding-left: 25px;
+	padding-right: 25px;
+	font-size: 4em;
+	color: white;
+	margin: 0px;
+	@extend %pipline-align;
+}
+
 /* Media Queries */
 
 @media (max-width:640px){

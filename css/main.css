@@ -52,20 +52,12 @@
   .headline-container .columns {
     padding: 0; }
 
-#satisfaction {
+.satisfaction {
   font-family: Avenir;
-  padding-top: 35px;
+  padding-top: 40px;
   padding-left: 30px;
   padding-right: 30px;
-  font-size: 50pt;
-  color: white;
-  margin: 0px; }
-
-#strongest {
-  font-family: Avenir;
-  padding-left: 30px;
-  padding-right: 30px;
-  font-size: 50pt;
+  font-size: 4em;
   color: white;
   margin: 0px; }
 
@@ -105,16 +97,10 @@
   .headline-container {
     height: 354px; }
 
-  #satisfaction {
-    font-size: 40pt; }
-
-  #strongest {
+  .satisfaction {
     font-size: 40pt; } }
 @media (max-width: 424px) {
-  #satisfaction {
-    font-size: 30pt; }
-
-  #strongest {
+  .satisfaction {
     font-size: 30pt; } }
 /* Highres retina home image display @2x */
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-min-moz-device-pixel-ratio: 2), only screen and (o-min-device-pixel-ratio: 2 / 1), only screen and (-min-moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
@@ -143,21 +129,27 @@
   display: inline-block;
   margin: 0px; }
 
-#plumbing-repairs {
+.plumbing-repairs {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+.plumbing-repairs {
   font-family: Avenir;
   padding-left: 20px;
   padding-right: 20px;
-  font-size: 50pt;
+  font-size: 4em;
   color: white;
   margin: 0px;
-  text-align: center;
-  padding-top: 55px; }
+  text-align: center; }
 
-@media (max-width: 918px) {
+@media (max-width: 920px) {
   .headline-services {
     height: 400px; } }
 @media (max-width: 664px) {
-  #plumbing-repairs {
+  .plumbing-repairs {
     font-size: 45px; }
 
   .headline-services {
@@ -190,6 +182,22 @@
 .aboutsect2 {
   height: 350px;
   background-color: #4392d4; }
+
+.pipeline {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+.pipeline {
+  text-align: center;
+  font-family: Avenir;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 4em;
+  color: white;
+  margin: 0px; }
 
 /* Media Queries */
 @media (max-width: 640px) {

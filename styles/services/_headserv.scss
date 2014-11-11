@@ -29,25 +29,34 @@ $color-serviceblock:#1aabe8;
 	margin: 0px;
 }
 
-#plumbing-repairs{
+// the align extend is centering the text within headline-services
+%align {
+	position: relative;
+	top: 50%;
+	-webkit-transform:translateY(-50%);
+	-ms-transform:translateY(-50%);
+	transform:translateY(-50%);
+}
+
+.plumbing-repairs{
 	font-family: Avenir;
 	padding-left: 20px;
 	padding-right: 20px;
-	font-size: 50pt;
+	font-size: 4em;
 	color: white;
 	margin: 0px;
 	text-align: center;
-	padding-top: 55px;
+	@extend %align;
 }
 
-@media (max-width:918px){
+@media (max-width:920px){
 	.headline-services{
 		height:400px;
 	}
 }
 
 @media (max-width:664px) {
-	#plumbing-repairs{
+	.plumbing-repairs{
 		font-size: 45px;
 	}
 
