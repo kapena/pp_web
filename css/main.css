@@ -148,12 +148,15 @@
 @media (max-width: 920px) {
   .headline-services {
     height: 400px; } }
-@media (max-width: 664px) {
+@media (max-width: 700px) {
   .plumbing-repairs {
-    font-size: 2.5em; }
+    font-size: 2.8em; }
 
   .headline-services {
     height: 250px; } }
+@media (max-width: 424px) {
+  .plumbing-repairs {
+    font-size: 2.5em; } }
 @media (max-width: 630px) {
   .headline-services {
     height: 300px; } }
@@ -205,7 +208,13 @@
     margin-top: 350px; } }
 @media (max-width: 915px) {
   .headline-about {
-    height: 400px; } }
+    height: 300px; } }
+@media (max-width: 444px) {
+  .headline-about {
+    height: 450px; } }
+@media (max-width: 700px) {
+  .pipeline {
+    font-size: 2.8em; } }
 .headline-contact {
   height: 300px;
   background-color: #1aabe8; }

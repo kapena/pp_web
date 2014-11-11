@@ -57,6 +57,18 @@ $color-aboutsect2:#4392d4;
 
 @media (max-width:915px){
 	.headline-about{
-		height: 400px;
+		height: 300px;
+	}
+}
+
+@media (max-width:444px){
+	.headline-about{
+		height: 450px;
+	}
+}
+
+@media (max-width:700px){
+	.pipeline{
+	font-size: 2.8em;
 	}
 }

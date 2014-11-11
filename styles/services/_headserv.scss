@@ -55,13 +55,19 @@ $color-serviceblock:#1aabe8;
 	}
 }
 
-@media (max-width:664px) {
+@media (max-width:700px) {
 	.plumbing-repairs{
-		font-size: 2.5em;
+		font-size: 2.8em;
 	}
 
 	.headline-services{
 		height:250px;
+	}
+}
+
+@media (max-width:424px){
+	.plumbing-repairs{
+		font-size: 2.5em;
 	}
 }
 
