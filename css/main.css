@@ -50,16 +50,19 @@
     width: 100%;
     max-width: 100%; }
   .headline-container .columns {
+    height: 254px;
     padding: 0; }
 
 .satisfaction {
   font-family: Avenir;
-  padding-top: 40px;
   padding-left: 30px;
   padding-right: 30px;
   font-size: 4em;
   color: white;
-  margin: 0px; }
+  margin: 0px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
 
 .number {
   padding-top: 55px; }
@@ -90,9 +93,6 @@
   height: 127px; }
 
 /* Media Queries */
-@media (max-width: 1024px) {
-  #contact-info {
-    padding-top: 28px; } }
 @media (max-width: 664px) {
   .headline-container {
     height: 354px; }
@@ -180,6 +180,7 @@
     width: 100%;
     max-width: 100%; }
   .aboutsect1 .columns {
+    height: 350px;
     padding: 0; }
 
 .aboutsect2 {
@@ -202,10 +203,19 @@
   color: white;
   margin: 0px; }
 
+.about-content {
+  font-family: Avenir;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 1.8em;
+  color: white;
+  line-height: 1.5em;
+  font-weight: 600;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
 /* Media Queries */
-@media (max-width: 640px) {
-  .aboutsect2 {
-    margin-top: 350px; } }
 @media (max-width: 915px) {
   .headline-about {
     height: 300px; } }
@@ -215,6 +225,12 @@
 @media (max-width: 700px) {
   .pipeline {
     font-size: 2.8em; } }
+@media (max-width: 1024px) {
+  .headline-contact {
+    padding-top: 650px; } }
+@media (max-width: 620px) {
+  .about-content {
+    font-size: 1.5em; } }
 .headline-contact {
   height: 300px;
   background-color: #1aabe8; }

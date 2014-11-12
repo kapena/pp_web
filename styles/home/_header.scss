@@ -14,13 +14,13 @@ $fontsize: 25pt;
 		max-width: 100%;
 	}
 	.columns {
+		height: 254px;
 		padding: 0;
 			}
 }
 
 @mixin satisfaction-is {
 	font-family: Avenir;
-	padding-top: 40px;
 	padding-left: 30px;
 	padding-right: 30px;
 	font-size: 4em;
@@ -40,6 +40,9 @@ $fontsize: 25pt;
 
 .satisfaction{
 	@include satisfaction-is;
+	position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 
@@ -73,12 +76,6 @@ $fontsize: 25pt;
 }
 
 /* Media Queries */
-
-@media (max-width:1024px) {
- #contact-info { 
-	padding-top: 28px;
-	}
-}
 
 @media (max-width:664px){
 	.headline-container{
