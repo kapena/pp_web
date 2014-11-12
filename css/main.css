@@ -62,7 +62,9 @@
   margin: 0px;
   position: relative;
   top: 50%;
-  transform: translateY(-50%); }
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%); }
 
 .number {
   padding-top: 55px; }
@@ -213,7 +215,9 @@
   font-weight: 600;
   position: relative;
   top: 50%;
-  transform: translateY(-50%); }
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%); }
 
 /* Media Queries */
 @media (max-width: 915px) {
