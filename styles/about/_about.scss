@@ -115,9 +115,6 @@ $color-aboutsect2:#4392d4;
 }
 
 @media (max-width:1024px){
-	.headline-contact{
-		padding-top:650px;
-	}
 	
 	.we-supply{
 		font-size: 1.7em;
@@ -126,7 +123,7 @@ $color-aboutsect2:#4392d4;
 
 }
 
-@mixin type-adjusment-medium{
+@mixin type-adjusment-medium{ // medium screens // 
 	font-size: 1.5em;
 }
 

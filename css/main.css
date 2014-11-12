@@ -248,9 +248,6 @@
   .pipeline {
     font-size: 2.8em; } }
 @media (max-width: 1024px) {
-  .headline-contact {
-    padding-top: 650px; }
-
   .we-supply {
     font-size: 1.7em;
     line-height: 1.5em; } }
@@ -276,9 +273,27 @@
   height: 300px;
   background-color: #289cab; }
   .sub-headline .columns {
+    height: 300px;
     padding: 0px; }
   .sub-headline .row {
     margin: 0px; }
+
+.experiance {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%); }
+
+.experiance {
+  font-family: Avenir;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 4em;
+  color: white;
+  line-height: 1.5em;
+  text-align: center;
+  margin: 0px; }
 
 .phone-contact {
   height: 150px;
@@ -289,12 +304,21 @@
   background-color: #20bbcf; }
 
 /* Media Queries */
-@media (max-width: 640px) {
+@media (max-width: 700px) {
+  .experiance {
+    font-size: 2.8em; } }
+@media (max-width: 1024px) {
   .headline-contact {
     margin-top: 350px; } }
 @media (max-width: 640px) {
   .sub-headline {
     padding-top: 300px; } }
+@media (max-width: 438px) {
+  .headline-contact {
+    height: 350px; } }
+@media (max-width: 314px) {
+  .headline-contact {
+    height: 400px; } }
 .headline-form {
   height: 300px;
   background-color: #1571be; }
