@@ -4,7 +4,7 @@ $color-phone:#0874a1;
 $color-email:#20bbcf;
 
 .headline-contact{
-	height: 300px;
+	height: 350px;
 	background-color: $color-headline-about;
 }
 
@@ -13,7 +13,7 @@ $color-email:#20bbcf;
 	background-color: $color-sub-headline;
 
 	.columns{
-		height: 300px;
+		height: 350px;
 		padding:0px;
 	}
 
@@ -58,27 +58,32 @@ $color-email:#20bbcf;
 
 /* Media Queries */
 
-@mixin type-adjust-med{
-	font-size: 2.8em;
-}
-
-@media (max-width: 700px){
-	.experiance{
-		@include type-adjust-med; 
-	}
-
-}
-
 @media (max-width:1024px) {
 	.headline-contact{
 		margin-top: 350px;
 	}
 }
 
-@media (max-width:640px) {
+@media (max-width:1024px) {
 	.sub-headline{
 		padding-top:300px;
 	}
+}
+
+@mixin type-adjust-med{
+	font-size: 2.8em;
+}
+
+@media (max-width: 700px){
+		
+	.headline-contact{
+		height: 300px;
+	}
+
+	.experiance{
+		@include type-adjust-med; 
+	}
+
 }
 
 @media (max-width:438px){
