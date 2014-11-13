@@ -9,11 +9,11 @@ $color-email:#20bbcf;
 }
 
 .sub-headline{
-	height: 300px;
+	//height: 300px;
 	background-color: $color-sub-headline;
 
 	.columns{
-		height: 350px;
+		height: 300px;
 		padding:0px;
 	}
 
@@ -42,8 +42,23 @@ $color-email:#20bbcf;
 	@extend %headline-center;
 }
 
+@mixin subhead-contact{
+	font-family: Avenir;
+	padding-left: 45px;
+	//padding-right: 25px;
+	font-size: 3.5em;
+	color: white;
+	line-height: 1.5em;
+	@extend %headline-center;
+}
+
 .experiance{
 	@include headline-contact;
+}
+
+.solutions{
+	@include subhead-contact;
+
 }
 
 .phone-contact{
@@ -64,11 +79,11 @@ $color-email:#20bbcf;
 	}
 }
 
-@media (max-width:1024px) {
-	.sub-headline{
-		padding-top:300px;
-	}
-}
+// @media (max-width:1024px) {
+//	.sub-headline{
+//		padding-top:300px;
+//	}
+//}
 
 @mixin type-adjust-med{
 	font-size: 2.8em;
