@@ -44,13 +44,13 @@
     position: relative;
     left: 7%; } }
 .headline-container {
-  height: 254px;
+  height: 300px;
   background-color: #1aabe8; }
   .headline-container .row {
     width: 100%;
     max-width: 100%; }
   .headline-container .columns {
-    height: 254px;
+    height: 300px;
     padding: 0; }
 
 .satisfaction {
@@ -93,6 +93,17 @@
 .email-box {
   background-color: #1571be;
   height: 127px; }
+
+.call-to-action {
+  height: 300px;
+  background-color: #1571be; }
+  .call-to-action .time {
+    font-family: Avenir;
+    font-weight: 1em;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-style: italic;
+    margin: 0; }
 
 /* Media Queries */
 @media (max-width: 664px) {
