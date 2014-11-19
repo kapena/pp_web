@@ -9,6 +9,16 @@ img.full {
 	width: 100%;
 }
 
+.full-serv{
+	width: 100%;
+}
+
+@media (max-width:640px){
+	.full-serv{
+	margin-top: 254px;
+	}
+}
+
 img.full-contact{
 	width: 100%;
 }

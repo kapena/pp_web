@@ -1,7 +1,7 @@
 $color-head:#1aabe8;
 $color-phone:#2989da;
 $color-email:#1571be;
-$font:avenir,medium,sans-serif;
+$font-style:avenir,sans-serif;
 $color-font:white;
 $fontsize: 25pt;
 
@@ -32,10 +32,10 @@ $fontsize: 25pt;
 @mixin contact-info {
 	font-family: Avenir;
 	padding-left: 30px;
-	font-size: 20pt;
+	font-size: 1.5em;
 	color: white;
-	font-weight: bold;
-	letter-spacing: 0.4px;
+	font-weight: 600;
+	//letter-spacing: 0.4px;
 }
 
 
@@ -49,8 +49,48 @@ $fontsize: 25pt;
 }
 
 
+//new styles for design ajustment :) 
+
+.call-to-action{
+	height: 300px;
+	background-color:$color-email;
+
+	.time {
+		font-family:$font-style;
+		font-size:2.5em;
+		color:white;
+		padding-top: 40px;
+		padding-left: 30px;
+		font-style: italic;
+		line-height: 1.2em;
+		margin: 0;
+	}
+
+	.contact-now{
+		font-family:$font-style;
+		color:white;
+		padding-top: 20px;
+		font-size: 1.5em;
+		padding-left: 30px;
+		margin:0;
+	}
+
+	.touch:hover{
+		border-bottom: 1px solid;
+		text-decoration: none;
+	}
+	.touch{
+		color: white;
+	}
+
+}
+
+.contact-device{
+	display: none;
+}
+
 .number{
-	padding-top: 55px;
+	padding-top: 65px;
 
 	#phone-number {
 	@include contact-info;
@@ -58,9 +98,8 @@ $fontsize: 25pt;
 
 	}
 
-
 .email-box{
-	padding-top: 55px;
+	padding-top: 65px;
 
 		#email-contact {
 		@include contact-info;
@@ -68,36 +107,53 @@ $fontsize: 25pt;
 
 }
 
-.phone-box{
-	background-color: $color-phone;
-	height: 127px;
-}
+/* Media Queries */
 
-.email-box{
-	background-color: $color-email;
-	height: 127px;
-}
+@media (max-width:1137px){
+	.satisfaction{
+		font-size: 3.5em;
+	}
 
-//new styles for design ajustment :) 
-
-.call-to-action{
-	height: 300px;
-	background-color:$color-email;
-
-	.time{
-		font-family:Avenir;
-		font-weight:1em;
-		padding-top: 30px;
-		padding-left: 30px;
-		font-style: italic;
-		margin: 0;
+	.call-to-action .time{
+		font-size: 2.2em;
 	}
 }
 
+@media (max-width: 1024px){
 
-/* Media Queries */
+	.call-to-action .time{
+			text-align: left;
+			font-size: 3.5em;
+		}
+		
+		.contact-now{
+			visibility: hidden;
+		}
 
-@media (max-width:664px){
+	.contact-device	{
+	display: block;
+	position: relative;
+	bottom: 300px;
+
+		.columns{
+			height: 0px;
+			float: right;
+		}
+
+	}
+
+	.phone-box{
+		background-color: $color-phone;
+		height: 150px;
+	}
+
+	.email-box{
+		background-color:#00549A;
+		height: 150px;
+	}
+}
+
+@media (max-width:900px){
 	.headline-container{
 		height: 354px;
 	}
@@ -106,14 +162,45 @@ $fontsize: 25pt;
 		font-size: 3em;
 	}
 
+	.call-to-action .time{
+		font-size: 3em;
+		padding-top: 60px;
+	}
+
 }
 
-@media (max-width:424px){
+@media (max-width:800px){
+	.satisfation{
+		font-size: 2.8em;
+	}
 
-	.satisfaction{
+	.call-to-action .time{
+		padding-top: 80px;
 		font-size: 2.5em;
 	}
 }
+
+@media (max-width:640px){
+	.satisfaction{
+		font-size: 2.5em;
+	}
+
+	.contact-device{
+		bottom:0px;
+		display: block;
+	}
+
+	.phone-box{
+		background-color: $color-phone;
+		height: 127px;
+	}
+
+	.email-box{
+		background-color: $color-email;
+		height: 127px;
+	}
+}
+
 
 /* Highres retina home image display @2x */
 
