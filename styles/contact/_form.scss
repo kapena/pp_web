@@ -2,6 +2,7 @@ $color-headline-form:#1571be;
 $color-plumbing-fact:#2989da;
 $color-form-bg:#bcbec0;
 $form-imput-spacing:30px;
+$type-face:Avenir;
 
 .headline-form{
 	height: 300px;
@@ -12,14 +13,32 @@ $form-imput-spacing:30px;
 	}
 
 	.columns{
+		height: 300px;
 		padding:0px;
 	}
 
 }
 
-.plumbing-fact{
-	height: 300px;
-	background-color:$color-plumbing-fact;
+// extending to center form intro :) Extending helps to not bloat the css. 
+
+%center-form-intro{ 
+	position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform:translateY(-50%);
+	-ms-transform:translateY(-50%);
+}
+
+.form-intro{
+	font-family:$type-face;
+	font-size: 2em;
+	text-align: center;
+	color: white;
+	font-weight: 600;
+	margin:0px;
+	padding-right: 40px;
+	padding-left: 40px;
+	@extend %center-form-intro;
 }
 
 .form-bg{

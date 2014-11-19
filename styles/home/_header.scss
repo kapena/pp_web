@@ -61,6 +61,7 @@ $fontsize: 25pt;
 		color:white;
 		padding-top: 40px;
 		padding-left: 30px;
+		padding-right: 20px;
 		font-style: italic;
 		line-height: 1.2em;
 		margin: 0;
@@ -72,6 +73,7 @@ $fontsize: 25pt;
 		padding-top: 20px;
 		font-size: 1.5em;
 		padding-left: 30px;
+		padding-right: 20px;
 		margin:0;
 	}
 
@@ -109,7 +111,7 @@ $fontsize: 25pt;
 
 /* Media Queries */
 
-@media (max-width:1137px){
+@media (max-width:1311px){
 	.satisfaction{
 		font-size: 3.5em;
 	}

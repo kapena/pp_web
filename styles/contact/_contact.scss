@@ -2,6 +2,7 @@ $color-headline-contact:#1aabe8;
 $color-sub-headline:#289cab;
 $color-phone:#0874a1;
 $color-email:#20bbcf;
+$type-face:Avenir;
 
 .headline-contact{
 	height: 350px;
@@ -65,6 +66,34 @@ $color-email:#20bbcf;
 	height: 150px;
 	background-color: $color-phone;
 }
+
+@mixin lower-contact{
+	font-family:$type-face;
+	font-weight: 600;
+	color: white;
+	padding-left: 60px;
+	font-size: 1.5em;
+	margin: 0px;
+	padding-top: 65px;
+	//padding-left: 100px;
+}
+
+.phone-bottom{
+	@include lower-contact;
+
+	#phone-link{
+		color: white;
+	}
+}
+
+.email-bottom{
+	@include lower-contact;
+	padding-left: 40px 
+}
+
+	#email-link{
+			color:white;
+		}
 
 .email-contact{
 	height: 150px;
