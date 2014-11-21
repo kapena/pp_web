@@ -49,25 +49,25 @@ $color-serviceblock:#1aabe8;
 	@extend %align;
 }
 
-@media (max-width:920px){
-	.headline-services{
-		height:400px;
+@media (max-width:1310px){
+	.plumbing-repairs{
+		font-size: 3.5em;
 	}
 }
 
-@media (max-width:700px) {
+@media (max-width:900px) {
 	.plumbing-repairs{
-		font-size: 2.8em;
+		font-size: 3em;
 	}
 
 	.headline-services{
-		height:250px;
+		height:300px;
 	}
 }
 
-@media (max-width:424px){
+@media (max-width:530px){
 	.plumbing-repairs{
-		font-size: 2.5em;
+		font-size: 2.6em;
 	}
 }
 

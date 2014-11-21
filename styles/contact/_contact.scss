@@ -46,7 +46,8 @@ $type-face:Avenir;
 @mixin subhead-contact{
 	font-family: Avenir;
 	padding-left: 45px;
-	//padding-right: 25px;
+	padding-right: 25px;
+	//padding-top: 20px;
 	font-size: 3.5em;
 	color: white;
 	line-height: 1.5em;
@@ -88,7 +89,6 @@ $type-face:Avenir;
 
 .email-bottom{
 	@include lower-contact;
-	padding-left: 40px 
 }
 
 	#email-link{
@@ -108,14 +108,15 @@ $type-face:Avenir;
 	}
 }
 
-// @media (max-width:1024px) {
-//	.sub-headline{
-//		padding-top:300px;
-//	}
-//}
-
 @mixin type-adjust-med{
 	font-size: 2.8em;
+}
+
+@media (max-width:700px){
+	.solutions{
+		font-size: 2.8em;
+	}
+
 }
 
 @media (max-width: 700px){
@@ -128,12 +129,6 @@ $type-face:Avenir;
 		@include type-adjust-med; 
 	}
 
-}
-
-@media (max-width:438px){
-	.headline-contact{
-		height: 350px;
-	}
 }
 
 @media (max-width: 314px){

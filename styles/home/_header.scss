@@ -125,7 +125,7 @@ $fontsize: 25pt;
 
 	.call-to-action .time{
 			text-align: left;
-			font-size: 3.5em;
+			font-size: 3.3em;
 		}
 		
 		.contact-now{
@@ -161,7 +161,7 @@ $fontsize: 25pt;
 	}
 	
 	.satisfaction{
-		font-size: 3em;
+		font-size: 3.2em;
 	}
 
 	.call-to-action .time{
@@ -184,7 +184,7 @@ $fontsize: 25pt;
 
 @media (max-width:640px){
 	.satisfaction{
-		font-size: 2.5em;
+		font-size: 3em;
 	}
 
 	.contact-device{
@@ -200,6 +200,12 @@ $fontsize: 25pt;
 	.email-box{
 		background-color: $color-email;
 		height: 127px;
+	}
+}
+
+@media (max-width:380px){
+	.satisfaction{
+		font-size: 2.5em;
 	}
 }
 

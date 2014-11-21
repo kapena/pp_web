@@ -124,7 +124,7 @@
 @media (max-width: 1024px) {
   .call-to-action .time {
     text-align: left;
-    font-size: 3.5em; }
+    font-size: 3.3em; }
 
   .contact-now {
     visibility: hidden; }
@@ -149,7 +149,7 @@
     height: 354px; }
 
   .satisfaction {
-    font-size: 3em; }
+    font-size: 3.2em; }
 
   .call-to-action .time {
     font-size: 3em;
@@ -163,7 +163,7 @@
     font-size: 2.5em; } }
 @media (max-width: 640px) {
   .satisfaction {
-    font-size: 2.5em; }
+    font-size: 3em; }
 
   .contact-device {
     bottom: 0px;
@@ -176,6 +176,9 @@
   .email-box {
     background-color: #1571be;
     height: 127px; } }
+@media (max-width: 380px) {
+  .satisfaction {
+    font-size: 2.5em; } }
 /* Highres retina home image display @2x */
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-min-moz-device-pixel-ratio: 2), only screen and (o-min-device-pixel-ratio: 2 / 1), only screen and (-min-moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .image-highres {
@@ -219,18 +222,18 @@
   margin: 0px;
   text-align: center; }
 
-@media (max-width: 920px) {
-  .headline-services {
-    height: 400px; } }
-@media (max-width: 700px) {
+@media (max-width: 1310px) {
   .plumbing-repairs {
-    font-size: 2.8em; }
+    font-size: 3.5em; } }
+@media (max-width: 900px) {
+  .plumbing-repairs {
+    font-size: 3em; }
 
   .headline-services {
-    height: 250px; } }
-@media (max-width: 424px) {
+    height: 300px; } }
+@media (max-width: 530px) {
   .plumbing-repairs {
-    font-size: 2.5em; } }
+    font-size: 2.6em; } }
 @media (max-width: 630px) {
   .headline-services {
     height: 300px; } }
@@ -369,6 +372,7 @@
 .solutions {
   font-family: Avenir;
   padding-left: 45px;
+  padding-right: 25px;
   font-size: 3.5em;
   color: white;
   line-height: 1.5em; }
@@ -395,8 +399,7 @@
   padding-left: 60px;
   font-size: 1.5em;
   margin: 0px;
-  padding-top: 65px;
-  padding-left: 40px; }
+  padding-top: 65px; }
 
 #email-link {
   color: white; }
@@ -410,14 +413,14 @@
   .headline-contact {
     margin-top: 350px; } }
 @media (max-width: 700px) {
+  .solutions {
+    font-size: 2.8em; } }
+@media (max-width: 700px) {
   .headline-contact {
     height: 300px; }
 
   .experiance {
     font-size: 2.8em; } }
-@media (max-width: 438px) {
-  .headline-contact {
-    height: 350px; } }
 @media (max-width: 314px) {
   .headline-contact {
     height: 400px; } }
@@ -439,7 +442,7 @@
 
 .form-intro {
   font-family: Avenir;
-  font-size: 2em;
+  font-size: 1.7em;
   text-align: center;
   color: white;
   font-weight: 600;
@@ -487,6 +490,22 @@
 #message {
   height: 200px; }
 
+@media (max-width: 1024px) {
+  .headline-form {
+    margin-top: 300px; }
+
+  .form-intro {
+    position: relative;
+    top: 55px; } }
+@media (max-width: 700px) {
+  .form-intro {
+    font-size: 1.5em; } }
+@media (max-width: 480px) {
+  .headline-form {
+    height: 400px; } }
+@media (max-width: 400px) {
+  .form-intro {
+    font-size: 1.4em; } }
 @media (max-width: 640px) {
   .form-bg {
     height: 850px; } }
