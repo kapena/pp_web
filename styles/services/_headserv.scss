@@ -4,7 +4,7 @@ $color-serviceblock:#1aabe8;
 
 
 .headline-services{
-	height: 300px;
+	height: 350px;
 	background-color: $color-headline;
 }
 
@@ -42,22 +42,33 @@ $color-serviceblock:#1aabe8;
 	font-family: Avenir;
 	padding-left: 20px;
 	padding-right: 20px;
-	font-size: 4em;
+	font-size: 3.5em;
 	color: white;
 	margin: 0px;
 	text-align: center;
 	@extend %align;
 }
 
-@media (max-width:1310px){
+@media (min-width: 1214px){
 	.plumbing-repairs{
-		font-size: 3.5em;
+		font-size: 4em;
 	}
 }
 
+@media (min-width: 1380px){
+	.headline-services{
+		height: 350px;
+	}
+
+	.plumbing-repairs{
+		font-size: 4.4em;
+	}
+}
+
+
 @media (max-width:900px) {
 	.plumbing-repairs{
-		font-size: 3em;
+		font-size: 2.8em;
 	}
 
 	.headline-services{

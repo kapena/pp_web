@@ -35,9 +35,8 @@ $type-face:Avenir;
 	font-family: Avenir;
 	padding-left: 25px;
 	padding-right: 25px;
-	font-size: 4em;
+	font-size: 3.5em;
 	color: white;
-	line-height: 1.5em;
 	text-align: center;
 	margin: 0px;
 	@extend %headline-center;
@@ -47,10 +46,8 @@ $type-face:Avenir;
 	font-family: Avenir;
 	padding-left: 45px;
 	padding-right: 25px;
-	//padding-top: 20px;
 	font-size: 3.5em;
 	color: white;
-	line-height: 1.5em;
 	@extend %headline-center;
 }
 
@@ -102,6 +99,23 @@ $type-face:Avenir;
 
 /* Media Queries */
 
+@media (min-width: 1214px){
+	.experiance{
+		font-size: 4em;
+	}
+
+	.solutions {
+		font-size: 4em;
+		line-height: 1.3em;
+	}
+}
+
+@media (min-width: 1380px){
+	.experiance{
+		font-size: 4.5em;
+	}
+}
+
 @media (max-width:1024px) {
 	.headline-contact{
 		margin-top: 350px;
@@ -112,23 +126,49 @@ $type-face:Avenir;
 	font-size: 2.8em;
 }
 
-@media (max-width:700px){
-	.solutions{
-		font-size: 2.8em;
-	}
-
-}
-
-@media (max-width: 700px){
-		
+@media (max-width:900px){
 	.headline-contact{
 		height: 300px;
 	}
 
 	.experiance{
+		font-size: 3em;
+	}
+
+	.solutions{
+		font-size: 3em
+	}
+}
+
+
+@media (max-width: 700px){
+	
+	.experiance{
 		@include type-adjust-med; 
 	}
 
+}
+
+@media (max-width:700px){
+	.solutions{
+		font-size: 2.8em;
+	}
+}
+
+@media (max-width: 453px){
+	.headline-contact{
+		height: 350px;
+	}
+}
+
+@media (max-width: 353px){
+	.sub-headline .columns{
+		height: 350px;
+	}
+
+	.solutions{
+		padding-bottom: 60px;
+	}
 }
 
 @media (max-width: 314px){

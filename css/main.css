@@ -115,6 +115,9 @@
     font-weight: 600; }
 
 /* Media Queries */
+@media (min-width: 1380px) {
+  .satisfaction {
+    font-size: 4.4em; } }
 @media (max-width: 1311px) {
   .satisfaction {
     font-size: 3.5em; }
@@ -185,7 +188,7 @@
     background-image: url(../images/home@2x.jpg);
     background-repeat: no-repeat; } }
 .headline-services {
-  height: 300px;
+  height: 350px;
   background-color: #1ca5b6; }
 
 .services-block {
@@ -217,17 +220,23 @@
   font-family: Avenir;
   padding-left: 20px;
   padding-right: 20px;
-  font-size: 4em;
+  font-size: 3.5em;
   color: white;
   margin: 0px;
   text-align: center; }
 
-@media (max-width: 1310px) {
+@media (min-width: 1214px) {
   .plumbing-repairs {
-    font-size: 3.5em; } }
+    font-size: 4em; } }
+@media (min-width: 1380px) {
+  .headline-services {
+    height: 350px; }
+
+  .plumbing-repairs {
+    font-size: 4.4em; } }
 @media (max-width: 900px) {
   .plumbing-repairs {
-    font-size: 3em; }
+    font-size: 2.8em; }
 
   .headline-services {
     height: 300px; } }
@@ -279,7 +288,7 @@
   font-family: Avenir;
   padding-left: 25px;
   padding-right: 25px;
-  font-size: 4em;
+  font-size: 3.5em;
   color: white;
   margin: 0px; }
 
@@ -313,19 +322,34 @@
   -ms-transform: translateY(-50%); }
 
 /* Media Queries */
+@media (min-width: 1214px) {
+  .pipeline {
+    font-size: 4em; } }
+@media (min-width: 1381px) {
+  .pipeline {
+    font-size: 4.5em; } }
 @media (max-width: 1024px) {
   .we-supply {
     font-size: 1.7em;
     line-height: 1.5em; } }
+@media (max-width: 900px) {
+  .headline-about {
+    height: 300px; }
+
+  .pipeline {
+    font-size: 2.8em; } }
 @media (max-width: 700px) {
   .headline-about {
     height: 300px; }
 
   .pipeline {
     font-size: 2.8em; } }
-@media (max-width: 475px) {
+@media (max-width: 492px) {
   .headline-about {
     height: 430px; } }
+@media (max-width: 350px) {
+  .headline-about {
+    height: 450px; } }
 @media (max-width: 620px) {
   .about-content {
     font-size: 1.5em; }
@@ -363,9 +387,8 @@
   font-family: Avenir;
   padding-left: 25px;
   padding-right: 25px;
-  font-size: 4em;
+  font-size: 3.5em;
   color: white;
-  line-height: 1.5em;
   text-align: center;
   margin: 0px; }
 
@@ -374,8 +397,7 @@
   padding-left: 45px;
   padding-right: 25px;
   font-size: 3.5em;
-  color: white;
-  line-height: 1.5em; }
+  color: white; }
 
 .phone-contact {
   height: 150px;
@@ -409,18 +431,43 @@
   background-color: #20bbcf; }
 
 /* Media Queries */
+@media (min-width: 1214px) {
+  .experiance {
+    font-size: 4em; }
+
+  .solutions {
+    font-size: 4em;
+    line-height: 1.3em; } }
+@media (min-width: 1380px) {
+  .experiance {
+    font-size: 4.5em; } }
 @media (max-width: 1024px) {
   .headline-contact {
     margin-top: 350px; } }
-@media (max-width: 700px) {
-  .solutions {
-    font-size: 2.8em; } }
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   .headline-contact {
     height: 300px; }
 
   .experiance {
+    font-size: 3em; }
+
+  .solutions {
+    font-size: 3em; } }
+@media (max-width: 700px) {
+  .experiance {
     font-size: 2.8em; } }
+@media (max-width: 700px) {
+  .solutions {
+    font-size: 2.8em; } }
+@media (max-width: 453px) {
+  .headline-contact {
+    height: 350px; } }
+@media (max-width: 353px) {
+  .sub-headline .columns {
+    height: 350px; }
+
+  .solutions {
+    padding-bottom: 60px; } }
 @media (max-width: 314px) {
   .headline-contact {
     height: 400px; } }

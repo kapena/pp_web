@@ -49,7 +49,7 @@ $color-aboutsect2:#4392d4;
 	font-family: Avenir;
 	padding-left: 25px;
 	padding-right: 25px;
-	font-size: 4em;
+	font-size: 3.5em;
 	color: white;
 	margin: 0px;
 	@extend %pipline-align;
@@ -96,10 +96,32 @@ $color-aboutsect2:#4392d4;
 
 /* Media Queries */
 
+@media (min-width: 1214px){
+	.pipeline{
+		font-size: 4em;
+	}
+}
+
+@media (min-width: 1381px){
+	.pipeline{
+		font-size: 4.5em;
+	}
+}
+
 @media (max-width:1024px){
 	.we-supply{
 		font-size: 1.7em;
 		line-height: 1.5em;
+	}
+}
+
+@media (max-width: 900px){
+	.headline-about{
+		height: 300px;
+	}
+
+	.pipeline{
+		font-size: 2.8em;
 	}
 }
 
@@ -113,12 +135,17 @@ $color-aboutsect2:#4392d4;
 	}
 }
 
-@media (max-width:475px){
+@media (max-width:492px){
 	.headline-about{
 		height: 430px;
 	}
 }
 
+@media (max-width: 350px){
+	.headline-about{
+		height: 450px;
+	}
+}
 
 @mixin type-adjusment-medium{ // medium screens //
 	font-size: 1.5em;
