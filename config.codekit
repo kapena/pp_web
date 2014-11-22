@@ -1488,22 +1488,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/pp_web_gh-pages\/styles\/home\/_nav.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 5,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pp_web_gh-pages\/styles\/home\/_nav.scss",
-		"outputAbbreviatedPath": "\/pp_web_gh-pages\/styles\/css\/_nav.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/README.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,

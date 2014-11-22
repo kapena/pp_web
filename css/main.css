@@ -567,13 +567,15 @@
 
 .home2 {
   display: inline;
-  font-size: 18pt; }
+  font-size: 18pt;
+  font-family: Avenir; }
   .home2 #color-home {
     color: white; }
 
 .services2 {
   display: inline;
   margin-left: 30px;
+  font-family: Avenir;
   font-size: 18pt; }
   .services2 #color-services {
     color: white; }
@@ -581,6 +583,7 @@
 .about2 {
   display: inline;
   margin-left: 30px;
+  font-family: Avenir;
   font-size: 18pt; }
   .about2 #color-about {
     color: white; }
@@ -588,6 +591,7 @@
 .contact2 {
   display: inline;
   margin-left: 30px;
+  font-family: Avenir;
   font-size: 18pt; }
   .contact2 #color-contact {
     color: white; }
@@ -595,8 +599,31 @@
 .blog {
   display: inline;
   margin-left: 30px;
+  font-family: Avenir;
   font-size: 18pt; }
   .blog #color-blog {
+    color: white; }
+
+.phone-foot {
+  font-family: Avenir;
+  font-size: 1.5em;
+  color: white;
+  padding-left: 25px;
+  padding-right: 20px;
+  padding-top: 40px;
+  margin: 0; }
+  .phone-foot #phone-link {
+    color: white; }
+
+.email-foot {
+  font-family: Avenir;
+  font-size: 1.5em;
+  color: white;
+  padding-left: 25px;
+  padding-right: 20px;
+  padding-top: 40px;
+  margin: 0; }
+  .email-foot #phone-link {
     color: white; }
 
 @media (max-width: 640px) {
@@ -647,11 +674,9 @@
 @media (max-width: 1024px) {
   .social-media {
     padding-bottom: 400px; } }
-@media (max-width: 480px) {
-  #social-links {
-    margin: 0px;
-    padding-left: 22px;
-    padding-right: 22px; } }
+@media (max-width: 640px) {
+  .navagation {
+    margin-left: 20px; } }
 @media (max-width: 500px) {
   .facebook {
     padding-right: 0px; }
@@ -664,6 +689,15 @@
 
   .googleplus {
     padding-right: 0px; } }
+@media (max-width: 480px) {
+  #social-links {
+    margin: 0px;
+    padding-left: 22px;
+    padding-right: 22px; }
+
+  .navagation {
+    margin-left: 0px;
+    text-align: left; } }
 @media (max-width: 380px) {
   .facebook {
     display: inherit; }

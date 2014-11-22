@@ -2,6 +2,7 @@ $navlinkmargin:30px; // margins between each link
 $fontsize-navlinks:18pt; // font size for each nav link
 $social-padd:30px;
 
+
 .secondary-nav {
 	height: 200px;
 	background-color:#029bae;
@@ -16,6 +17,7 @@ $social-padd:30px;
 .home2{
 	display: inline;
 	font-size: $fontsize-navlinks;
+	font-family: $type-face;
 
 	#color-home{
 		color: white;
@@ -25,6 +27,7 @@ $social-padd:30px;
 .services2{
 	display: inline;
 	margin-left: $navlinkmargin;
+	font-family: $type-face;
 	font-size: $fontsize-navlinks;
 
 	#color-services{
@@ -35,6 +38,7 @@ $social-padd:30px;
 .about2{
 	display: inline;
 	margin-left: $navlinkmargin;
+	font-family: $type-face;
 	font-size: $fontsize-navlinks;
 
 	#color-about{
@@ -45,6 +49,7 @@ $social-padd:30px;
 .contact2{
 	display: inline;
 	margin-left: $navlinkmargin;
+	font-family: $type-face;
 	font-size: $fontsize-navlinks;
 
 	#color-contact{
@@ -55,11 +60,37 @@ $social-padd:30px;
 .blog{
 	display: inline;
 	margin-left: $navlinkmargin;
+	font-family: $type-face;
 	font-size: $fontsize-navlinks;
 
 	#color-blog{
 		color:white;
 	}
+}
+
+$type-face:Avenir;
+$fontsize-contact:1.5em;
+
+@mixin footer-contact {
+	font-family: $type-face;
+	font-size: $fontsize-contact;
+	color: white;
+	padding-left: 25px;
+	padding-right: 20px;
+	padding-top: 40px;
+	margin: 0;
+
+	#phone-link{
+	color:white;
+	}
+}
+
+.phone-foot{
+	@include footer-contact;
+}
+
+.email-foot{
+	@include footer-contact;
 }
 
 @media (max-width:640px){
@@ -135,11 +166,9 @@ $social-padd:30px;
 	}
 }
 
-@media (max-width:480px){
-	#social-links{
-		margin: 0px;
-		padding-left: 22px;
-		padding-right: 22px;
+@media (max-width: 640px){
+	.navagation{
+		margin-left: 20px;
 	}
 }
 
@@ -158,6 +187,20 @@ $social-padd:30px;
 
 	.googleplus{
 		padding-right: 0px;
+	}
+}
+
+@media (max-width:480px){
+	#social-links{
+		margin: 0px;
+		padding-left: 22px;
+		padding-right: 22px;
+	}
+
+	.navagation{
+	margin-left: 0px;
+	text-align: left;
+
 	}
 }
 
