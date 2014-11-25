@@ -607,6 +607,7 @@
 .phone-foot {
   font-family: Avenir;
   font-size: 1.5em;
+  font-weight: 600;
   color: white;
   padding-left: 25px;
   padding-right: 20px;
@@ -618,6 +619,7 @@
 .email-foot {
   font-family: Avenir;
   font-size: 1.5em;
+  font-weight: 600;
   color: white;
   padding-left: 25px;
   padding-right: 20px;
@@ -671,6 +673,21 @@
   height: 100px;
   background-color: #2989da; }
 
+.bottom-bar {
+  height: 300px;
+  background-color: #1aabe8; }
+
+.footer-container {
+  padding-top: 80px;
+  text-align: center; }
+
+.row .row {
+  margin: 0; }
+
+#numbers {
+  display: inline;
+  list-style: none; }
+
 @media (max-width: 1024px) {
   .social-media {
     padding-bottom: 400px; } }
@@ -713,10 +730,6 @@
 @media (max-width: 380px) {
   .social-media {
     padding-bottom: 650px; } }
-.bottom-bar {
-  height: 200px;
-  background-color: #1aabe8; }
-
 img.full {
   width: 100%; }
 
