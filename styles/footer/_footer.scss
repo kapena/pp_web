@@ -163,7 +163,16 @@ $weight: 600;
 }
 
 
-$font-size-footer:1.5em;
+$font-size-foot:1.5em;
+$font:Avenir; 
+$font-weight-foot: 200;
+
+@mixin footer-type{
+	font-family:$font;
+	font-size: $font-size-foot;
+	font-weight: $font-weight-foot;
+	color: white;
+}
 
 .bottom-bar{
 	height: 300px;
@@ -179,10 +188,37 @@ $font-size-footer:1.5em;
 	margin: 0;
 }
 
-#numbers{
-	display: inline;
-	list-style: none;
+.license{
+	@include footer-type;
+	padding-left: 10px;
 }
+
+#numbers{
+	@include footer-type;
+	list-style: none;
+	padding-top: 20px;
+}
+
+.aff-with{
+	@include footer-type;
+}
+
+.newsletter{
+	@include footer-type;
+}
+
+.form-container{
+	padding-top: 20px;
+}
+
+#news-button{
+	margin-top: 10px;
+}
+
+#bb{
+	padding-top: 20px;
+}
+
 
 
 @media (max-width:1024px){

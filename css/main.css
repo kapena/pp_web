@@ -684,9 +684,41 @@
 .row .row {
   margin: 0; }
 
+.license {
+  font-family: Avenir;
+  font-size: 1.5em;
+  font-weight: 200;
+  color: white;
+  padding-left: 10px; }
+
 #numbers {
-  display: inline;
-  list-style: none; }
+  font-family: Avenir;
+  font-size: 1.5em;
+  font-weight: 200;
+  color: white;
+  list-style: none;
+  padding-top: 20px; }
+
+.aff-with {
+  font-family: Avenir;
+  font-size: 1.5em;
+  font-weight: 200;
+  color: white; }
+
+.newsletter {
+  font-family: Avenir;
+  font-size: 1.5em;
+  font-weight: 200;
+  color: white; }
+
+.form-container {
+  padding-top: 20px; }
+
+#news-button {
+  margin-top: 10px; }
+
+#bb {
+  padding-top: 20px; }
 
 @media (max-width: 1024px) {
   .social-media {
