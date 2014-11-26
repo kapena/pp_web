@@ -181,7 +181,7 @@ $font-weight-foot: 200;
 
 .footer-container{
 	padding-top: 80px;
-	text-align: center;
+	//text-align: center;
 }
 
 .row .row{
@@ -190,25 +190,32 @@ $font-weight-foot: 200;
 
 .license{
 	@include footer-type;
-	padding-left: 10px;
+	padding-top: 4px;
+	padding-left: 20px;
+	margin: 0;
 }
 
 #numbers{
 	@include footer-type;
 	list-style: none;
-	padding-top: 20px;
+	padding-top: 15px;
 }
 
 .aff-with{
 	@include footer-type;
+	margin: 0;
+	padding-top: 5px;
 }
 
 .newsletter{
 	@include footer-type;
+	padding-left: 16px;
+	line-height: 1.1em;
+	margin: 0;
 }
 
 .form-container{
-	padding-top: 20px;
+	//padding-top: 20px;
 }
 
 #news-button{
@@ -217,6 +224,7 @@ $font-weight-foot: 200;
 
 #bb{
 	padding-top: 20px;
+	padding-left: 5px;
 }
 
 
