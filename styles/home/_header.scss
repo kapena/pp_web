@@ -59,7 +59,7 @@ $fontsize: 25pt;
 		font-family:$font-style;
 		font-size:2.5em;
 		color:white;
-		padding-top: 40px;
+		padding-top: 60px;
 		padding-left: 30px;
 		padding-right: 20px;
 		font-style: italic;
@@ -70,7 +70,7 @@ $fontsize: 25pt;
 	.contact-now{
 		font-family:$font-style;
 		color:white;
-		padding-top: 20px;
+		padding-top: 24px;
 		font-size: 1.5em;
 		padding-left: 30px;
 		padding-right: 20px;
@@ -124,6 +124,12 @@ $fontsize: 25pt;
 
 	.call-to-action .time{
 		font-size: 2.2em;
+	}
+}
+
+@media (max-width:1174px){
+	.call-to-action .time{
+		padding-top: 40px;
 	}
 }
 
@@ -206,6 +212,12 @@ $fontsize: 25pt;
 	.email-box{
 		background-color: $color-email;
 		height: 127px;
+	}
+}
+
+@media (max-width: 446px){
+	.call-to-action .time {
+		padding-top: 55px;
 	}
 }
 

@@ -73,7 +73,7 @@
     font-family: avenir, sans-serif;
     font-size: 2.5em;
     color: white;
-    padding-top: 40px;
+    padding-top: 60px;
     padding-left: 30px;
     padding-right: 20px;
     font-style: italic;
@@ -82,7 +82,7 @@
   .call-to-action .contact-now {
     font-family: avenir, sans-serif;
     color: white;
-    padding-top: 20px;
+    padding-top: 24px;
     font-size: 1.5em;
     padding-left: 30px;
     padding-right: 20px;
@@ -124,6 +124,9 @@
 
   .call-to-action .time {
     font-size: 2.2em; } }
+@media (max-width: 1174px) {
+  .call-to-action .time {
+    padding-top: 40px; } }
 @media (max-width: 1024px) {
   .call-to-action .time {
     padding-top: 60px;
@@ -179,6 +182,9 @@
   .email-box {
     background-color: #1571be;
     height: 127px; } }
+@media (max-width: 446px) {
+  .call-to-action .time {
+    padding-top: 55px; } }
 @media (max-width: 380px) {
   .satisfaction {
     font-size: 2.5em; } }
@@ -689,7 +695,6 @@
   font-weight: 200;
   color: white;
   padding-top: 4px;
-  padding-left: 20px;
   margin: 0; }
 
 #numbers {
@@ -698,7 +703,8 @@
   font-weight: 200;
   color: white;
   list-style: none;
-  padding-top: 15px; }
+  padding-top: 15px;
+  margin: 0; }
 
 .aff-with {
   font-family: Avenir;
@@ -729,7 +735,28 @@
     padding-bottom: 400px; } }
 @media (max-width: 640px) {
   .navagation {
-    margin-left: 20px; } }
+    margin-left: 20px; }
+
+  .bottom-bar {
+    height: 700px; }
+
+  .lic-content {
+    padding-bottom: 20px;
+    text-align: center; }
+
+  #aff-container {
+    padding-bottom: 20px;
+    text-align: center; }
+
+  #bb {
+    padding-left: 1%;
+    display: inline; }
+
+  .newletter {
+    text-align: center; }
+
+  .form-container {
+    padding-top: 20px; } }
 @media (max-width: 500px) {
   .facebook {
     padding-right: 0px; }

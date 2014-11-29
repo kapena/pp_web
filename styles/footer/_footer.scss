@@ -191,7 +191,6 @@ $font-weight-foot: 200;
 .license{
 	@include footer-type;
 	padding-top: 4px;
-	padding-left: 20px;
 	margin: 0;
 }
 
@@ -199,6 +198,7 @@ $font-weight-foot: 200;
 	@include footer-type;
 	list-style: none;
 	padding-top: 15px;
+	margin:0;
 }
 
 .aff-with{
@@ -235,10 +235,41 @@ $font-weight-foot: 200;
 	}
 }
 
+
 @media (max-width: 640px){
 	.navagation{
 		margin-left: 20px;
 	}
+
+	.bottom-bar{
+		height: 700px;
+	}
+
+	.lic-content{
+		padding-bottom: 20px;
+		text-align: center;
+	}
+
+
+	#aff-container{
+		padding-bottom:20px;
+		text-align: center;
+	}
+
+	#bb{
+		padding-left:1%;
+		display: inline;
+	}
+
+	.newletter{
+		text-align: center;
+	}
+
+	.form-container{
+		padding-top: 20px;
+	}
+
+
 }
 
 @media (max-width:500px){
