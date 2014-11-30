@@ -2,47 +2,47 @@
 	padding:45px;
 }
 
-.logo {
-	background-image:url(../images/Pointplumbing.png);
-	background-repeat: no-repeat;
-	position: absolute;
-}
 
 .icons{
 	display:inline;
-	position: relative;
-	left:67%;
+	margin-left: 300px;
 }
+
+#pp-logo{
+	//vertical-align: middle;
+	display: inline;
+}
+
+$padding-nav-icon:15px;
 
 .home{
 	display: inline-block;
-	position: relative;
-	margin-left:12%;
-	left:3%;
 }
 
 .services{
 	display: inline-block;
-	position: relative;
-	margin-left: 2%;
-	left:3%;
+	padding-left:$padding-nav-icon;
 }
 
 .about{
 	display: inline-block;
-	position: relative;
-	margin-left: 2%;
-	left:3%;
+	padding-left:$padding-nav-icon; 
+
 }
 
 .contact{
 	display: inline-block;
-	position: relative;
-	margin-left: 2%;
-	left: 3%;
+	padding-left:$padding-nav-icon; 
+
 }
 
-@media (max-width:774px) {
+@media (max-width: 984px){
+	.icons{
+		margin-left: 230px;
+	}
+}
+
+@media (max-width:914px) {
 	.icons { 
 	visibility: hidden;
 	position: absolute;
