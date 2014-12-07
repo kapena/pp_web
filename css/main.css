@@ -784,6 +784,9 @@
 @media (max-width: 380px) {
   .social-media {
     padding-bottom: 650px; } }
+html, body {
+  overflow-x: hidden; }
+
 img.full {
   width: 100%; }
 

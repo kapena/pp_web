@@ -4,6 +4,10 @@
 @import "contact/all";
 @import "footer/all";
 
+html,body{
+	overflow-x:hidden;
+}
+
 // all images with the class "full"
 img.full {
 	width: 100%;
