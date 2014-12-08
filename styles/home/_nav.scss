@@ -6,6 +6,7 @@
 .icons{
 	display:inline;
 	margin-left: 300px;
+	-webkit-backface-visiblity: hidden;
 }
 
 #pp-logo{
@@ -14,25 +15,58 @@
 
 $padding-nav-icon:15px;
 
+@mixin navbar-transition{
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+}
+
+@mixin navbar-hover{
+	-webkit-transform:scale(1.2);
+	transform:scale(1.2,1.2);
+	-ms-transform:scale(1.2,1.2);
+	-webkit-transform:scale(1.2,1.2);
+}
+
 .home{
 	display: inline-block;
+	@include navbar-transition
 }
+
+.home:hover{
+	@include navbar-hover
+}
+
 
 .services{
 	display: inline-block;
 	padding-left:$padding-nav-icon;
+	@include navbar-transition
 }
+
+.services:hover{
+	@include navbar-hover
+}
+
 
 .about{
 	display: inline-block;
-	padding-left:$padding-nav-icon; 
+	padding-left:$padding-nav-icon;
+	@include navbar-transition;
+}
 
+.about:hover{
+	@include navbar-hover
 }
 
 .contact{
 	display: inline-block;
-	padding-left:$padding-nav-icon; 
+	padding-left:$padding-nav-icon;
+	@include navbar-transition;
+}
 
+.contact:hover{
+	@include navbar-hover
 }
 
 @media (max-width: 984px){
