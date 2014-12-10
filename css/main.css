@@ -866,7 +866,6 @@
     padding-bottom: 650px; } }
 html, body {
   overflow-x: hidden;
-  overflow-y: scroll;
   -webkit-overflow-scrolling: touch; }
 
 img.full {
