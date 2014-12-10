@@ -865,7 +865,9 @@
   .social-media {
     padding-bottom: 650px; } }
 html, body {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch; }
 
 img.full {
   width: 100%; }
