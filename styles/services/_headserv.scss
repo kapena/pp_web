@@ -17,6 +17,41 @@ $color-serviceblock:#1aabe8;
 	bottom: 70px;
 }
 
+$service-icon-width:230px;
+$service-icon-height:240px;
+
+#repair{
+	width: $service-icon-width; height: $service-icon-height;
+}
+
+#heater{
+	width: $service-icon-width; height: $service-icon-height;
+}
+
+#reroute{
+	width: $service-icon-width;	height: $service-icon-height;
+}
+
+#water{
+	width: $service-icon-width; height: $service-icon-height;
+}
+
+#waste{
+	width: $service-icon-width; height: $service-icon-height;
+}
+
+#install{
+	width: $service-icon-width; height: $service-icon-height;
+}
+
+#pressure{
+	width: $service-icon-width; height: $service-icon-height;
+}
+
+#gasline{
+	width: $service-icon-width; height: $service-icon-height;
+}
+
 .block-grid-li{
 	text-align: center;
 	padding-bottom: 150px;

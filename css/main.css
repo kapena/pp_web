@@ -9,7 +9,9 @@
 
 #pp-logo {
   display: inline-block;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+  width: 186px;
+  height: 76px; }
 
 .home {
   display: inline-block;
@@ -275,6 +277,38 @@
   margin: 0 auto;
   position: relative;
   bottom: 70px; }
+
+#repair {
+  width: 230px;
+  height: 240px; }
+
+#heater {
+  width: 230px;
+  height: 240px; }
+
+#reroute {
+  width: 230px;
+  height: 240px; }
+
+#water {
+  width: 230px;
+  height: 240px; }
+
+#waste {
+  width: 230px;
+  height: 240px; }
+
+#install {
+  width: 230px;
+  height: 240px; }
+
+#pressure {
+  width: 230px;
+  height: 240px; }
+
+#gasline {
+  width: 230px;
+  height: 240px; }
 
 .block-grid-li {
   text-align: center;
