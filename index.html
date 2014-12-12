@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Point Plumbing</title>
 	<link rel="stylesheet" href="foundation/css/foundation.css">
+	<link rel="stylesheet" href="bower_components/bower-foundation/scss/foundation.scss">
 	<link rel="stylesheet" href="css/main.css">
 	<script src="foundation/js/vendor/modernizr.js"></script>
 	<script src="foundation/js/vendor/fastclick.js"></script>
@@ -21,7 +22,7 @@
 	<header>
 		<nav class="navbar">
 			<div class="row">
-				<div class="large-12 medium-12 columns">
+				<div class="large-12 medium-12 small-12 columns">
 					<a href="/" title="Point Plumbing" id="logo">
 						<img id="pp-logo" src="http://d3vi9nkvdbmq5l.cloudfront.net/logo/pplogo.svg" alt="Point Plumbing">
 					</a>
@@ -43,6 +44,27 @@
 						<h3 class="contact-text">Contact</h3>
 					</li></a>
 					</ul>
+
+					<div class="off-canvas-wrap" data-offcanvas>
+						<div class="inner-wrap">
+							<nav class="tab-bar">
+								<section class="right-small">
+									<a class="right-off-canvas-toggle menu-icon" href="#">
+									<span></span></a>
+								</section>
+							</nav>
+
+							<aside class="right-off-canvas-menu">
+								<ul class="off-canvas-list">
+									<!-- content here -->
+									<li><a href="/">Home</a></li>
+								</ul>
+							</aside>
+
+							<a class="exit-off-canvas"></a>
+						</div>
+					</div>
+
 				</div>
 			</div>
 		</nav>
@@ -375,10 +397,11 @@
 	</footer>
 	<script src="foundation/js/vendor/jquery.js"></script>
 	<script src="foundation/js/foundation.min.js"></script>
+	<script src="foundation/js/foundation/foundation.offcanvas.js"></script>
 	<script>
 		$(document).foundation();
 	</script>
-	<script src="js/main.js"></script>
+	<script src="/js/main.js"></script>
 </body>
 </html>
 

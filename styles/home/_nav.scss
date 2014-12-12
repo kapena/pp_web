@@ -1,7 +1,15 @@
 .navbar {
 	padding:20px;
+
+	.columns{
+		padding: 0px;
+	}
 }
 
+.tab-bar,.left-off-canvas-menu{
+	visibility: hidden;
+	display: inline;
+}
 
 .icons{
 	display:inline-block;
@@ -116,23 +124,35 @@ $icon-height:77px;
 	@include navbar-hover
 }
 
-@media (max-width: 984px){
+@media (max-width: 960px){
 	.icons{
-		margin-left: 230px;
+		margin-left: 240px;
 	}
 }
 
-@media (max-width:914px) {
+@media (max-width:900px) {
 	.icons { 
 	visibility: hidden;
-	position: absolute;
+	display: none;
+	//position: absolute;
 	}
 
-	.logo{
-		position: relative;
+	#logo{
+		visibility: hidden;
+		display: none;
 		left:7%;
 	}
+		.tab-bar, .left-off-canvas-menu {
+		visibility: visible;
+		display: block;
+	}
+
+		.navbar{
+			padding: 0px;
+		}
 
 }
+
+
 
 

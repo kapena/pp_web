@@ -1,5 +1,11 @@
 .navbar {
   padding: 20px; }
+  .navbar .columns {
+    padding: 0px; }
+
+.tab-bar, .left-off-canvas-menu {
+  visibility: hidden;
+  display: inline; }
 
 .icons {
   display: inline-block;
@@ -105,17 +111,25 @@
   -ms-transform: scale(1.2, 1.2);
   -webkit-transform: scale(1.2, 1.2); }
 
-@media (max-width: 984px) {
+@media (max-width: 960px) {
   .icons {
-    margin-left: 230px; } }
-@media (max-width: 914px) {
+    margin-left: 240px; } }
+@media (max-width: 900px) {
   .icons {
     visibility: hidden;
-    position: absolute; }
+    display: none; }
 
-  .logo {
-    position: relative;
-    left: 7%; } }
+  #logo {
+    visibility: hidden;
+    display: none;
+    left: 7%; }
+
+  .tab-bar, .left-off-canvas-menu {
+    visibility: visible;
+    display: block; }
+
+  .navbar {
+    padding: 0px; } }
 .headline-container {
   height: 300px;
   background-color: #1aabe8; }
