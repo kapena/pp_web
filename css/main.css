@@ -7,6 +7,23 @@
   visibility: hidden;
   display: inline; }
 
+.tab-bar {
+  background-color: #00549A; }
+
+.right-off-canvas-menu {
+  background-color: #1571be; }
+
+.tab-bar-section.title-text {
+  font-family: Avenir;
+  font-weight: 400;
+  color: white; }
+
+ul.off-canvas-list li a:hover {
+  background-color: #014680; }
+
+ul.off-canvas-list li a {
+  color: white; }
+
 .icons {
   display: inline-block;
   margin-left: 300px;

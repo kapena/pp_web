@@ -44,31 +44,31 @@
 						<h3 class="contact-text">Contact</h3>
 					</li></a>
 					</ul>
-
-					<div class="off-canvas-wrap" data-offcanvas>
-						<div class="inner-wrap">
-							<nav class="tab-bar">
-								<section class="right-small">
-									<a class="right-off-canvas-toggle menu-icon" href="#">
-									<span></span></a>
-								</section>
-							</nav>
-
-							<aside class="right-off-canvas-menu">
-								<ul class="off-canvas-list">
-									<!-- content here -->
-									<li><a href="/">Home</a></li>
-								</ul>
-							</aside>
-
-							<a class="exit-off-canvas"></a>
-						</div>
-					</div>
-
 				</div>
 			</div>
 		</nav>
 	</header>
+
+	<!-- OFF CANVAS NAV BEGIN -->
+	<div class="off-canvas-wrap" data-offcanvas>
+			<div class="inner-wrap">
+				<nav class="tab-bar">
+
+					<section class="right-small">
+						<a class="right-off-canvas-toggle menu-icon" href="#"><span></span></a>
+      				</section>
+
+      					<section class="left tab-bar-section">
+      						<h1 class="title-text">Point Plumbing</h1>
+      					</section>
+      			</nav>
+
+      			<nav class="right-off-canvas-menu">
+      				<ul class="off-canvas-list">
+      					<li><a href="#">Home</a></li>
+      				</ul>
+      			</nav>
+		<a class="exit-off-canvas"></a>
 	<main>
 
 		<picture> <!-- images serving from amazon cloud -->
@@ -311,52 +311,52 @@
 	</div>
 </div>
 
-	<div class="social-media">
+		<div class="social-media">
+			<div class="row">
+				<div id="footer contact" class="large-4 columns">
+					<div class="phone-foot">
+						<span class="number-foot">
+							<a id="phone-link" href="tel:808-848-8821">808-848-8821</a>
+						</span>
+					</div>
 
-	<div class="row">
-			
-			<div id="footer contact" class="large-4 columns">
-
-				<div class="phone-foot">
-					<span class="number-foot">
-						<a id="phone-link" href="tel:808-848-8821">808-848-8821</a>
-					</span>
+					<div class="email-foot">
+						<span class="email-address">
+							<a id="email-link" href="mailto:etoile@hawaii.rr.com">
+							etoile@hawaii.rr.com</a>
+						</span>
+					</div>
 				</div>
+				
+				<div id="social bar" class="large-8 medium-12 columns">
+					<ul id="social-links">
+						<li class="facebook">
+						<a href="https://www.facebook.com/">
+							<img src="images/facebook.png" alt="Facebook">
+								</a></li>
 
-				<div class="email-foot">
-					<span class="email-address">
-						<a id="email-link" href="mailto:etoile@hawaii.rr.com">
-						etoile@hawaii.rr.com</a>
-					</span>
+						<li class="twitter">
+						<a href="https://twitter.com/?lang=en">
+							<img src="images/twitter.png" alt="Twitter">
+								</a></li>
+
+						<li class="linkedin">
+						<a href="https://twitter.com/?lang=en">
+							<img src="images/linked.png" alt="Linkedin">
+								</a></li>
+
+						<li class="googleplus">
+						<a href="https://plus.google.com">
+							<img src="images/googlep.png" alt="Google plus">
+								</a></li>
+					</ul>
 				</div>
-			</div>
-			
-			<div id="social bar" class="large-8 medium-12 columns">
-				<ul id="social-links">
-					<li class="facebook">
-					<a href="https://www.facebook.com/">
-						<img src="images/facebook.png" alt="Facebook">
-							</a></li>
-
-					<li class="twitter">
-					<a href="https://twitter.com/?lang=en">
-						<img src="images/twitter.png" alt="Twitter">
-							</a></li>
-
-					<li class="linkedin">
-					<a href="https://twitter.com/?lang=en">
-						<img src="images/linked.png" alt="Linkedin">
-							</a></li>
-
-					<li class="googleplus">
-					<a href="https://plus.google.com">
-						<img src="images/googlep.png" alt="Google plus">
-							</a></li>
-				</ul>
 			</div>
 		</div>
-	</div>	
-
+		<!--OFF CANVAS SLIDE ENDS HERE-->
+	</div>
+</div>	
+<!--OFF CANVAS SLIDE ENDS HERE-->
 	<div class="bottom-bar">
 		<div class="footer-container">
 			<div class="row">
@@ -399,7 +399,14 @@
 	<script src="foundation/js/foundation.min.js"></script>
 	<script src="foundation/js/foundation/foundation.offcanvas.js"></script>
 	<script>
-		$(document).foundation();
+		$(document).foundation({
+			offcanvas : {
+				open_method: "move",
+				close_on_click : true
+			}
+
+		});
+
 	</script>
 	<script src="/js/main.js"></script>
 </body>

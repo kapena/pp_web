@@ -11,6 +11,34 @@
 	display: inline;
 }
 
+$tab-bar-main-coloradjust:#00549A;
+$tab-bar-menu-coloradjust:#1571be;
+
+.tab-bar{
+	background-color:$tab-bar-main-coloradjust;
+}
+
+.right-off-canvas-menu{
+	background-color: $tab-bar-menu-coloradjust;
+}
+
+.tab-bar-section.title-text{
+	font-family: Avenir;
+	font-weight: 400;
+	color: white;
+}
+
+
+ul.off-canvas-list li a:hover{
+	//color:white;
+	background-color: #014680;
+}
+
+ul.off-canvas-list li a{
+	color: white;
+}
+
+
 .icons{
 	display:inline-block;
 	margin-left: 300px;
