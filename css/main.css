@@ -929,10 +929,11 @@ ul.off-canvas-list li a {
 @media (max-width: 380px) {
   .social-media {
     padding-bottom: 650px; } }
-html, body {
-  overflow-x: hidden;
-  -webkit-overflow-scrolling: touch; }
-
+/* html,body{
+	overflow-x:hidden;
+	//overflow-y:scroll;
+	-webkit-overflow-scrolling: touch;
+}*/
 img.full {
   width: 100%; }
 
