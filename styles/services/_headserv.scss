@@ -20,37 +20,45 @@ $color-serviceblock:#1aabe8;
 $service-icon-width:230px;
 $service-icon-height:240px;
 
-#repair{
-	width: $service-icon-width; height: $service-icon-height;
+@mixin width-height-icons{
+width: $service-icon-width;
+height: $service-icon-height;
+}
+
+#repair {
+	@include width-height-icons;
+	//display: none;
 }
 
 #heater{
-	width: $service-icon-width; height: $service-icon-height;
+	@include width-height-icons;
 }
 
 #reroute{
-	width: $service-icon-width;	height: $service-icon-height;
+	@include width-height-icons;
 }
 
 #water{
-	width: $service-icon-width; height: $service-icon-height;
+	@include width-height-icons;
 }
 
 #waste{
-	width: $service-icon-width; height: $service-icon-height;
+	@include width-height-icons;
 }
 
 #install{
-	width: $service-icon-width; height: $service-icon-height;
+	@include width-height-icons;
 }
 
 #pressure{
-	width: $service-icon-width; height: $service-icon-height;
+	@include width-height-icons;
 }
 
 #gasline{
-	width: $service-icon-width; height: $service-icon-height;
+	@include width-height-icons;
 }
+
+
 
 .block-grid-li{
 	text-align: center;

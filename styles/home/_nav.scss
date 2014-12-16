@@ -22,9 +22,9 @@ $tab-bar-menu-coloradjust:#1571be;
 	background-color: $tab-bar-menu-coloradjust;
 }
 
-.tab-bar-section.title-text{
+.tab-bar h1{
 	font-family: Avenir;
-	font-weight: 400;
+	font-weight: 600;
 	color: white;
 }
 
@@ -80,6 +80,8 @@ $move-left-nav-icons:20px;
 
 $icon-width:80px;
 $icon-height:77px;
+
+// nav icons 
 
 .home{
 	display: inline-block;
