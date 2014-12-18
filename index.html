@@ -434,10 +434,18 @@
 	</div>
 </div>	
 <!--OFF CANVAS SLIDE ENDS HERE-->
-	</footer>
+</footer>
+	<ol class="joyride-list" data-joyride>
+		<li data-id="repair" data-text="Close" data-options="tip_location: left; nub_position:left; prev_button: false">
+			<p>Click or tap each icon the learn more about our services</p>
+		</li>
+	</ol>
+
 	<script src="foundation/js/vendor/jquery.js"></script>
-	<script src="foundation/js/foundation.min.js"></script>
+	<script src="foundation/js/foundation/foundation.js"></script>
 	<script src="foundation/js/foundation/foundation.offcanvas.js"></script>
+	<script src="foundation/js/foundation/foundation.joyride.js"></script>
+	<script src="foundation/js/vendor/jquery.cookie.js"></script>
 	<script>
 		$(document).foundation({
 			offcanvas : {
@@ -446,6 +454,8 @@
 			}
 
 		});
+
+		$(document).foundation('joyride', 'start');
 
 	</script>
 	<script src="/js/main.js"></script>
