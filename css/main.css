@@ -325,14 +325,10 @@ ul.off-canvas-list li a {
   background: url("http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/hov/Repair_h.svg") 0 0 no-repeat; }
 
 .repair-hov #repair {
-  width: 230px;
-  height: 240px;
   opacity: 1;
   transition: opacity .5s; }
 
 .repair-hov:hover #repair {
-  width: 230px;
-  height: 240px;
   opacity: 0;
   transition: opacity .5s; }
 
@@ -340,29 +336,134 @@ ul.off-canvas-list li a {
   width: 230px;
   height: 240px; }
 
+.heater-hov {
+  width: 230px;
+  float: left;
+  margin: 0;
+  padding: 0;
+  background: url("http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/hov/Heater_h.svg") 0 0 no-repeat; }
+
+.heater-hov #heater {
+  opacity: 1;
+  transition: opacity .5s; }
+
+.heater-hov:hover #heater {
+  opacity: 0;
+  transition: opacity .5s; }
+
 #reroute {
   width: 230px;
   height: 240px; }
+
+.reroute-hov {
+  width: 230px;
+  float: left;
+  margin: 0;
+  padding: 0;
+  background: url("http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/hov/Reroute_h.svg") 0 0 no-repeat; }
+
+.reroute-hov #reroute {
+  opacity: 1;
+  transition: opacity .5s; }
+
+.reroute-hov:hover #reroute {
+  opacity: 0;
+  transition: opacity .5s; }
 
 #water {
   width: 230px;
   height: 240px; }
 
+.water-hov {
+  width: 230px;
+  float: left;
+  margin: 0;
+  padding: 0;
+  background: url("http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/hov/Water_h.svg") 0 0 no-repeat; }
+
+.water-hov #water {
+  opacity: 1;
+  transition: opacity .5s; }
+
+.water-hov:hover #water {
+  opacity: 0;
+  transition: opacity .5s; }
+
 #waste {
   width: 230px;
   height: 240px; }
+
+.waste-hov {
+  width: 230px;
+  float: left;
+  margin: 0;
+  padding: 0;
+  background: url("http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/hov/Waste_h.svg") 0 0 no-repeat; }
+
+.waste-hov #waste {
+  opacity: 1;
+  transition: opacity .5s; }
+
+.waste-hov:hover #waste {
+  opacity: 0;
+  transition: opacity .5s; }
 
 #install {
   width: 230px;
   height: 240px; }
 
+.install-hov {
+  width: 230px;
+  float: left;
+  margin: 0;
+  padding: 0;
+  background: url("http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/hov/Installations_h.svg") 0 0 no-repeat; }
+
+.install-hov #install {
+  opacity: 1;
+  transition: opacity .5s; }
+
+.install-hov:hover #install {
+  opacity: 0;
+  transition: opacity .5s; }
+
 #pressure {
   width: 230px;
   height: 240px; }
 
+.pressure-hov {
+  width: 230px;
+  float: left;
+  margin: 0;
+  padding: 0;
+  background: url("http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/hov/Pressure_h.svg") 0 0 no-repeat; }
+
+.pressure-hov #pressure {
+  opacity: 1;
+  transition: opacity .5s; }
+
+.pressure-hov:hover #pressure {
+  opacity: 0;
+  transition: opacity .5s; }
+
 #gasline {
   width: 230px;
   height: 240px; }
+
+.gasline-hov {
+  width: 230px;
+  float: left;
+  margin: 0;
+  padding: 0;
+  background: url("http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/hov/Gasline_h.svg") 0 0 no-repeat; }
+
+.gasline-hov #gasline {
+  opacity: 1;
+  transition: opacity .5s; }
+
+.gasline-hov:hover #gasline {
+  opacity: 0;
+  transition: opacity .5s; }
 
 .block-grid-li {
   text-align: center;

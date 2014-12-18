@@ -31,61 +31,182 @@ width: $service-icon-width;
 height: $service-icon-height;
 }
 
+@mixin hov-properties{
+	width: 230px;
+	float:left;
+	margin: 0;
+	padding: 0;
+}
+
+// REPAIRS // 
+
 #repair {
 	@include width-height-icons;
 }
 
-.repair-hov{
-	width: 230px;
-	float: left;
-	margin: 0;
-	padding: 0;
-	background:url('http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/hov/Repair_h.svg')0 0 no-repeat;
-}
+	.repair-hov{
+		@include hov-properties;
+		background:url('http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/hov/Repair_h.svg')0 0 no-repeat;
+	}
 
-.repair-hov #repair{
-	width: 230px;
-	height: 240px;
-	opacity:1;
-    transition:opacity .5s;
-}
+	.repair-hov #repair{
+		//@include width-height-icons;
+		opacity:1;
+		transition:opacity .5s;
+	}
 
-.repair-hov:hover #repair{
-	width: 230px;
-	height: 240px;
-	opacity:0;
-    transition:opacity .5s;
-}
+	.repair-hov:hover #repair{
+		//@include width-height-icons;
+		opacity:0;
+		transition:opacity .5s;
+		}
+
+// HEATERS //  
 
 #heater{
 	@include width-height-icons;
 }
 
+	.heater-hov{
+		@include hov-properties;
+		background:url('http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/hov/Heater_h.svg')0 0 no-repeat;
+	}
+
+	.heater-hov #heater{
+		opacity:1;
+		transition:opacity .5s;
+	}
+
+	.heater-hov:hover #heater{
+		opacity:0;
+		transition:opacity .5s;
+	}
+
+// PIPE REROUTE // 	
+
 #reroute{
 	@include width-height-icons;
 }
+
+	.reroute-hov{
+		@include hov-properties;
+		background:url('http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/hov/Reroute_h.svg')0 0 no-repeat;
+	}
+
+	.reroute-hov #reroute{
+		opacity:1;
+		transition:opacity .5s;
+	}
+
+	.reroute-hov:hover #reroute{
+		opacity:0;
+		transition:opacity .5s;
+	}
+
+// WATER SYSTEM // 
 
 #water{
 	@include width-height-icons;
 }
 
+	.water-hov{
+		@include hov-properties;
+		background:url('http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/hov/Water_h.svg')0 0 no-repeat;
+	}
+
+	.water-hov #water{
+		opacity:1;
+		transition:opacity .5s;
+	}
+
+	.water-hov:hover #water{
+		opacity:0;
+		transition:opacity .5s;
+	}
+
+// WASTE SYSTEMS // 
+
 #waste{
 	@include width-height-icons;
 }
+
+	.waste-hov{
+		@include hov-properties;
+		background:url('http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/hov/Waste_h.svg')0 0 no-repeat;
+	}
+
+	.waste-hov #waste{
+		opacity:1;
+		transition:opacity .5s;
+	}
+
+	.waste-hov:hover #waste{
+		opacity:0;
+		transition:opacity .5s;
+	}
+
+// INSTALLATIONS // 
 
 #install{
 	@include width-height-icons;
 }
 
+	.install-hov{
+		@include hov-properties;
+		background:url('http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/hov/Installations_h.svg')0 0 no-repeat;
+	}
+
+	.install-hov #install{
+		opacity:1;
+		transition:opacity .5s;
+	}
+
+	.install-hov:hover #install{
+		opacity:0;
+		transition:opacity .5s;
+	}
+
+// PRESSURE // 
+
 #pressure{
 	@include width-height-icons;
 }
 
+	.pressure-hov{
+		@include hov-properties;
+		background:url('http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/hov/Pressure_h.svg') 0 0 no-repeat;
+	}
+
+	.pressure-hov #pressure{
+		opacity:1;
+		transition:opacity .5s;
+	}
+
+	.pressure-hov:hover #pressure{
+		opacity:0;
+		transition:opacity .5s;
+	}
+
+// GASLINES // 
+
 #gasline{
 	@include width-height-icons;
 }
+ 
+ .gasline-hov{
+ 	@include hov-properties;
+ 	background:url('http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/hov/Gasline_h.svg') 0 0 no-repeat;
+ }
 
+ .gasline-hov #gasline{
+		opacity:1;
+		transition:opacity .5s;
+	}
 
+	.gasline-hov:hover #gasline{
+		opacity:0;
+		transition:opacity .5s;
+	}
 
 .block-grid-li{
 	text-align: center;
