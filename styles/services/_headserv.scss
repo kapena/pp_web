@@ -15,12 +15,16 @@ $color-serviceblock:#1aabe8;
 	margin: 0 auto;
 	position: relative;
 	bottom: 70px;
+}
 
-	.services-intro{
-		padding-top:10px;
-		font-family: Avenir;
-		color: white;
-	}
+.services-intro{
+	padding-top:10px;
+	font-family: Avenir;
+	color: white;
+}
+
+.has-tip{
+	font-family: Avenir;
 }
 
 $service-icon-width:230px;
@@ -271,7 +275,7 @@ height: $service-icon-height;
 	}
 }
 
-@media (max-width:624px){
+@media (max-width:642px){
 	.services-block{
 		width: 230px;
 	}
@@ -279,6 +283,10 @@ height: $service-icon-height;
 	.services-intro{
 		position: relative;
 		top:8px;
+	}
+
+	.hint1{
+		padding-top: 30px;
 	}
 }
 
