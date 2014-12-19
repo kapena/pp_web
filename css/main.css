@@ -313,6 +313,9 @@ ul.off-canvas-list li a {
     font-family: Avenir;
     color: white; }
 
+.hint1 {
+  padding-top: 20px; }
+
 #repair {
   width: 230px;
   height: 240px; }

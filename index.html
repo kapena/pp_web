@@ -41,6 +41,7 @@
 
 					<a href="/" title="contact"><li class="contact">
 						<h3 class="contact-text">Contact</h3>
+					</a>
 					</ul>
 				</div>
 			</div>
@@ -84,10 +85,10 @@
 			<source srcset="http://d3vi9nkvdbmq5l.cloudfront.net/home@1024px.jpg" 
 			media="(max-width:1024px)">
 			<!--[if IE 9]></video><![endif]-->
-			<img class="full" srcset ="http://d3vi9nkvdbmq5l.cloudfront.net/Home.jpg" alt="Plumbing Repairs">
+			<img class="full" srcset ="http://d3vi9nkvdbmq5l.cloudfront.net/Home.jpg" alt="Plumbing Repairs"></img>
 		</picture>
 
-	<div class="headline-container">
+	<div id='j1' class="headline-container">
 			<div class="row">
 				<div class="large-8 columns">
 			<h2 class="satisfaction">Satisfaction is,</br>Our Strongest Point</h2>
@@ -126,7 +127,7 @@
 
 					<source srcset="http://d3vi9nkvdbmq5l.cloudfront.net/services@1024px.jpg" media="(max-width:1024px)">
 					<!--[if IE 9]></video><![endif]-->
-					<img class="full-serv" srcset="http://d3vi9nkvdbmq5l.cloudfront.net/Services.jpg" alt="plumbing services hawaii">
+					<img class="full-serv" srcset="http://d3vi9nkvdbmq5l.cloudfront.net/Services.jpg" alt="plumbing services hawaii"></img>
 				</picture>
 	</main>
 
@@ -139,7 +140,12 @@
 			<div class="block-grid-li">
 				<div class="services-block">
 					<h1 class="services-intro">Services</h1>
+
+						<div class="hint1">
+							<span data-tooltip aria-haspopup="true" class="has-tip tip-right" data-width="200" title="Feel free to click on any of icons bellow for more information on our services.">Quick hint</span>
+						</div>
 				</div>
+
 			<ul id="align" class="small-block-grid-1 medium-block-grid-2 large-block-grid-4">
 
 				<li>
@@ -256,7 +262,7 @@
 		<div class="sub-headline">
 			<div class="row">
 
-				<div class="large-4 columns">
+			<div class="large-4 columns">
 					<div class="phone-contact">
 					<h3 class="phone-bottom">
 					<a id="phone-link" href="tel:808-848-8821">Call</a>
@@ -435,28 +441,18 @@
 </div>	
 <!--OFF CANVAS SLIDE ENDS HERE-->
 </footer>
-	<ol class="joyride-list" data-joyride>
-		<li data-id="repair" data-text="Close" data-options="tip_location: left; nub_position:left; prev_button: false">
-			<p>Click or tap each icon the learn more about our services</p>
-		</li>
-	</ol>
 
 	<script src="foundation/js/vendor/jquery.js"></script>
 	<script src="foundation/js/foundation/foundation.js"></script>
 	<script src="foundation/js/foundation/foundation.offcanvas.js"></script>
-	<script src="foundation/js/foundation/foundation.joyride.js"></script>
-	<script src="foundation/js/vendor/jquery.cookie.js"></script>
+	<script src="foundation/js/foundation/foundation.tooltip.js"></script>
 	<script>
 		$(document).foundation({
 			offcanvas : {
 				open_method: "move",
 				close_on_click : true
 			}
-
 		});
-
-		$(document).foundation('joyride', 'start');
-
 	</script>
 	<script src="/js/main.js"></script>
 </body>
