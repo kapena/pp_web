@@ -8513,15 +8513,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/pp_web_gh-pages\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pp_web_gh-pages\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/pp_web_gh-pages\/js\/main.js": {
 		"fileType": 64,
 		"ignore": 0,
