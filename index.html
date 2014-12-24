@@ -18,13 +18,42 @@
 	<script type="text/javascript">window.onload = function(){
 	svgeezy.init(false, 'png');}</script>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-	<script type="text/javascript" src="scrollTo/jquery.scrollTo.js"></script>
-	<script type="text/javascript" src="scrollTo/jquery.localScroll.js"></script>
-	<script>
-		$( document ).ready(function() {
-			$.localScroll();
-		});
-	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+	<script type='text/javascript'>
+	$(function() {
+		 // catch all clicks on page
+		 $('a').click(function() {
+
+		 // check if has hash
+		 if(this.hash) {
+
+		 // get rid of the # sign
+		 var hash = this.hash.substr(1);
+
+		 //get the position of the <a name>
+		 var $toElement = $("a[name="+hash+"]");
+		 var toPosition = $toElement.position().top;
+
+		 // scroll / animate that element
+		 $ ('body,html').animate({
+		 	scrollTop : toPosition
+		 },2000,"easeOutExpo");
+
+		 // don't do the jump
+		 return false;
+
+		}
+
+		 });
+
+		if(location.hash) {
+			var hash = location.hash
+			window.scroll(0,0);
+			$('a[href='+hash+"]").click();
+		}		 
+
+	});
+</script>
 </head>
 <body>
 	<header>
@@ -39,7 +68,7 @@
 							<h3 class="home-text">Home</h3>
 						</li></a>
 
-						<a href="#services-pp" title="services"><li class="services">
+						<a href="#services-pp" class="scroll" title="services"><li class="services">
 							<h3 class="services-text">Services</h3>
 						</li></a>
 
@@ -520,6 +549,6 @@
 			}
 		});
 	</script>
-	<script src="/js/main.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>
