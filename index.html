@@ -17,6 +17,14 @@
 	<script type="text/javascript" src="svgeezy/svgeezy.js" async></script>
 	<script type="text/javascript">window.onload = function(){
 	svgeezy.init(false, 'png');}</script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script type="text/javascript" src="/scrollTo/jquery.scrollTo.js"></script>
+	<script type="text/javascript" src="/scrollTo/jquery.localScroll.js"></script>
+	<script>
+		$( document ).ready(function() {
+			$.localScroll();
+		});
+	</script>
 </head>
 <body>
 	<header>
@@ -27,21 +35,21 @@
 						<img id="pp-logo" src="http://d3vi9nkvdbmq5l.cloudfront.net/logo/pplogo.svg" alt="Point Plumbing">
 					</a>
 					<ul class="icons">
-					<a href="/" title="home"><li class="home">
-						<h3 class="home-text">Home</h3>
-					</li></a>
+						<a href="/" title="home"><li class="home">
+							<h3 class="home-text">Home</h3>
+						</li></a>
 
-					<a href="/" title="services"><li class="services">
-						<h3 class="services-text">Services</h3>
-					</li></a>
+						<a href="#services-pp" title="services"><li class="services">
+							<h3 class="services-text">Services</h3>
+						</li></a>
 
-					<a href="/" title="about"><li class="about">
-						<h3 class="about-text">About</h3>
-					</li></a>
+						<a href="#about-pp" title="about"><li class="about">
+							<h3 class="about-text">About</h3>
+						</li></a>
 
-					<a href="/" title="contact"><li class="contact">
-						<h3 class="contact-text">Contact</h3>
-					</a>
+						<a href="#contact-pp" title="contact"><li class="contact">
+							<h3 class="contact-text">Contact</h3>
+						</li></a>
 					</ul>
 				</div>
 			</div>
@@ -65,9 +73,9 @@
       			<nav class="right-off-canvas-menu">
       				<ul class="off-canvas-list">
       					<li><a href="#">Home</a></li>
-      					<li><a href="#">Services</a></li>
-      					<li><a href="#">About</a></li>
-      					<li><a href="#">Contact</a></li>
+      					<li><a href="#services-pp">Services</a></li>
+      					<li><a href="#about-pp">About</a></li>
+      					<li><a href="#contact-pp">Contact</a></li>
       					<li><a href="#">Blog</a></li>
       					<li><a href="#">Facebook</a></li>
       					<li><a href="#">Twitter</a></li>
@@ -131,7 +139,7 @@
 				</picture>
 	</main>
 
-	<section class="services-page">
+	<section id="services-pp" class="services-page">
 		<div class="headline-services">
 			<h2 class="plumbing-repairs">
 			Plumbing Repairs in Honolulu for a variety of plumbing systems
@@ -264,7 +272,7 @@
 			</div>
 	</section>
 
-	<section class="about-page">
+	<section id="about-pp" class="about-page">
 		<div class="headline-about">
 			<h2 class="pipeline">
 				We are you're pipeline to successful plumbing solutions
@@ -298,7 +306,7 @@
 	</section>
 	
 
-	<section class="contact-page">
+	<section id="contact-pp" class="contact-page">
 		<div class="headline-contact">
 			<h2 class="experiance">
 				Plumbing should never be a draining experience
@@ -503,7 +511,7 @@
 	<script src="foundation/js/foundation/foundation.js"></script>
 	<script src="foundation/js/foundation/foundation.offcanvas.js"></script>
 	<script src="foundation/js/foundation/foundation.tooltip.js"></script>
-	<script src="foundation/js/foundation/foundation.reveal.js"></script>
+	<script src="foundation/js/foundation/foundation.reveal.js"></script>	
 	<script>
 		$(document).foundation({
 			offcanvas : {
