@@ -18,43 +18,8 @@
 	<script type="text/javascript">window.onload = function(){
 	svgeezy.init(false, 'png');}</script>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-	<script type='text/javascript'>
-	$(function() {
-		 // catch all clicks on page
-		 $('a').click(function() {
+	<script src="smooth_scroll/smooth-scroll.min.js"></script>
 
-		 // check if has hash
-		 if(this.hash) {
-
-		 // get rid of the # sign
-		 var hash = this.hash.substr(1);
-
-		 //get the position of the <a name>
-		 var $toElement = $("a[name="+hash+"]");
-		 var toPosition = $toElement.position().top;
-
-		 // scroll / animate that element
-		 $ ('body,html').animate({
-		 	scrollTop : toPosition
-		 },2000,"easeOutExpo");
-
-		 // don't do the jump
-		 return false;
-
-		}
-
-		 });
-
-		if(location.hash) {
-			var hash = location.hash
-			window.scroll(0,0);
-			$('a[href='+hash+"]").click();
-		}		 
-
-	});
-</script>
-</head>
 <body>
 	<header>
 		<nav class="navbar">
@@ -68,15 +33,15 @@
 							<h3 class="home-text">Home</h3>
 						</li></a>
 
-						<a href="#services-pp" class="scroll" title="services"><li class="services">
+						<a data-scroll href="#services-pp" title="services"><li class="services">
 							<h3 class="services-text">Services</h3>
 						</li></a>
 
-						<a href="#about-pp" title="about"><li class="about">
+						<a data-scroll href="#about-pp" title="about"><li class="about">
 							<h3 class="about-text">About</h3>
 						</li></a>
 
-						<a href="#contact-pp" title="contact"><li class="contact">
+						<a data-scroll href="#contact-pp" title="contact"><li class="contact">
 							<h3 class="contact-text">Contact</h3>
 						</li></a>
 					</ul>
@@ -186,113 +151,120 @@
 			<ul id="align" class="small-block-grid-1 medium-block-grid-2 large-block-grid-4">
 
 				<li>
-					<a class="repair-hov" href="#" data-reveal-id="myModal">
+					<a class="repair-hov" href="#" data-reveal-id="repair-mod">
 						<img id="repair" src="http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/Repair.svg" alt="Quality Plumbing Repairs in Honolulu Hawaii">
 						</img>
 					</a>
 
-						<div id="myModal" class="reveal-modal" data-reveal>
-	  						<h2>Awesome. I have it.</h2>
-								<p class="lead">Your couch.  It is mine.</p>
-									<p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+						<div id="repair-mod" class="reveal-modal" data-reveal>
+	  						<h2 class="repairs">Repair Services</h2>
+								<p class="repair-lead">Point plumbing offers a verity of repair services on Oahu.</p>
+									<p>I'm going to be an awesome paragraph about point plumbings quality repair services.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa reiciendis, sapiente nihil delectus voluptatibus veniam nisi, provident modi optio iure ab earum. Esse ea voluptatibus maxime iure eaque eos voluptatum.</p>
 							<a class="close-reveal-modal">&#215;</a>
 						</div>
 					</a>
 				</li>
 
 				<li>
-					<a class="heater-hov" href="#" data-reveal-id="myModal">
+					<a class="heater-hov" href="#" data-reveal-id="heater-mod">
 						<img id="heater" src="http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/Heater.svg" alt="Point Plumbing repairs and installs Hot Water Heaters">
 						</img>
+					</a>
 
-						<div id="myModal" class="reveal-modal" data-reveal>
-			  				<h2>Awesome. I have it.</h2>
-								<p class="lead">Your couch.  It is mine.</p>
-									<p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+						<div id="heater-mod" class="reveal-modal" data-reveal>
+			  				<h2 class="heater">Hot Water Heaters</h2>
+								<p class="heater-lead">Heaters keep us warm</p>
+									<p>I'm a hot water heater and without me you don't get to have a nice warm shower! Remember..I keep you warm so treat me nice! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias est asperiores quas aperiam eaque quidem tempora, atque dolore provident nostrum, dignissimos sint enim voluptate deserunt consequuntur deleniti itaque voluptates, porro.</p>
 							<a class="close-reveal-modal">&#215;</a>
 						</div>
 					</a>
 				</li>
 
 				<li>
-					<a class="reroute-hov" href="#" data-reveal-id="myModal">
+					<a class="reroute-hov" href="#" data-reveal-id="reroute-mod">
 						<img id="reroute" src="http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/Reroute.svg" alt="Pipe rerouteing in Honolulu, Hawaii">
 						</img>
+					</a>
 
-						<div id="myModal" class="reveal-modal" data-reveal>
-			  				<h2>Awesome. I have it.</h2>
-								<p class="lead">Your couch.  It is mine.</p>
-									<p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+						<div id="reroute-mod" class="reveal-modal" data-reveal>
+			  				<h2 class="pipe-reroute">Pipe Rerouting</h2>
+								<p class="reroute-lead">We can reroute all you're plumbing pipes!</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ex voluptatibus vel aut molestiae, quis similique repellat culpa nostrum ullam fugit, soluta cum, quod eius magni rem doloremque rerum quia!</p>
 							<a class="close-reveal-modal">&#215;</a>
 						</div>
 					</a>
 				</li>
 
 				<li>
-					<a class="water-hov" href="#" data-reveal-id="myModal">
+					<a class="water-hov" href="#" data-reveal-id="water-mod">
 						<img id="water" src="http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/Water.svg" alt="Plumbing water systems">	
 						</img>
+					</a>
 						
-						<div id="myModal" class="reveal-modal" data-reveal>
-			  				<h2>Awesome. I have it.</h2>
-								<p class="lead">Your couch.  It is mine.</p>
-									<p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+						<div id="water-mod" class="reveal-modal" data-reveal>
+			  				<h2 class="water-system">Water Systems</h2>
+								<p class="water-lead">Water system's provide you with water!</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam tempora provident quos, ex esse maiores magnam reiciendis aspernatur veritatis rerum fuga distinctio vero nobis, quidem voluptatum praesentium. Illum, similique, consectetur.</p>
 							<a class="close-reveal-modal">&#215;</a>
 						</div>
 					</a>
 				</li>
 
 				<li>
-					<a class="waste-hov" href="#" data-reveal-id="myModal">
+					<a class="waste-hov" href="#" data-reveal-id="waste-mod">
 						<img id="waste" src="http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/Waste.svg" alt="Point Plumbing repairs waste systems">	
 						</img>
+					</a>
 						
-						<div id="myModal" class="reveal-modal" data-reveal>
-			  				<h2>Awesome. I have it.</h2>
-								<p class="lead">Your couch.  It is mine.</p>
-									<p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+						<div id="waste-mod" class="reveal-modal" data-reveal>
+			  				<h2 class="waste">Waste Systems</h2>
+								<p class="waste-lead">Waste systems take care of waste!</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque illo eligendi rerum consequatur ipsam porro asperiores amet unde cumque ut magnam, enim, soluta, ipsum recusandae adipisci dicta aperiam accusamus nulla. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci sequi expedita explicabo, voluptates, atque ab in quae rerum quia reiciendis ducimus, quasi tempore repudiandae. Tempora tenetur laborum expedita, mollitia dolores!</p>
 							<a class="close-reveal-modal">&#215;</a>
 						</div>
 					</a>
 				</li>
 
 				<li>
-					<a class="install-hov" href="#" data-reveal-id="myModal">
+					<a class="install-hov" href="#" data-reveal-id="install-mod">
 						<img id="install" src="http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/Installations.svg" alt="Point Plumbing installs and repairs plumbing installations">
 						</img>
+					</a>
 
-						<div id="myModal" class="reveal-modal" data-reveal>
-			  				<h2>Awesome. I have it.</h2>
-								<p class="lead">Your couch.  It is mine.</p>
-									<p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+						<div id="install-mod" class="reveal-modal" data-reveal>
+			  				<h2 class="installation">Installations</h2>
+								<p class="install-lead">We install awesome new fixtures.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet deleniti reiciendis quae molestiae omnis commodi odit rem harum nihil voluptate necessitatibus rerum autem voluptatem pariatur, soluta vitae animi quaerat laudantium.</p>
 							<a class="close-reveal-modal">&#215;</a>
 						</div>	
 					</a>
 				</li>
 
 				<li>
-					<a class="pressure-hov" href="#" data-reveal-id="myModal">
+					<a class="pressure-hov" href="#" data-reveal-id="pressure-mod">
 						<img id="pressure" src="http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/Pressure.svg" alt="Point Plumbing repairs Pressure systems">	
 						</img>
+					</a>
 
-						<div id="myModal" class="reveal-modal" data-reveal>
-			  				<h2>Awesome. I have it.</h2>
-								<p class="lead">Your couch.  It is mine.</p>
-									<p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+						<div id="pressure-mod" class="reveal-modal" data-reveal>
+			  				<h2 class="pressure-s">Pressure Systems</h2>
+								<p class="pressure-lead">Pressure systems make sure you're pipes don't explode.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore omnis, dolor nisi molestias quos aliquid libero magnam sint distinctio sequi aliquam tempora perspiciatis quibusdam saepe ratione hic consequuntur aut delectus?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores quo alias aliquid, excepturi doloremque qui harum quasi quam nemo facere ratione cupiditate corporis quas praesentium accusantium atque cumque aspernatur obcaecati.</p>
 							<a class="close-reveal-modal">&#215;</a>
 						</div>	
 					</a>
 				</li>
 
 				<li>
-					<a class="gasline-hov" href="#" data-reveal-id="myModal">
+					<a class="gasline-hov" href="#" data-reveal-id="gasline-mod">
 						<img id="gasline" src="http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/Gasline.svg" alt="Point Plumbing installs gaslines">
 						</img>
+					</a>
 
-						<div id="myModal" class="reveal-modal" data-reveal>
-			  				<h2>Awesome. I have it.</h2>
-								<p class="lead">Your couch.  It is mine.</p>
-									<p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+						<div id="gasline-mod" class="reveal-modal" data-reveal>
+			  				<h2 class="gasline">Gaslines</h2>
+								<p class="gasline-lead">Point Plumbing offers services on installing gaslines.</p>
+									<p>Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elitCorrupti, possimus rerum neque in odio accusamus nesciunt adipisci, asperiores delectus nam modi incidunt aspernatur doloribus architecto. Voluptatum quaerat veritatis itaque, accusamus! ipsum dolor sit amet, consectetur adipisicing elit. Maiores voluptas, laudantium quas placeat temporibus vero sapiente, hic aspernatur aut, quos amet dolorem numquam soluta minima blanditiis magni obcaecati dolores perferendis!</p>
 							<a class="close-reveal-modal">&#215;</a>
 						</div>
 					</a>
@@ -335,7 +307,7 @@
 	</section>
 	
 
-	<section id="contact-pp" class="contact-page">
+	<section class="contact-page">
 		<div class="headline-contact">
 			<h2 class="experiance">
 				Plumbing should never be a draining experience
@@ -350,7 +322,7 @@
 			<source srcset="http://d3vi9nkvdbmq5l.cloudfront.net/contact@1024px.jpg" 
 			media="(max-width:1024px)">
 			<!--[if IE 9]></video><![endif]-->
-			<img class="full-contact" srcset="http://d3vi9nkvdbmq5l.cloudfront.net/Contact.jpg" alt="Plumbing Services Holululu, Hawaii">
+			<img id="contact-pp" class="full-contact" srcset="http://d3vi9nkvdbmq5l.cloudfront.net/Contact.jpg" alt="Plumbing Services Holululu, Hawaii">
 		</picture>
 
 		<div class="sub-headline">
@@ -388,32 +360,33 @@
 
 	<section class="form">
 
-		<form id ="spaceing">
+		<form action="submit_form.php" method="post" id="spaceing" data-abide>
 			<div class="form-bg">
 				<div class="row">
 					<div id="name" class="large-6 medium-6 small-12 columns">
 						<label> <h5>Name</h5>
-							<input type="text" placeholder="What is you're name?"/>
+							<input type="text" name="yourName" placeholder="What is you're name?"></input>
 						</label>
 					</div>
 		
 					<div id="email" class="large-6 medium-6 small-12 columns">
 						<label><h5>Email</h5>
-							<input type="text" placeholder="Please enter in you're email."/>
+							<input type="email" name="yourEmail" placeholder="Please enter in you're email."required></input>
 						</label>
+						<small class="error">An email Address is required.</small>
 					</div>
 				</div>
 
 					<div class="row">
 						<div id="phone"class="large-6 medium-6 small-12 columns">
 							<label><h5>Phone</h5>
-								<input type="text" placeholder="Please enter you're phone number."/>
+								<input type="text" name="yourPhone" placeholder="Please enter you're phone number."></input>
 							</label>
 						</div>
 
 						<div id="location" class="large-6 medium-6 small-12 columns">
 							<label><h5>Location</h5>
-								<input type="text" placeholder="Where on Oahu are you currently living?"/>
+								<input type="text" name="yourLocate" placeholder="Where on Oahu are you currently living?"></input>
 							</label>
 						</div>
 					</div>
@@ -421,14 +394,14 @@
 					<div class="row">
 						<div id="message-area" class="large-12 medium-12 small-12 columns">
 							<label><h5>Message</h5>
-								<textarea id="message" placeholder="Please tell us about you're plumbing issues."></textarea>
+								<textarea id="message" name="yourMessage" placeholder="Please tell us about you're plumbing issues."></textarea>
 							</label>
 						</div>
 					</div>
 
-						<div class="row">
-							<div id="submit" class="large-3 medium-3 small-3 columns">
-						<a href="#" class="button">Submit</a>
+				<div class="row">
+					<div id="submit" class="large-3 medium-3 small-3 columns">
+						<button type="submit-me">Submit</button>
 					</div>
 				</div>
 			</div>
@@ -540,7 +513,8 @@
 	<script src="foundation/js/foundation/foundation.js"></script>
 	<script src="foundation/js/foundation/foundation.offcanvas.js"></script>
 	<script src="foundation/js/foundation/foundation.tooltip.js"></script>
-	<script src="foundation/js/foundation/foundation.reveal.js"></script>	
+	<script src="foundation/js/foundation/foundation.reveal.js"></script>
+	<script src="foundation/js/foundation/foundation.abide.js"></script>	
 	<script>
 		$(document).foundation({
 			offcanvas : {
@@ -549,6 +523,17 @@
 			}
 		});
 	</script>
+
+
+	<script>
+	    smoothScroll.init({
+	    	speed:800,
+	    	close_on_click : true,
+			updateURL: true,
+			offset: 0,
+	    });
+	</script>
+
 	<script src="js/main.js"></script>
 </body>
 </html>
