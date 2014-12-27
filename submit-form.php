@@ -2,11 +2,11 @@
 if(isset($_POST["submit"])) {
 	echo $recipient = "brentw.white@gmail.com"; //my email
 	echo $subject = 'Email message from Point Plumbing';
-	echo $name = $_POST ["yourName"];
-	echo $email = $_POST["yourEmail"];
-	echo $phone = $_POST["yourPhone"];
-	echo $location = $_POST["yourLocate"];
-	echo $message = $_POST["yourMessage"];
+	echo $name = $_GET["yourName"];
+	echo $email = $_GET["yourEmail"];
+	echo $phone = $_GET"yourPhone"];
+	echo $location = $_GET["yourLocate"];
+	echo $message = $_GET["yourMessage"];
 
 $mailBody="Name: $name\nEmail: $email\n\n$message";
 mail($recipient, $subject, $mailBody, "From: $name <$email>");
