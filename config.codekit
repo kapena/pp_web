@@ -3889,13 +3889,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/contact.jpg": {
+	"\/images\/Contact.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 378520,
-		"inputAbbreviatedPath": "\/images\/contact.jpg",
-		"outputAbbreviatedPath": "\/images\/contact.jpg",
+		"inputAbbreviatedPath": "\/images\/Contact.jpg",
+		"outputAbbreviatedPath": "\/images\/Contact.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -8820,6 +8820,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/smooth_scroll\/smooth-scroll.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/smooth_scroll\/smooth-scroll.min.js",
+		"outputAbbreviatedPath": "\/smooth_scroll\/min\/smooth-scroll.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/styles\/about\/_about.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -9027,6 +9038,15 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/submit_form.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/submit_form.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/svgeezy\/readme.md": {
 		"enableFootnoteSupport": 0,
