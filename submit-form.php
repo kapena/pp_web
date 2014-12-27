@@ -1,5 +1,5 @@
 <?php
-if(isset($_POST["submit"])) {
+if(isset($_GET["submit"])) {
 	echo $recipient = "brentw.white@gmail.com"; //my email
 	echo $subject = 'Email message from Point Plumbing';
 	echo $name = $_GET["yourName"];
