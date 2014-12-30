@@ -1,7 +1,7 @@
 $(document).ready(function(){
  
   // Initialize Parse with your Parse application & javascript keys
-  Parse.initialize("myparse_appkey", "myparse_javascriptkey");
+  Parse.initialize("cMvXwglt3OcBRoFNl67SwEmyihzlARPypRQGYhx9", "oYGbrWnG9rGl65q9sz3LAqVLOZNIdZuAJTv1m3tS");
  
   // Setup the form to watch for the submit event
   $('.pp-form').submit(function(e){
