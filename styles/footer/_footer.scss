@@ -236,15 +236,13 @@ $font-weight-foot: 200;
 	padding-top: 5px;
 }
 
-.newsletter{
+#suscribe-to{
 	@include footer-type;
-	padding-left: 16px;
-	line-height: 1.1em;
+	line-height: 1.3em;
 	margin: 0;
-}
-
-.form-container{
-	//padding-top: 20px;
+	font-weight: 500;
+	font-size:1.25em;
+	padding-bottom: 15px;
 }
 
 #news-button{
@@ -290,12 +288,9 @@ $font-weight-foot: 200;
 		display: inline;
 	}
 
-	.newletter{
-		text-align: center;
-	}
-
-	.form-container{
+	#mc_embed_signup_scroll{
 		padding-top: 20px;
+		text-align: center;
 	}
 
 

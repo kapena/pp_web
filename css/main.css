@@ -36,16 +36,17 @@ ul.off-canvas-list li a {
   width: 186px;
   height: 76px; }
 
-.home {
+.blog-pp {
   display: inline-block;
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   -ms-transition: all .2s ease-in-out;
   width: 80px;
   height: 77px;
+  margin-left: 20px;
   margin-top: 20px;
-  background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA3OS4zIDc3IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA3OS4zIDc3OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PGcgaWQ9ImFib3V0Ij48L2c+PGcgaWQ9InNlcnZpY2VzIj48L2c+PGcgaWQ9ImhvbWUiPjxjaXJjbGUgc3R5bGU9ImZpbGw6IzZGREFFNzsiIGN4PSIzOS43IiBjeT0iMzguNSIgcj0iMzcuOCIvPjxnPjxnPjxkZWZzPjxyZWN0IGlkPSJTVkdJRF8xMV8iIHg9IjIxLjkiIHk9IjE4LjQiIHdpZHRoPSIzNS40IiBoZWlnaHQ9IjQwLjMiLz48L2RlZnM+PGNsaXBQYXRoIGlkPSJTVkdJRF8yXyI+PHVzZSB4bGluazpocmVmPSIjU1ZHSURfMTFfIiAgc3R5bGU9Im92ZXJmbG93OnZpc2libGU7Ii8+PC9jbGlwUGF0aD48ZyBzdHlsZT0iY2xpcC1wYXRoOnVybCgjU1ZHSURfMl8pOyI+PGRlZnM+PHJlY3QgaWQ9IlNWR0lEXzEzXyIgeD0iMjEuNyIgeT0iMTcuNyIgd2lkdGg9IjM1LjgiIGhlaWdodD0iNDEuNiIvPjwvZGVmcz48Y2xpcFBhdGggaWQ9IlNWR0lEXzRfIj48dXNlIHhsaW5rOmhyZWY9IiNTVkdJRF8xM18iICBzdHlsZT0ib3ZlcmZsb3c6dmlzaWJsZTsiLz48L2NsaXBQYXRoPjxwYXRoIHN0eWxlPSJjbGlwLXBhdGg6dXJsKCNTVkdJRF80Xyk7ZmlsbDojRkY2NjY2OyIgZD0iTTIyLjYsMzYuN2MtMC44LDAuOS0wLjgsMi0wLjIsMi42YzAuNiwwLjYsMS44LDAuNCwyLjUtMC41bDE1LjMtMTcuNWMwLjgtMC45LDAuOC0yLDAuMi0yLjZjLTAuNi0wLjYtMS44LTAuNC0yLjUsMC41TDIyLjYsMzYuN3oiLz48cGF0aCBzdHlsZT0iY2xpcC1wYXRoOnVybCgjU1ZHSURfNF8pO2ZpbGw6I0ZGNjY2NjsiIGQ9Ik01NC40LDM4LjZjMC43LDAuOCwxLjksMS4xLDIuNSwwLjVjMC42LTAuNiwwLjYtMS43LTAuMi0yLjZMNDEuNywxOS4yYy0wLjctMC45LTEuOS0xLjEtMi41LTAuNWMtMC43LDAuNi0wLjYsMS44LDAuMiwyLjZMNTQuNCwzOC42eiIvPjxwYXRoIHN0eWxlPSJjbGlwLXBhdGg6dXJsKCNTVkdJRF80Xyk7ZmlsbDojRkY2NjY2OyIgZD0iTTQ4LjQsMjYuM2MwLDAuOC0wLjYsMS41LTEuNCwxLjVjLTAuOCwwLTEuNC0wLjctMS40LTEuNXYtNC45YzAtMC44LDAuNi0xLjUsMS40LTEuNWMwLjgsMCwxLjQsMC43LDEuNCwxLjVWMjYuM3oiLz48cGF0aCBzdHlsZT0iY2xpcC1wYXRoOnVybCgjU1ZHSURfNF8pO2ZpbGw6I0ZGRkZGRjsiIGQ9Ik0zOS45LDI0LjRjLTIuMSwwLTEyLjIsMTMuMS0xMi4yLDEzLjF2MjEuMmg4LjV2LTguNWMwLDAsMy41LTMuNiw3LDB2OC41aDhoMC43VjM3LjRDNTEuOSwzNy40LDQyLjEsMjQuNCwzOS45LDI0LjQgTTQyLjQsMzcuMmMwLDEuMy0xLjEsMi4zLTIuNSwyLjNjLTEuNCwwLTIuNS0xLTIuNS0yLjN2LTEuOGMwLTEuMywxLjEtMi4zLDIuNS0yLjNjMS40LDAsMi41LDEsMi41LDIuM1YzNy4yeiIvPjwvZz48L2c+PC9nPjwvZz48ZyBpZD0iY29udGFjdCI+PC9nPjwvc3ZnPg==") no-repeat; }
-  .home .home-text {
+  background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA3OS4zIDc3IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA3OS4zIDc3OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PGcgaWQ9ImJsb2ciPjxjaXJjbGUgc3R5bGU9ImZpbGw6IzZGREFFNzsiIGN4PSIzOS43IiBjeT0iMzguNSIgcj0iMzcuOCIvPjxnIGlkPSJwYWdlIj48ZyBpZD0idGV4dCI+PHJlY3QgeD0iMjYuMyIgeT0iMjIuNiIgc3R5bGU9ImZpbGw6I0ZGRkZGRjsiIHdpZHRoPSIyNi43IiBoZWlnaHQ9IjMxLjgiLz48Zz48cmVjdCB4PSIyOC41IiB5PSIzMC45IiBzdHlsZT0iZmlsbDojRjE1RDVFOyIgd2lkdGg9IjIyLjQiIGhlaWdodD0iMS43Ii8+PHJlY3QgeD0iMjguNSIgeT0iMjYuOSIgc3R5bGU9ImZpbGw6I0YxNUQ1RTsiIHdpZHRoPSIxNy42IiBoZWlnaHQ9IjEuNyIvPjxyZWN0IHg9IjI4LjUiIHk9IjM0LjQiIHN0eWxlPSJmaWxsOiNGMTVENUU7IiB3aWR0aD0iMjAuMiIgaGVpZ2h0PSIxLjciLz48cmVjdCB4PSIyOC41IiB5PSIzNy45IiBzdHlsZT0iZmlsbDojRjE1RDVFOyIgd2lkdGg9IjE3LjYiIGhlaWdodD0iMS43Ii8+PHJlY3QgeD0iMjguNSIgeT0iNDEuNCIgc3R5bGU9ImZpbGw6I0YxNUQ1RTsiIHdpZHRoPSIyMi40IiBoZWlnaHQ9IjEuNyIvPjxyZWN0IHg9IjI4LjUiIHk9IjQ0LjkiIHN0eWxlPSJmaWxsOiNGMTVENUU7IiB3aWR0aD0iMjIuNCIgaGVpZ2h0PSIxLjciLz48cmVjdCB4PSIyOC41IiB5PSI0OC40IiBzdHlsZT0iZmlsbDojRjE1RDVFOyIgd2lkdGg9IjE3LjYiIGhlaWdodD0iMS43Ii8+PC9nPjwvZz48L2c+PC9nPjxnIGlkPSJhYm91dCI+PC9nPjxnIGlkPSJzZXJ2aWNlcyI+PC9nPjxnIGlkPSJob21lIj48L2c+PGcgaWQ9ImNvbnRhY3QiPjwvZz48L3N2Zz4=") no-repeat; }
+  .blog-pp .blog-text {
     display: inline-block;
     margin-top: 80px;
     font-size: 1.1em;
@@ -53,7 +54,7 @@ ul.off-canvas-list li a {
     font-weight: 500;
     text-align: center; }
 
-.home:hover {
+.blog-pp:hover {
   -webkit-transform: scale(1.2);
   transform: scale(1.2, 1.2);
   -ms-transform: scale(1.2, 1.2);
@@ -158,7 +159,7 @@ ul.off-canvas-list li a {
     padding: 0; }
 
 .satisfaction {
-  font-family: Avenir;
+  font-family: avenirlight,avenir,sans-serif;
   padding-left: 30px;
   padding-right: 30px;
   font-size: 4em;
@@ -174,7 +175,7 @@ ul.off-canvas-list li a {
   height: 300px;
   background-color: #1571be; }
   .call-to-action .time {
-    font-family: avenir, sans-serif;
+    font-family: avenirlight, avenir, sans-serif;
     font-size: 2.5em;
     color: white;
     padding-top: 60px;
@@ -184,7 +185,7 @@ ul.off-canvas-list li a {
     line-height: 1.2em;
     margin: 0; }
   .call-to-action .contact-now {
-    font-family: avenir, sans-serif;
+    font-family: avenirlight, avenir, sans-serif;
     color: white;
     padding-top: 24px;
     font-size: 1.5em;
@@ -203,7 +204,7 @@ ul.off-canvas-list li a {
 .number {
   padding-top: 65px; }
   .number #phone-number {
-    font-family: Avenir;
+    font-family: avenirlight,avenir,sans-serif;
     padding-left: 30px;
     font-size: 1.5em;
     color: white;
@@ -212,7 +213,7 @@ ul.off-canvas-list li a {
 .email-box {
   padding-top: 65px; }
   .email-box #email-contact {
-    font-family: Avenir;
+    font-family: avenirlight,avenir,sans-serif;
     padding-left: 30px;
     font-size: 1.5em;
     color: white;
@@ -311,7 +312,7 @@ ul.off-canvas-list li a {
 
 .services-intro {
   padding-top: 10px;
-  font-family: Avenir;
+  font-family: avenirlight,avenir,sans-serif;
   color: white; }
 
 .has-tip {
@@ -491,7 +492,7 @@ ul.off-canvas-list li a {
   transform: translateY(-50%); }
 
 .plumbing-repairs {
-  font-family: Avenir;
+  font-family: avenirlight,avenir,sans-serif;
   padding-left: 20px;
   padding-right: 20px;
   font-size: 3.5em;
@@ -569,7 +570,7 @@ ul.off-canvas-list li a {
 
 .pipeline {
   text-align: center;
-  font-family: Avenir;
+  font-family: avenir,avenirlight,sans-serif;
   padding-left: 25px;
   padding-right: 25px;
   font-size: 3.5em;
@@ -782,7 +783,7 @@ ul.off-canvas-list li a {
   padding-left: 40px; }
 
 .form-bg {
-  height: 700px;
+  height: 720px;
   background-color: #bcbec0; }
 
 #spaceing {
@@ -817,6 +818,14 @@ ul.off-canvas-list li a {
   padding-top: 30px;
   padding-left: 30px;
   padding-right: 30px; }
+
+#f-name, #f-email, #f-phone, #f-locate, #f-message {
+  font-family: Avenir;
+  font-weight: 500;
+  font-size: 1.05em; }
+
+#req-n, #req-e, #req-l, #req-p, #req-m {
+  padding-left: 10px; }
 
 #message {
   height: 200px; }
@@ -1013,14 +1022,16 @@ ul.off-canvas-list li a {
   margin: 0;
   padding-top: 5px; }
 
-.newsletter {
+#suscribe-to {
   font-family: Avenir;
   font-size: 1.5em;
   font-weight: 200;
   color: white;
-  padding-left: 16px;
-  line-height: 1.1em;
-  margin: 0; }
+  line-height: 1.3em;
+  margin: 0;
+  font-weight: 500;
+  font-size: 1.25em;
+  padding-bottom: 15px; }
 
 #news-button {
   margin-top: 10px; }
@@ -1051,11 +1062,9 @@ ul.off-canvas-list li a {
     padding-left: 1%;
     display: inline; }
 
-  .newletter {
-    text-align: center; }
-
-  .form-container {
-    padding-top: 20px; } }
+  #mc_embed_signup_scroll {
+    padding-top: 20px;
+    text-align: center; } }
 @media (max-width: 500px) {
   .facebook {
     padding-right: 0px; }

@@ -42,7 +42,7 @@ $type-face:Avenir;
 }
 
 .form-bg{
-	height: 700px;
+	height: 720px;
 	background-color: $color-form-bg;
 }
 
@@ -86,6 +86,21 @@ $type-face:Avenir;
 	padding-top:$form-imput-spacing;
 	padding-left: $form-imput-spacing;
 	padding-right: $form-imput-spacing;
+}
+
+@mixin form-styling{
+	font-family: Avenir;
+	font-weight: 500;
+	font-size: 1.05em;
+}
+
+
+#f-name, #f-email, #f-phone,#f-locate, #f-message{
+	@include form-styling;
+}
+
+#req-n, #req-e, #req-l, #req-p, #req-m{
+	padding-left: 10px;
 }
 
 #message{

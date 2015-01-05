@@ -1,7 +1,7 @@
 $color-head:#1aabe8;
 $color-phone:#2989da;
 $color-email:#1571be;
-$font-style:avenir,sans-serif;
+$font-style:avenirlight,avenir,sans-serif;
 $color-font:white;
 $fontsize: 25pt;
 
@@ -20,7 +20,7 @@ $fontsize: 25pt;
 }
 
 @mixin satisfaction-is {
-	font-family: Avenir;
+	font-family:avenirlight,avenir,sans-serif;
 	padding-left: 30px;
 	padding-right: 30px;
 	font-size: 4em;
@@ -30,7 +30,7 @@ $fontsize: 25pt;
 
 
 @mixin contact-info {
-	font-family: Avenir;
+	font-family: avenirlight,avenir,sans-serif;
 	padding-left: 30px;
 	font-size: 1.5em;
 	color: white;
