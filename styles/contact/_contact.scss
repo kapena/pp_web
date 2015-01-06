@@ -2,7 +2,7 @@ $color-headline-contact:#1aabe8;
 $color-sub-headline:#289cab;
 $color-phone:#0874a1;
 $color-email:#20bbcf;
-$type-face:Avenir;
+$type-face:avenirroman,sans-serif;
 
 .headline-contact{
 	height: 350px;
@@ -32,7 +32,7 @@ $type-face:Avenir;
 }
 
 @mixin headline-contact{
-	font-family: Avenir;
+	font-family:$type-face;
 	padding-left: 25px;
 	padding-right: 25px;
 	font-size: 3.5em;
@@ -43,7 +43,7 @@ $type-face:Avenir;
 }
 
 @mixin subhead-contact{
-	font-family: Avenir;
+	font-family:$type-face;
 	padding-left: 45px;
 	padding-right: 25px;
 	font-size: 3.5em;

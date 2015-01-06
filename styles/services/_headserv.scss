@@ -2,6 +2,9 @@ $color-info:#6fdae7;
 $color-headline:#1ca5b6;
 $color-serviceblock:#1aabe8;
 
+$plumbing-repairs-headline:avenirroman,sans-serif; //Plumbing Repairs in Honolulu..
+$services-intro:avenirroman,sans-serif; // Services 
+
 
 .headline-services{
 	height: 350px;
@@ -18,9 +21,10 @@ $color-serviceblock:#1aabe8;
 }
 
 .services-intro{
+	font-family: $services-intro; // Services 
 	padding-top:10px;
-	font-family:avenirlight,avenir,sans-serif;
 	color: white;
+	letter-spacing: 0.02em;
 }
 
 .has-tip{
@@ -47,7 +51,25 @@ height: $service-icon-height;
 	padding-top: 20px;
 }
 
+// Service Reveal Module Text Styling 
+
+$heading-reveal:aveniroblique,sans-serif; // Heading 
+$paragraph-reveal:avenirmedium,sans-serif; // Paragraph
+$lead-reveal:avenirroman,sans-serif; // Intro 
+
 // REPAIRS // 
+
+.repairs{
+	font-family: $heading-reveal;
+}
+
+#repair-mod{
+	font-family: $paragraph-reveal;
+}
+
+#repair-lead{
+	font-family:$lead-reveal;
+}
 
 #repair {
 	@include width-height-icons;
@@ -70,7 +92,23 @@ height: $service-icon-height;
 		transition:opacity .5s;
 		}
 
-// HEATERS //  
+// HEATERS //
+
+$heading-reveal:aveniroblique,sans-serif; // Heading 
+$paragraph-reveal:avenirmedium,sans-serif; // Paragraph
+$lead-reveal:avenirroman,sans-serif; // Intro 
+
+.heaters{
+	font-family: $heading-reveal;
+}
+
+#heater-mod{
+	font-family: $paragraph-reveal;
+}
+
+.heater-lead{
+	font-family: $lead-reveal;
+}
 
 #heater{
 	@include width-height-icons;
@@ -91,7 +129,23 @@ height: $service-icon-height;
 		transition:opacity .5s;
 	}
 
-// PIPE REROUTE // 	
+// PIPE REROUTE //
+
+$heading-reveal:aveniroblique,sans-serif; // Heading 
+$paragraph-reveal:avenirmedium,sans-serif; // Paragraph
+$lead-reveal:avenirroman,sans-serif; // Intro 
+
+.pipe-reroute{
+	font-family: $heading-reveal;
+}
+
+#reroute-mod{
+	font-family: $lead-reveal;
+}
+
+.reroute-lead{
+	font-family: $lead-reveal;
+}
 
 #reroute{
 	@include width-height-icons;
@@ -114,6 +168,22 @@ height: $service-icon-height;
 
 // WATER SYSTEM // 
 
+$heading-reveal:aveniroblique,sans-serif; // Heading 
+$paragraph-reveal:avenirmedium,sans-serif; // Paragraph
+$lead-reveal:avenirroman,sans-serif; // Intro
+
+.water-system{
+	font-family: $heading-reveal;
+} 
+
+.water-lead{
+	font-family: $lead-reveal;
+}
+
+#water-mod{
+	font-family: $paragraph-reveal;
+}
+
 #water{
 	@include width-height-icons;
 }
@@ -135,6 +205,22 @@ height: $service-icon-height;
 
 // WASTE SYSTEMS // 
 
+$heading-reveal:aveniroblique,sans-serif; // Heading 
+$paragraph-reveal:avenirmedium,sans-serif; // Paragraph
+$lead-reveal:avenirroman,sans-serif; // Intro 
+
+.waste{
+	font-family:$heading-reveal;
+}
+
+.waste-lead{
+	font-family:$lead-reveal;
+}
+
+#waste-mod{
+	font-family:$paragraph-reveal;
+}
+
 #waste{
 	@include width-height-icons;
 }
@@ -154,7 +240,23 @@ height: $service-icon-height;
 		transition:opacity .5s;
 	}
 
-// INSTALLATIONS // 
+// INSTALLATIONS //
+
+$heading-reveal:aveniroblique,sans-serif; // Heading 
+$paragraph-reveal:avenirmedium,sans-serif; // Paragraph
+$lead-reveal:avenirroman,sans-serif; // Intro
+
+.installation{
+	font-family:$heading-reveal;
+} 
+
+.install-lead{
+	font-family: $lead-reveal;
+} 
+
+#install-mod{
+	font-family:$paragraph-reveal;
+}
 
 #install{
 	@include width-height-icons;
@@ -177,6 +279,22 @@ height: $service-icon-height;
 
 // PRESSURE // 
 
+$heading-reveal:aveniroblique,sans-serif; // Heading 
+$paragraph-reveal:avenirmedium,sans-serif; // Paragraph
+$lead-reveal:avenirroman,sans-serif; // Intro
+
+.pressure-s{
+	font-family: $heading-reveal;
+}
+
+.pressure-lead{
+	font-family: $lead-reveal;
+}
+
+#pressure-mod{
+	font-family: $paragraph-reveal;
+}
+
 #pressure{
 	@include width-height-icons;
 }
@@ -196,7 +314,19 @@ height: $service-icon-height;
 		transition:opacity .5s;
 	}
 
-// GASLINES // 
+// GASLINES //
+
+.gasline{
+	font-family: $heading-reveal;
+}
+
+.gasline-lead{
+	font-family: $lead-reveal;
+}
+
+#gasline-mod{
+	font-family: $paragraph-reveal;
+}
 
 #gasline{
 	@include width-height-icons;
@@ -239,7 +369,7 @@ height: $service-icon-height;
 }
 
 .plumbing-repairs{
-	font-family:avenirlight,avenir,sans-serif;
+	font-family:$plumbing-repairs-headline; // Plumbing Repairs in Honolulu.. 
 	padding-left: 20px;
 	padding-right: 20px;
 	font-size: 3.5em;

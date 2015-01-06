@@ -159,7 +159,7 @@ ul.off-canvas-list li a {
     padding: 0; }
 
 .satisfaction {
-  font-family: avenirlight,avenir,sans-serif;
+  font-family: avenirroman, sans-serif;
   padding-left: 30px;
   padding-right: 30px;
   font-size: 4em;
@@ -175,7 +175,7 @@ ul.off-canvas-list li a {
   height: 300px;
   background-color: #1571be; }
   .call-to-action .time {
-    font-family: avenirlight, avenir, sans-serif;
+    font-family: avenirlight, sans-serif;
     font-size: 2.5em;
     color: white;
     padding-top: 60px;
@@ -185,7 +185,7 @@ ul.off-canvas-list li a {
     line-height: 1.2em;
     margin: 0; }
   .call-to-action .contact-now {
-    font-family: avenirlight, avenir, sans-serif;
+    font-family: avenirlight, sans-serif;
     color: white;
     padding-top: 24px;
     font-size: 1.5em;
@@ -204,7 +204,7 @@ ul.off-canvas-list li a {
 .number {
   padding-top: 65px; }
   .number #phone-number {
-    font-family: avenirlight,avenir,sans-serif;
+    font-family: avenirlight, sans-serif;
     padding-left: 30px;
     font-size: 1.5em;
     color: white;
@@ -213,7 +213,7 @@ ul.off-canvas-list li a {
 .email-box {
   padding-top: 65px; }
   .email-box #email-contact {
-    font-family: avenirlight,avenir,sans-serif;
+    font-family: avenirlight, sans-serif;
     padding-left: 30px;
     font-size: 1.5em;
     color: white;
@@ -232,6 +232,9 @@ ul.off-canvas-list li a {
 @media (max-width: 1174px) {
   .call-to-action .time {
     padding-top: 40px; } }
+@media (min-width: 1129px) {
+  .call-to-action .time {
+    padding-top: 60px; } }
 @media (max-width: 1024px) {
   .call-to-action .time {
     padding-top: 60px;
@@ -274,20 +277,18 @@ ul.off-canvas-list li a {
     font-size: 2.5em; } }
 @media (max-width: 640px) {
   .satisfaction {
-    font-size: 3em; }
+    font-size: 2.6em; }
 
   .contact-device {
     bottom: 0px;
     display: block; }
 
   .phone-box {
-    background-color: #2989da;
-    height: 127px; }
+    background-color: #2989da; }
 
   .email-box {
-    background-color: #1571be;
-    height: 127px; } }
-@media (max-width: 446px) {
+    background-color: #1571be; } }
+@media (max-width: 419px) {
   .call-to-action .time {
     padding-top: 55px; } }
 @media (max-width: 380px) {
@@ -311,9 +312,10 @@ ul.off-canvas-list li a {
   bottom: 70px; }
 
 .services-intro {
+  font-family: avenirroman, sans-serif;
   padding-top: 10px;
-  font-family: avenirlight,avenir,sans-serif;
-  color: white; }
+  color: white;
+  letter-spacing: 0.02em; }
 
 .has-tip {
   font-family: Avenir;
@@ -321,6 +323,15 @@ ul.off-canvas-list li a {
 
 .hint1 {
   padding-top: 20px; }
+
+.repairs {
+  font-family: aveniroblique, sans-serif; }
+
+#repair-mod {
+  font-family: avenirmedium, sans-serif; }
+
+#repair-lead {
+  font-family: avenirroman, sans-serif; }
 
 #repair {
   width: 230px;
@@ -341,6 +352,15 @@ ul.off-canvas-list li a {
   opacity: 0;
   transition: opacity .5s; }
 
+.heaters {
+  font-family: aveniroblique, sans-serif; }
+
+#heater-mod {
+  font-family: avenirmedium, sans-serif; }
+
+.heater-lead {
+  font-family: avenirroman, sans-serif; }
+
 #heater {
   width: 230px;
   height: 240px; }
@@ -359,6 +379,15 @@ ul.off-canvas-list li a {
 .heater-hov:hover #heater {
   opacity: 0;
   transition: opacity .5s; }
+
+.pipe-reroute {
+  font-family: aveniroblique, sans-serif; }
+
+#reroute-mod {
+  font-family: avenirroman, sans-serif; }
+
+.reroute-lead {
+  font-family: avenirroman, sans-serif; }
 
 #reroute {
   width: 230px;
@@ -379,6 +408,15 @@ ul.off-canvas-list li a {
   opacity: 0;
   transition: opacity .5s; }
 
+.water-system {
+  font-family: aveniroblique, sans-serif; }
+
+.water-lead {
+  font-family: avenirroman, sans-serif; }
+
+#water-mod {
+  font-family: avenirmedium, sans-serif; }
+
 #water {
   width: 230px;
   height: 240px; }
@@ -397,6 +435,15 @@ ul.off-canvas-list li a {
 .water-hov:hover #water {
   opacity: 0;
   transition: opacity .5s; }
+
+.waste {
+  font-family: aveniroblique, sans-serif; }
+
+.waste-lead {
+  font-family: avenirroman, sans-serif; }
+
+#waste-mod {
+  font-family: avenirmedium, sans-serif; }
 
 #waste {
   width: 230px;
@@ -417,6 +464,15 @@ ul.off-canvas-list li a {
   opacity: 0;
   transition: opacity .5s; }
 
+.installation {
+  font-family: aveniroblique, sans-serif; }
+
+.install-lead {
+  font-family: avenirroman, sans-serif; }
+
+#install-mod {
+  font-family: avenirmedium, sans-serif; }
+
 #install {
   width: 230px;
   height: 240px; }
@@ -436,6 +492,15 @@ ul.off-canvas-list li a {
   opacity: 0;
   transition: opacity .5s; }
 
+.pressure-s {
+  font-family: aveniroblique, sans-serif; }
+
+.pressure-lead {
+  font-family: avenirroman, sans-serif; }
+
+#pressure-mod {
+  font-family: avenirmedium, sans-serif; }
+
 #pressure {
   width: 230px;
   height: 240px; }
@@ -454,6 +519,15 @@ ul.off-canvas-list li a {
 .pressure-hov:hover #pressure {
   opacity: 0;
   transition: opacity .5s; }
+
+.gasline {
+  font-family: aveniroblique, sans-serif; }
+
+.gasline-lead {
+  font-family: avenirroman, sans-serif; }
+
+#gasline-mod {
+  font-family: avenirmedium, sans-serif; }
 
 #gasline {
   width: 230px;
@@ -492,7 +566,7 @@ ul.off-canvas-list li a {
   transform: translateY(-50%); }
 
 .plumbing-repairs {
-  font-family: avenirlight,avenir,sans-serif;
+  font-family: avenirroman, sans-serif;
   padding-left: 20px;
   padding-right: 20px;
   font-size: 3.5em;
@@ -570,7 +644,7 @@ ul.off-canvas-list li a {
 
 .pipeline {
   text-align: center;
-  font-family: avenir,avenirlight,sans-serif;
+  font-family: avenirroman, sans-serif;
   padding-left: 25px;
   padding-right: 25px;
   font-size: 3.5em;
@@ -578,7 +652,7 @@ ul.off-canvas-list li a {
   margin: 0px; }
 
 .about-content {
-  font-family: Avenir;
+  font-family: avenirroman, sans-serif;
   padding-left: 25px;
   padding-right: 25px;
   font-size: 1.7em;
@@ -592,14 +666,13 @@ ul.off-canvas-list li a {
   -ms-transform: translateY(-50%); }
 
 .we-supply {
-  font-family: Avenir;
+  font-family: avenirroman, sans-serif;
   padding-left: 25px;
   padding-right: 25px;
   font-size: 1.6em;
   color: white;
   line-height: 1.4em;
   font-weight: 400;
-  font-style: italic;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
@@ -669,7 +742,7 @@ ul.off-canvas-list li a {
   -ms-transform: translateY(-50%); }
 
 .experiance {
-  font-family: Avenir;
+  font-family: avenirroman, sans-serif;
   padding-left: 25px;
   padding-right: 25px;
   font-size: 3.5em;
@@ -678,7 +751,7 @@ ul.off-canvas-list li a {
   margin: 0px; }
 
 .solutions {
-  font-family: Avenir;
+  font-family: avenirroman, sans-serif;
   padding-left: 45px;
   padding-right: 25px;
   font-size: 3.5em;
@@ -689,7 +762,7 @@ ul.off-canvas-list li a {
   background-color: #0874a1; }
 
 .phone-bottom {
-  font-family: Avenir;
+  font-family: avenirroman, sans-serif;
   font-weight: 600;
   color: white;
   padding-left: 60px;
@@ -700,7 +773,7 @@ ul.off-canvas-list li a {
     color: white; }
 
 .email-bottom {
-  font-family: Avenir;
+  font-family: avenirroman, sans-serif;
   font-weight: 600;
   color: white;
   padding-left: 60px;
@@ -820,7 +893,7 @@ ul.off-canvas-list li a {
   padding-right: 30px; }
 
 #f-name, #f-email, #f-phone, #f-locate, #f-message {
-  font-family: Avenir;
+  font-family: avenirroman, sans-serif;
   font-weight: 500;
   font-size: 1.05em; }
 
@@ -861,14 +934,14 @@ ul.off-canvas-list li a {
 .home2 {
   display: inline;
   font-size: 18pt;
-  font-family: Avenir; }
+  font-family: avenirlight, sans-serif; }
   .home2 #color-home {
     color: white; }
 
 .services2 {
   display: inline;
   margin-left: 30px;
-  font-family: Avenir;
+  font-family: avenirlight, sans-serif;
   font-size: 18pt; }
   .services2 #color-services {
     color: white; }
@@ -876,7 +949,7 @@ ul.off-canvas-list li a {
 .about2 {
   display: inline;
   margin-left: 30px;
-  font-family: Avenir;
+  font-family: avenirlight, sans-serif;
   font-size: 18pt; }
   .about2 #color-about {
     color: white; }
@@ -884,7 +957,7 @@ ul.off-canvas-list li a {
 .contact2 {
   display: inline;
   margin-left: 30px;
-  font-family: Avenir;
+  font-family: avenirlight, sans-serif;
   font-size: 18pt; }
   .contact2 #color-contact {
     color: white; }
@@ -892,13 +965,13 @@ ul.off-canvas-list li a {
 .blog {
   display: inline;
   margin-left: 30px;
-  font-family: Avenir;
+  font-family: avenirlight, sans-serif;
   font-size: 18pt; }
   .blog #color-blog {
     color: white; }
 
 .phone-foot {
-  font-family: Avenir;
+  font-family: avenirroman, sans-serif;
   font-size: 1.5em;
   font-weight: 600;
   color: white;
@@ -910,7 +983,7 @@ ul.off-canvas-list li a {
     color: white; }
 
 .email-foot {
-  font-family: Avenir;
+  font-family: avenirroman, sans-serif;
   font-size: 1.5em;
   font-weight: 600;
   color: white;
@@ -998,7 +1071,7 @@ ul.off-canvas-list li a {
   margin: 0; }
 
 .license {
-  font-family: Avenir;
+  font-family: avenirroman, sans-serif;
   font-size: 1.5em;
   font-weight: 200;
   color: white;
@@ -1006,7 +1079,7 @@ ul.off-canvas-list li a {
   margin: 0; }
 
 #numbers {
-  font-family: Avenir;
+  font-family: avenirroman, sans-serif;
   font-size: 1.5em;
   font-weight: 200;
   color: white;
@@ -1015,7 +1088,7 @@ ul.off-canvas-list li a {
   margin: 0; }
 
 .aff-with {
-  font-family: Avenir;
+  font-family: avenirroman, sans-serif;
   font-size: 1.5em;
   font-weight: 200;
   color: white;
@@ -1023,7 +1096,7 @@ ul.off-canvas-list li a {
   padding-top: 5px; }
 
 #suscribe-to {
-  font-family: Avenir;
+  font-family: avenirroman, sans-serif;
   font-size: 1.5em;
   font-weight: 200;
   color: white;
@@ -1104,6 +1177,43 @@ ul.off-canvas-list li a {
 
   .googleplus {
     display: inherit; } }
+/* Generated by Font Squirrel (http://www.fontsquirrel.com) on January 5, 2015 */
+@font-face {
+  font-family: 'avenirlight';
+  src: url("../fontkit/avenir_35_light-webfont.eot");
+  src: url("../fontkit/avenir_35_light-webfont.eot?#iefix") format("embedded-opentype"), url("../fontkit/avenir_35_light-webfont.woff2") format("woff2"), url("../fontkit/avenir_35_light-webfont.woff") format("woff"), url("../fontkit/avenir_35_light-webfont.ttf") format("truetype"), url("../fontkit/avenir_35_light-webfont.svg#avenirlight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'avenirmedium';
+  src: url("../fontkit/avenir_65_medium-webfont.eot");
+  src: url("../fontkit/avenir_65_medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fontkit/avenir_65_medium-webfont.woff2") format("woff2"), url("../fontkit/avenir_65_medium-webfont.woff") format("woff"), url("../fontkit/avenir_65_medium-webfont.ttf") format("truetype"), url("../fontkit/avenir_65_medium-webfont.svg#avenirmedium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'avenirroman';
+  src: url("../fontkit/avenir_55_roman-webfont.eot");
+  src: url("../fontkit/avenir_55_roman-webfont.eot?#iefix") format("embedded-opentype"), url("../fontkit/avenir_55_roman-webfont.woff2") format("woff2"), url("../fontkit/avenir_55_roman-webfont.woff") format("woff"), url("../fontkit/avenir_55_roman-webfont.ttf") format("truetype"), url("../fontkit/avenir_55_roman-webfont.svg#avenirroman") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'aveniroblique';
+  src: url("../fontkit/avenir_55_oblique-webfont.eot");
+  src: url("../fontkit/avenir_55_oblique-webfont.eot?#iefix") format("embedded-opentype"), url("../fontkit/avenir_55_oblique-webfont.woff2") format("woff2"), url("../fontkit/avenir_55_oblique-webfont.woff") format("woff"), url("../fontkit/avenir_55_oblique-webfont.ttf") format("truetype"), url("../fontkit/avenir_55_oblique-webfont.svg#aveniroblique") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'avenirblack';
+  src: url("../fontkit/avenir_95_black-webfont.eot");
+  src: url("../fontkit/avenir_95_black-webfont.eot?#iefix") format("embedded-opentype"), url("../fontkit/avenir_95_black-webfont.woff2") format("woff2"), url("../fontkit/avenir_95_black-webfont.woff") format("woff"), url("../fontkit/avenir_95_black-webfont.ttf") format("truetype"), url("../fontkit/avenir_95_black-webfont.svg#avenirblack") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'avenirheavy';
+  src: url("../fontkit/avenir_85_heavy-webfont.eot");
+  src: url("../fontkit/avenir_85_heavy-webfont.eot?#iefix") format("embedded-opentype"), url("../fontkit/avenir_85_heavy-webfont.woff2") format("woff2"), url("../fontkit/avenir_85_heavy-webfont.woff") format("woff"), url("../fontkit/avenir_85_heavy-webfont.ttf") format("truetype"), url("../fontkit/avenir_85_heavy-webfont.svg#avenirheavy") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 /* html,body{
 	overflow-x:hidden;
 	//overflow-y:scroll;
@@ -1117,7 +1227,7 @@ img.full {
 
 @media (max-width: 640px) {
   .full-serv {
-    margin-top: 254px; } }
+    margin-top: 300px; } }
 img.full-contact {
   width: 100%; }
 

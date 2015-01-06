@@ -44,9 +44,11 @@ $color-aboutsect2:#4392d4;
 	transform:translateY(-50%);
 }
 
+$headline-about:avenirroman,sans-serif; // We are your pipeline.. 
+
 .pipeline{
 	text-align: center;
-	font-family:avenir,avenirlight,sans-serif;
+	font-family:$headline-about;
 	padding-left: 25px;
 	padding-right: 25px;
 	font-size: 3.5em;
@@ -55,8 +57,10 @@ $color-aboutsect2:#4392d4;
 	@extend %pipline-align;
 }
 
+$main-content-about:avenirroman,sans-serif;
+
 @mixin main-content{
-	font-family: Avenir;
+	font-family:$main-content-about;
 	padding-left: 25px;
 	padding-right: 25px;
 	font-size: 1.7em;
@@ -66,14 +70,14 @@ $color-aboutsect2:#4392d4;
 }
 
 @mixin we-sup{
-	font-family: Avenir;
+	font-family:$main-content-about;
 	padding-left: 25px;
 	padding-right: 25px;
 	font-size: 1.6em;
 	color: white;
 	line-height: 1.4em;
 	font-weight: 400;
-	font-style: italic;
+	//font-style: italic;
 }
 
 .about-content{

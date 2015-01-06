@@ -2,6 +2,8 @@ $navlinkmargin:30px; // margins between each link
 $fontsize-navlinks:18pt; // font size for each nav link
 $social-padd:30px;
 
+$secondary-nav-type:avenirlight, sans-serif;
+
 
 .secondary-nav {
 	height: 200px;
@@ -17,7 +19,7 @@ $social-padd:30px;
 .home2{
 	display: inline;
 	font-size: $fontsize-navlinks;
-	font-family: $type-face;
+	font-family:$secondary-nav-type;
 
 	#color-home{
 		color: white;
@@ -27,7 +29,7 @@ $social-padd:30px;
 .services2{
 	display: inline;
 	margin-left: $navlinkmargin;
-	font-family: $type-face;
+	font-family: $secondary-nav-type;
 	font-size: $fontsize-navlinks;
 
 	#color-services{
@@ -38,7 +40,7 @@ $social-padd:30px;
 .about2{
 	display: inline;
 	margin-left: $navlinkmargin;
-	font-family: $type-face;
+	font-family: $secondary-nav-type;
 	font-size: $fontsize-navlinks;
 
 	#color-about{
@@ -49,7 +51,7 @@ $social-padd:30px;
 .contact2{
 	display: inline;
 	margin-left: $navlinkmargin;
-	font-family: $type-face;
+	font-family: $secondary-nav-type;
 	font-size: $fontsize-navlinks;
 
 	#color-contact{
@@ -60,7 +62,7 @@ $social-padd:30px;
 .blog{
 	display: inline;
 	margin-left: $navlinkmargin;
-	font-family: $type-face;
+	font-family: $secondary-nav-type;
 	font-size: $fontsize-navlinks;
 
 	#color-blog{
@@ -68,7 +70,7 @@ $social-padd:30px;
 	}
 }
 
-$type-face:Avenir;
+$type-face:avenirroman, sans-serif;
 $fontsize-contact:1.5em;
 $weight: 600;
 
@@ -193,11 +195,12 @@ $weight: 600;
 
 
 $font-size-foot:1.5em;
-$font:Avenir; 
 $font-weight-foot: 200;
+$footer-type-f:avenirroman, sans-serif;
+;
 
 @mixin footer-type{
-	font-family:$font;
+	font-family:$footer-type-f;
 	font-size: $font-size-foot;
 	font-weight: $font-weight-foot;
 	color: white;

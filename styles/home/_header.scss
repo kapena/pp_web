@@ -1,7 +1,8 @@
 $color-head:#1aabe8;
 $color-phone:#2989da;
 $color-email:#1571be;
-$font-style:avenirlight,avenir,sans-serif;
+$font-style-headline:avenirroman,sans-serif; // Headline 
+$font-style-contact:avenirlight,sans-serif; // Get in touch
 $color-font:white;
 $fontsize: 25pt;
 
@@ -20,7 +21,7 @@ $fontsize: 25pt;
 }
 
 @mixin satisfaction-is {
-	font-family:avenirlight,avenir,sans-serif;
+	font-family:$font-style-headline; // Your Satisfaction 
 	padding-left: 30px;
 	padding-right: 30px;
 	font-size: 4em;
@@ -30,7 +31,7 @@ $fontsize: 25pt;
 
 
 @mixin contact-info {
-	font-family: avenirlight,avenir,sans-serif;
+	font-family:$font-style-contact; // Its time to solve your plumbing problems
 	padding-left: 30px;
 	font-size: 1.5em;
 	color: white;
@@ -53,7 +54,7 @@ $fontsize: 25pt;
 	background-color:$color-email;
 
 	.time {
-		font-family:$font-style;
+		font-family:$font-style-contact; // Its time to solve your plumbing problems
 		font-size:2.5em;
 		color:white;
 		padding-top: 60px;
@@ -65,7 +66,7 @@ $fontsize: 25pt;
 	}
 
 	.contact-now{
-		font-family:$font-style;
+		font-family:$font-style-contact;
 		color:white;
 		padding-top: 24px;
 		font-size: 1.5em;
@@ -124,9 +125,15 @@ $fontsize: 25pt;
 	}
 }
 
-@media (max-width:1174px){
+@media (max-width: 1174px){
 	.call-to-action .time{
 		padding-top: 40px;
+	}
+}
+
+@media (min-width:1129px){
+	.call-to-action .time{
+		padding-top: 60px;
 	}
 }
 
@@ -193,7 +200,7 @@ $fontsize: 25pt;
 
 @media (max-width:640px){
 	.satisfaction{
-		font-size: 3em;
+		font-size: 2.6em;
 	}
 
 	.contact-device{
@@ -203,16 +210,16 @@ $fontsize: 25pt;
 
 	.phone-box{
 		background-color: $color-phone;
-		height: 127px;
+		//height: 127px;
 	}
 
 	.email-box{
 		background-color: $color-email;
-		height: 127px;
+		//height: 127px;
 	}
 }
 
-@media (max-width: 446px){
+@media (max-width: 419px){
 	.call-to-action .time {
 		padding-top: 55px;
 	}
