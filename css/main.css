@@ -232,7 +232,7 @@ ul.off-canvas-list li a {
 @media (max-width: 1174px) {
   .call-to-action .time {
     padding-top: 40px; } }
-@media (min-width: 1129px) {
+@media (min-width: 1128px) {
   .call-to-action .time {
     padding-top: 60px; } }
 @media (max-width: 1024px) {
@@ -294,11 +294,6 @@ ul.off-canvas-list li a {
 @media (max-width: 380px) {
   .satisfaction {
     font-size: 2.5em; } }
-/* Highres retina home image display @2x */
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-min-moz-device-pixel-ratio: 2), only screen and (o-min-device-pixel-ratio: 2 / 1), only screen and (-min-moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .image-highres {
-    background-image: url(../images/home@2x.jpg);
-    background-repeat: no-repeat; } }
 .headline-services {
   height: 350px;
   background-color: #1ca5b6; }
