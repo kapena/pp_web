@@ -2,17 +2,19 @@ $color-headline-contact:#1aabe8;
 $color-sub-headline:#289cab;
 $color-phone:#0874a1;
 $color-email:#20bbcf;
+$type-face:avenirroman,sans-serif;
 
 .headline-contact{
-	height: 300px;
+	height: 350px;
 	background-color: $color-headline-about;
 }
 
 .sub-headline{
-	height: 300px;
+	//height: 300px;
 	background-color: $color-sub-headline;
 
 	.columns{
+		height: 300px;
 		padding:0px;
 	}
 
@@ -21,10 +23,74 @@ $color-email:#20bbcf;
 	}
 }
 
+%headline-center{
+	position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform:translateY(-50%);
+	-ms-transform:translateY(-50%);
+}
+
+@mixin headline-contact{
+	font-family:$type-face;
+	padding-left: 25px;
+	padding-right: 25px;
+	font-size: 3.5em;
+	color: white;
+	text-align: center;
+	margin: 0px;
+	@extend %headline-center;
+}
+
+@mixin subhead-contact{
+	font-family:$type-face;
+	padding-left: 45px;
+	padding-right: 25px;
+	font-size: 3.5em;
+	color: white;
+	@extend %headline-center;
+}
+
+.experiance{
+	@include headline-contact;
+}
+
+.solutions{
+	@include subhead-contact;
+
+}
+
 .phone-contact{
 	height: 150px;
 	background-color: $color-phone;
 }
+
+@mixin lower-contact{
+	font-family:$type-face;
+	font-weight: 600;
+	color: white;
+	padding-left: 60px;
+	font-size: 1.5em;
+	margin: 0px;
+	padding-top: 65px;
+	//padding-left: 100px;
+}
+
+.phone-bottom{
+	@include lower-contact;
+
+	#phone-link{
+		color: white;
+	}
+}
+
+.email-bottom{
+	@include lower-contact;
+}
+
+	#email-link{
+			color:white;
+		}
 
 .email-contact{
 	height: 150px;
@@ -33,16 +99,80 @@ $color-email:#20bbcf;
 
 /* Media Queries */
 
-@media (max-width:640px) {
+@media (min-width: 1214px){
+	.experiance{
+		font-size: 4em;
+	}
+
+	.solutions {
+		font-size: 4em;
+		line-height: 1.3em;
+	}
+}
+
+@media (min-width: 1380px){
+	.experiance{
+		font-size: 4.5em;
+	}
+}
+
+@media (max-width:1024px) {
 	.headline-contact{
 		margin-top: 350px;
 	}
 }
 
-@media (max-width:640px) {
-	.sub-headline{
-		padding-top:300px;
+@mixin type-adjust-med{
+	font-size: 2.8em;
+}
+
+@media (max-width:900px){
+	.headline-contact{
+		height: 300px;
+	}
+
+	.experiance{
+		font-size: 3em;
+	}
+
+	.solutions{
+		font-size: 3em
 	}
 }
 
 
+@media (max-width: 700px){
+	
+	.experiance{
+		@include type-adjust-med; 
+	}
+
+}
+
+@media (max-width:700px){
+	.solutions{
+		font-size: 2.8em;
+	}
+}
+
+@media (max-width: 453px){
+	.headline-contact{
+		height: 350px;
+	}
+}
+
+@media (max-width: 353px){
+	.sub-headline .columns{
+		height: 350px;
+	}
+
+	.solutions{
+		padding-bottom: 60px;
+	}
+}
+
+@media (max-width: 314px){
+	.headline-contact{
+		height: 400px;
+	}
+}

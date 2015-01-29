@@ -1,56 +1,233 @@
 $color-head:#1aabe8;
 $color-phone:#2989da;
 $color-email:#1571be;
-$font:avenir,medium,sans-serif;
+$font-style-headline:avenirroman,sans-serif; // Headline 
+$font-style-contact:avenirlight,sans-serif; // Get in touch
 $color-font:white;
 $fontsize: 25pt;
 
 .headline-container{
 	// block elements have a width of "auto" by default
-	height: 254px;
+	height: 300px;
 	background-color: $color-head;
 	.row {
 		width: 100%;
 		max-width: 100%;
 	}
 	.columns {
+		height: 300px;
 		padding: 0;
 			}
 }
 
-.phone-box{
-	background-color: $color-phone;
-	height: 127px;
+@mixin satisfaction-is {
+	font-family:$font-style-headline; // Your Satisfaction 
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 4em;
+	color: white;
+	margin: 0px;
 }
 
-.email-box{
-	background-color: $color-email;
-	height: 127px;
+
+@mixin contact-info {
+	font-family:$font-style-contact; // Its time to solve your plumbing problems
+	padding-left: 30px;
+	font-size: 1.5em;
+	color: white;
+	font-weight: 600;
+	//letter-spacing: 0.4px;
 }
 
-/* Media Queries */
 
-@media (max-width:640px) {
- #contact-info { 
-padding-top: 254px;
+.satisfaction{
+	@include satisfaction-is;
+	position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform:translateY(-50%);
+	-ms-transform:translateY(-50%);
+}
+
+.call-to-action{
+	height: 300px;
+	background-color:$color-email;
+
+	.time {
+		font-family:$font-style-contact; // Its time to solve your plumbing problems
+		font-size:2.5em;
+		color:white;
+		padding-top: 60px;
+		padding-left: 30px;
+		padding-right: 20px;
+		font-style: italic;
+		line-height: 1.2em;
+		margin: 0;
+	}
+
+	.contact-now{
+		font-family:$font-style-contact;
+		color:white;
+		padding-top: 24px;
+		font-size: 1.5em;
+		padding-left: 30px;
+		padding-right: 20px;
+		margin:0;
+	}
+
+	.touch:hover{
+		border-bottom: 1px solid;
+		text-decoration: none;
+	}
+	.touch{
+		color: white;
 	}
 
 }
 
-/* Highres retina home image display @2x */
+.contact-device{
+	display: none;
+}
 
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (-min-moz-device-pixel-ratio: 2),
-only screen and (o-min-device-pixel-ratio: 2/1),
-only screen and (-min-moz-device-pixel-ratio: 2), 
-only screen and ( min-device-pixel-ratio: 2),
-only screen and ( min-resolution: 192dpi),
-only screen and ( min-resolution: 2dppx){
+.number{
+	padding-top: 65px;
 
-.image-highres{
-	background-image: url(../images/home@2x.jpg);
-	background-repeat: no-repeat;
-	}	
+	#phone-number {
+	@include contact-info;
+}
+
+	}
+
+.email-box{
+	padding-top: 65px;
+
+		#email-contact {
+		@include contact-info;
+	}
+
+}
+
+/* Media Queries */
+
+@media (min-width: 1380px){
+	.satisfaction{
+		font-size: 4.4em;
+	}
+}
+
+@media (max-width:1311px){
+	.satisfaction{
+		font-size: 3.5em;
+	}
+
+	.call-to-action .time{
+		font-size: 2.2em;
+	}
+}
+
+@media (max-width: 1174px){
+	.call-to-action .time{
+		padding-top: 40px;
+	}
+}
+
+@media (min-width:1128px){
+	.call-to-action .time{
+		padding-top: 60px;
+	}
+}
+
+@media (max-width: 1024px){
+
+	.call-to-action .time{
+			padding-top: 60px;
+			font-size: 3.1em;
+		}
+		
+		.contact-now{
+			visibility: hidden;
+		}
+
+	.contact-device	{
+	display: block;
+	position: relative;
+	bottom: 300px;
+
+		.columns{
+			height: 0px;
+			float: right;
+		}
+
+	}
+
+	.phone-box{
+		background-color: $color-phone;
+		height: 150px;
+	}
+
+	.email-box{
+		background-color:#00549A;
+		height: 150px;
+	}
+}
+
+@media (max-width:900px){
+	.headline-container{
+		height: 354px;
+	}
+	
+	.satisfaction{
+		font-size: 3.2em;
+	}
+
+	.call-to-action .time{
+		font-size: 3em;
+		padding-top: 60px;
+	}
+
+}
+
+@media (max-width:800px){
+	.satisfation{
+		font-size: 2.8em;
+	}
+
+	.call-to-action .time{
+		padding-top: 80px;
+		font-size: 2.5em;
+	}
+}
+
+@media (max-width:640px){
+	.satisfaction{
+		font-size: 2.6em;
+	}
+
+	.contact-device{
+		bottom:0px;
+		display: block;
+	}
+
+	.phone-box{
+		background-color: $color-phone;
+		//height: 127px;
+	}
+
+	.email-box{
+		background-color: $color-email;
+		//height: 127px;
+	}
+}
+
+@media (max-width: 419px){
+	.call-to-action .time {
+		padding-top: 55px;
+	}
+}
+
+@media (max-width:380px){
+	.satisfaction{
+		font-size: 2.5em;
+	}
 }
 

@@ -3,7 +3,7 @@ $color-aboutsect1:#1571be;
 $color-aboutsect2:#4392d4;
 
 .headline-about{
-	height: 250px;
+	height: 350px;
 	background-color:$color-headline-about;
 }
 
@@ -17,6 +17,7 @@ $color-aboutsect2:#4392d4;
 	}
 
 	.columns {
+		height:350px;
 		padding: 0;
 			}
 }
@@ -24,12 +25,157 @@ $color-aboutsect2:#4392d4;
 .aboutsect2{
 	height: 350px;
 	background-color:$color-aboutsect2;
+
+
+	.columns{
+		height: 350px;
+		padding: 0px;
+	}
+}
+
+
+// ALIGNMENT OF TEXT -- YOUR PIPELINE
+
+%pipline-align{ 
+	position: relative;
+	top: 50%;
+	-webkit-transform:translateY(-50%);
+	-ms-transform:translateY(-50%);
+	transform:translateY(-50%);
+}
+
+$headline-about:avenirroman,sans-serif; // We are your pipeline.. 
+
+.pipeline{
+	text-align: center;
+	font-family:$headline-about;
+	padding-left: 25px;
+	padding-right: 25px;
+	font-size: 3.5em;
+	color: white;
+	margin: 0px;
+	@extend %pipline-align;
+}
+
+$main-content-about:avenirroman,sans-serif;
+
+@mixin main-content{
+	font-family:$main-content-about;
+	padding-left: 25px;
+	padding-right: 25px;
+	font-size: 1.7em;
+	color: white;
+	line-height: 1.5em;
+	font-weight: 600;
+}
+
+@mixin we-sup{
+	font-family:$main-content-about;
+	padding-left: 25px;
+	padding-right: 25px;
+	font-size: 1.6em;
+	color: white;
+	line-height: 1.4em;
+	font-weight: 400;
+	//font-style: italic;
+}
+
+.about-content{
+	@include main-content;
+	position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform:translateY(-50%);
+	-ms-transform:translateY(-50%);
+}
+
+.we-supply{
+	@include we-sup;
+	position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform:translateY(-50%);
+	-ms-transform:translateY(-50%);
 }
 
 /* Media Queries */
 
-@media (max-width:640px){
-	.aboutsect2{
-		margin-top:350px;
+@media (min-width: 1214px){
+	.pipeline{
+		font-size: 4em;
+	}
+}
+
+@media (min-width: 1381px){
+	.pipeline{
+		font-size: 4.5em;
+	}
+}
+
+@media (max-width:1024px){
+	.we-supply{
+		font-size: 1.7em;
+		line-height: 1.5em;
+	}
+}
+
+@media (max-width: 900px){
+	.headline-about{
+		height: 300px;
+	}
+
+	.pipeline{
+		font-size: 2.8em;
+	}
+}
+
+@media (max-width:700px){
+	.headline-about{
+		height: 300px;
+	}
+
+	.pipeline{
+	font-size: 2.8em;
+	}
+}
+
+@media (max-width:492px){
+	.headline-about{
+		height: 430px;
+	}
+}
+
+@media (max-width: 350px){
+	.headline-about{
+		height: 450px;
+	}
+}
+
+@mixin type-adjusment-medium{ // medium screens //
+	font-size: 1.5em;
+}
+
+@media (max-width:620px){
+	.about-content{
+		@include type-adjusment-medium;
+	}
+
+	.we-supply{
+		@include type-adjusment-medium;
+	}
+}
+
+@mixin type-adjustment-small { // small screens // 
+	font-size: 1.4em;
+	line-height: 1.4em;
+}
+
+@media (max-width:465px){
+	.about-content{
+		@include type-adjustment-small;
+	}
+
+	.we-supply{
+		@include type-adjustment-small;
 	}
 }

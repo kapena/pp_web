@@ -1,5 +1,8 @@
 $color-headline-form:#1571be;
 $color-plumbing-fact:#2989da;
+$color-form-bg:#bcbec0;
+$form-imput-spacing:30px;
+$type-face:Avenir;
 
 .headline-form{
 	height: 300px;
@@ -10,23 +13,132 @@ $color-plumbing-fact:#2989da;
 	}
 
 	.columns{
+		height: 300px;
 		padding:0px;
 	}
+
 }
 
-.plumbing-fact{
-	height: 300px;
-	background-color:$color-plumbing-fact;
+//extending to center form intro :) Extending helps to not bloat the css. 
+
+%center-form-intro{ 
+	position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform:translateY(-50%);
+	-ms-transform:translateY(-50%);
 }
 
-@media (max-width:640px) {
+.form-intro{
+	font-family:$type-face;
+	font-size: 1.7em;
+	text-align: center;
+	color: white;
+	font-weight: 600;
+	margin:0px;
+	padding-right: 40px;
+	padding-left: 40px;
+	@extend %center-form-intro;
+}
+
+.form-bg{
+	height: 720px;
+	background-color: $color-form-bg;
+}
+
+
+// Cancels out the deafult margin spacing of 0 0 1rem from the foundation form. 
+#spaceing{
+	margin: 0px;
+	}
+
+#name{
+	padding-top: $form-imput-spacing;
+	padding-left: $form-imput-spacing;
+	padding-right: $form-imput-spacing;
+}
+
+#email{
+	padding-top: $form-imput-spacing;
+	padding-left: $form-imput-spacing;
+	padding-right: $form-imput-spacing;
+}
+
+#phone{
+	padding-top: $form-imput-spacing;
+	padding-left: $form-imput-spacing;
+	padding-right: $form-imput-spacing;
+}
+
+#location{
+	padding-top: $form-imput-spacing;
+	padding-left: $form-imput-spacing;
+	padding-right: $form-imput-spacing;
+}
+
+#message-area{
+	padding-top: $form-imput-spacing;
+	padding-left: $form-imput-spacing;
+	padding-right: $form-imput-spacing;
+}
+
+#submit-me{
+	padding-top:$form-imput-spacing;
+	padding-left: $form-imput-spacing;
+	padding-right: $form-imput-spacing;
+}
+
+@mixin form-styling{
+	font-family:avenirroman, sans-serif;
+	font-weight: 500;
+	font-size: 1.05em;
+}
+
+
+#f-name, #f-email, #f-phone,#f-locate, #f-message{
+	@include form-styling;
+}
+
+#req-n, #req-e, #req-l, #req-p, #req-m{
+	padding-left: 10px;
+}
+
+#message{
+	height: 200px;
+}
+
+@media (max-width: 1024px){
 	.headline-form{
-		margin-top:300px;
+		margin-top: 300px;
+	}
+
+	.form-intro{
+		position: relative;
+		top:55px;
+	}
+}
+
+@media (max-width:700px){
+	.form-intro{
+		font-size: 1.5em;
+	}
+}
+
+@media (max-width:480px){
+.headline-form{
+	height: 400px;
+	}
+}
+
+@media (max-width: 400px){
+	.form-intro{
+		font-size: 1.4em;
 	}
 }
 
 @media (max-width:640px) {
-	#fact{
-		top:300px;
+	.form-bg{
+		//margin-top:300px;
+		height:850px;
 	}
 }
