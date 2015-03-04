@@ -11,7 +11,8 @@
   background-color: #00549A; }
 
 .right-off-canvas-menu {
-  background-color: #1571be; }
+  background-color: #1571be;
+  font-family: avenirroman, sans-serif; }
 
 .tab-bar h1 {
   font-family: Avenir;
@@ -50,7 +51,7 @@ ul.off-canvas-list li a {
     display: inline-block;
     margin-top: 80px;
     font-size: 1.1em;
-    font-family: avenir;
+    font-family: avenirroman, sans-serif;
     font-weight: 500;
     text-align: center; }
 
@@ -73,7 +74,7 @@ ul.off-canvas-list li a {
     display: inline-block;
     margin-top: 80px;
     font-size: 1.1em;
-    font-family: avenir;
+    font-family: avenirroman, sans-serif;
     font-weight: 500;
     text-align: center; }
 
@@ -96,7 +97,7 @@ ul.off-canvas-list li a {
     display: inline-block;
     margin-top: 80px;
     font-size: 1.1em;
-    font-family: avenir;
+    font-family: avenirroman, sans-serif;
     font-weight: 500;
     text-align: center; }
 
@@ -119,7 +120,7 @@ ul.off-canvas-list li a {
     display: inline-block;
     margin-top: 80px;
     font-size: 1.1em;
-    font-family: avenir;
+    font-family: avenirroman, sans-serif;
     font-weight: 500;
     text-align: center; }
 
@@ -181,7 +182,6 @@ ul.off-canvas-list li a {
     padding-top: 60px;
     padding-left: 30px;
     padding-right: 20px;
-    font-style: italic;
     line-height: 1.2em;
     margin: 0; }
   .call-to-action .contact-now {
@@ -231,10 +231,10 @@ ul.off-canvas-list li a {
     font-size: 2.2em; } }
 @media (max-width: 1174px) {
   .call-to-action .time {
-    padding-top: 40px; } }
+    padding-top: 55px; } }
 @media (min-width: 1128px) {
   .call-to-action .time {
-    padding-top: 60px; } }
+    padding-top: 50px; } }
 @media (max-width: 1024px) {
   .call-to-action .time {
     padding-top: 60px;
@@ -288,12 +288,12 @@ ul.off-canvas-list li a {
 
   .email-box {
     background-color: #1571be; } }
-@media (max-width: 419px) {
-  .call-to-action .time {
-    padding-top: 55px; } }
 @media (max-width: 380px) {
   .satisfaction {
     font-size: 2.5em; } }
+@media (max-width: 355px) {
+  .call-to-action .time {
+    font-size: 2.2em; } }
 .headline-services {
   height: 350px;
   background-color: #1ca5b6; }
@@ -313,11 +313,18 @@ ul.off-canvas-list li a {
   letter-spacing: 0.02em; }
 
 .has-tip {
-  font-family: Avenir;
+  font-family: avenirbold, sans-serif;
   border-bottom: none; }
 
 .hint1 {
   padding-top: 20px; }
+
+#call-link {
+  margin-right: 10px;
+  font-size: 1em; }
+
+#email-dude {
+  font-size: 1em; }
 
 .repairs {
   font-family: aveniroblique, sans-serif; }
@@ -505,7 +512,7 @@ ul.off-canvas-list li a {
   float: left;
   margin: 0;
   padding: 0;
-  background: url("http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/hov/Pressure_h.svg") 0 0 no-repeat; }
+  background: url("https://s3-us-west-2.amazonaws.com/pointplumbing/service-icons/hov/Pressure_h.svg") 0 0 no-repeat; }
 
 .pressure-hov #pressure {
   opacity: 1;
@@ -625,7 +632,7 @@ ul.off-canvas-list li a {
 
 .aboutsect2 {
   height: 350px;
-  background-color: #4392d4; }
+  background-color: #2989DA; }
   .aboutsect2 .columns {
     height: 350px;
     padding: 0px; }
@@ -664,9 +671,9 @@ ul.off-canvas-list li a {
   font-family: avenirroman, sans-serif;
   padding-left: 25px;
   padding-right: 25px;
-  font-size: 1.6em;
+  font-size: 1.30em;
   color: white;
-  line-height: 1.4em;
+  line-height: 1.33em;
   font-weight: 400;
   position: relative;
   top: 50%;
@@ -708,15 +715,24 @@ ul.off-canvas-list li a {
     font-size: 1.5em; }
 
   .we-supply {
-    font-size: 1.5em; } }
+    font-size: 1.40em; } }
 @media (max-width: 465px) {
   .about-content {
-    font-size: 1.4em;
+    font-size: 1.40em;
     line-height: 1.4em; }
 
   .we-supply {
-    font-size: 1.4em;
+    font-size: 1.40em;
     line-height: 1.4em; } }
+@media (max-width: 400px) {
+  .we-supply {
+    font-size: 1.25em; }
+
+  .about-content {
+    font-size: 1.25em; } }
+@media (max-width: 320px) {
+  .we-supply {
+    font-size: 1.20em; } }
 .headline-contact {
   height: 350px;
   background-color: #1aabe8; }
@@ -998,6 +1014,10 @@ ul.off-canvas-list li a {
 @media (max-width: 640px) {
   .blog {
     display: block; } }
+.fb_iframe_widget {
+  left: 10px;
+  top: 10px; }
+
 .social-media {
   height: 200px;
   background-color: #b9c4cf; }
@@ -1007,7 +1027,7 @@ ul.off-canvas-list li a {
     padding: 0px; }
 
 #social-links {
-  padding-top: 55px;
+  padding-top: 25px;
   text-align: center;
   margin-left: 0; }
 

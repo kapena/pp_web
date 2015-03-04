@@ -1,6 +1,6 @@
 $color-headline-about:#1aabe8;
 $color-aboutsect1:#1571be;
-$color-aboutsect2:#4392d4;
+$color-aboutsect2:#2989DA;
 
 .headline-about{
 	height: 350px;
@@ -73,9 +73,9 @@ $main-content-about:avenirroman,sans-serif;
 	font-family:$main-content-about;
 	padding-left: 25px;
 	padding-right: 25px;
-	font-size: 1.6em;
+	font-size: 1.30em;
 	color: white;
-	line-height: 1.4em;
+	line-height: 1.33em;
 	font-weight: 400;
 	//font-style: italic;
 }
@@ -161,12 +161,12 @@ $main-content-about:avenirroman,sans-serif;
 	}
 
 	.we-supply{
-		@include type-adjusment-medium;
+		font-size: 1.40em;
 	}
 }
 
 @mixin type-adjustment-small { // small screens // 
-	font-size: 1.4em;
+	font-size: 1.40em;
 	line-height: 1.4em;
 }
 
@@ -177,5 +177,20 @@ $main-content-about:avenirroman,sans-serif;
 
 	.we-supply{
 		@include type-adjustment-small;
+	}
+}
+
+@media (max-width:400px){
+	.we-supply {
+		font-size: 1.25em;
+	}
+	.about-content {
+		font-size: 1.25em;
+	}
+}
+
+@media (max-width:320px){
+	.we-supply {
+		font-size: 1.20em;
 	}
 }

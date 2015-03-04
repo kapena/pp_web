@@ -28,7 +28,7 @@ $services-intro:avenirroman,sans-serif; // Services
 }
 
 .has-tip{
-	font-family: Avenir;
+	font-family:avenirbold, sans-serif;
 	border-bottom: none;
 }
 
@@ -56,6 +56,19 @@ height: $service-icon-height;
 $heading-reveal:aveniroblique,sans-serif; // Heading 
 $paragraph-reveal:avenirmedium,sans-serif; // Paragraph
 $lead-reveal:avenirroman,sans-serif; // Intro 
+
+// Link styling
+$link-spacing:10px;
+$link-text-size:1em;
+
+#call-link{
+	margin-right: $link-spacing;
+	font-size: $link-text-size;
+}
+	#email-dude {
+		font-size: $link-text-size;
+	}
+
 
 // REPAIRS // 
 
@@ -301,7 +314,7 @@ $lead-reveal:avenirroman,sans-serif; // Intro
 
 	.pressure-hov{
 		@include hov-properties;
-		background:url('http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/hov/Pressure_h.svg') 0 0 no-repeat;
+		background:url('https://s3-us-west-2.amazonaws.com/pointplumbing/service-icons/hov/Pressure_h.svg') 0 0 no-repeat;
 	}
 
 	.pressure-hov #pressure{
