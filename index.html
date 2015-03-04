@@ -2,22 +2,70 @@
 <html class="no-js" lang="en">
  <head>
 	<meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Point Plumbing</title>
+<!-- Open Graph Protocall -->
+<meta property="og:title" content="Point Plumbing Inc" />
+<meta property="og:type" content="http//point.plumbing/ns/website#" />
+<meta property="og:url" content="http://www.point.plumbing.com" />
+<meta property="og:image" content="http://d3vi9nkvdbmq5l.cloudfront.net/Home.jpg" />
+<meta property="og:site_name" content="Point Plumbing Inc" />
+<meta property="og:description" content="Point Plumbing was founded in 1992 by Scott White, a thirty-year veteran of Oahu’s plumbing industry. He’s dedicated his career to ensuring that Point Plumbing clients are always just a call away from having all their plumbing problems solved. Quickly, effectively and affordably." />
+<!-- Open Graph Protocall ends -->
+<!--Google Analytics-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-60333852-1', 'auto');
+  ga('require', 'linkid', 'linkid.js');
+  ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+	</head>
 	<link rel="stylesheet" href="foundation/css/foundation.css">
 	<link rel="stylesheet" href="css/main.css">
 	<script src="foundation/js/vendor/modernizr.js"></script>
 	<script src="foundation/js/vendor/fastclick.js"></script>
 	<script>
-	// Picture element HTML5 shiv
+// Picture element HTML5 shiv
 	document.createElement( "picture" );
 	</script>
-	<script src="picturefill.js/picturefill.js" async></script>
-	<script type="text/javascript" src="svgeezy/svgeezy.js" async></script>
+	<script src="picturefill.js/min/picturefill-min.js" async></script>
+	<!-- <script type="text/javascript" src="svgeezy/svgeezy.js" async></script>
 	<script type="text/javascript">window.onload = function(){
-	svgeezy.init(false, 'png');}</script>
+	svgeezy.init(false, 'png');};</script> -->
 	<script src="smooth_scroll/smooth-scroll.min.js"></script>
 <body>
+<!-- Facebook JS SDK -->
+<script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '851032651602226',
+          xfbml      : true,
+          version    : 'v2.1'
+        });
+      };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=851032651602226&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- End Facebook JS SDK -->
 	<header>
 		<nav class="navbar">
 			<div class="row">
@@ -25,285 +73,362 @@
 					<a href="/" title="Point Plumbing" id="logo">
 						<img id="pp-logo" src="http://d3vi9nkvdbmq5l.cloudfront.net/logo/pplogo.svg" alt="Point Plumbing">
 					</a>
-					<ul class="icons">
-						
-						<a data-scroll href="#services-pp" title="services"><li class="services">
-							<h3 class="services-text">Services</h3>
-						</li></a>
-
-						<a data-scroll href="#about-pp" title="about"><li class="about">
-							<h3 class="about-text">About</h3>
-						</li></a>
-
-						<a data-scroll href="#contact-pp" title="contact"><li class="contact">
-							<h3 class="contact-text">Contact</h3>
-						</li></a>
-
-						<a href="https://pointplumbing.silvrback.com/" title="blog"><li class="blog-pp">
-							<h3 class="blog-text">Blog</h3>
-						</li></a>						
-					</ul>
+				<ul class="icons">
+						<a data-scroll href="#services-pp" title="services">
+							<li class="services">
+								<h3 class="services-text">Services</h3>
+							</li>
+						</a>
+						<a data-scroll href="#about-pp" title="about">
+							<li class="about">
+								<h3 class="about-text">About</h3>
+							</li>
+						</a>
+						<a data-scroll href="#contact-pp" title="contact">
+							<li class="contact">
+								<h3 class="contact-text">Contact</h3>
+							</li>
+						</a>
+						<a href="https://pointplumbing.silvrback.com/" title="blog">
+							<li class="blog-pp">
+								<h3 class="blog-text">Blog</h3>
+							</li>
+						</a>						
+				</ul>
 				</div>
 			</div>
 		</nav>
 	</header>
-
 	<!-- OFF CANVAS NAV BEGIN -->
-	<div class="off-canvas-wrap" data-offcanvas>
-			<div class="inner-wrap">
-				<nav class="tab-bar">
+<div class="off-canvas-wrap" data-offcanvas>
+	<div class="inner-wrap">
+		<nav class="tab-bar">
+			<section class="right-small">
+				<a class="right-off-canvas-toggle menu-icon" href="#"><span></span></a>
+			</section>
 
-					<section class="right-small">
-						<a class="right-off-canvas-toggle menu-icon" href="#"><span></span></a>
-      				</section>
-
-      					<section class="left tab-bar-section">
-      						<h1 class="title-text">Point Plumbing</h1>
-      					</section>
-      			</nav>
-
-      			<nav class="right-off-canvas-menu">
-      				<ul class="off-canvas-list">
-      					<li><a href="#services-pp">Services</a></li>
-      					<li><a href="#about-pp">About</a></li>
-      					<li><a href="#contact-pp">Contact</a></li>
-      					<li><a href="https://pointplumbing.silvrback.com/">Blog</a></li>
-      					<li><a href="https://www.facebook.com/pages/Point-Plumbing/680341328751178">Facebook</a></li>
-      					<li><a href="https://twitter.com/Pointplumbing_">Twitter</a></li>
-      					<li><a href="https://www.linkedin.com/pub/point-plumbing/ab/766/708">Linkedin</a></li>
-      					<li><a href="https://www.google.com/+PointPlumbingHonolulu">Google Plus</a></li>
-      				</ul>
-      			</nav>
+			<section class="left tab-bar-section">
+				<h1 class="title-text">Point Plumbing</h1>
+			</section>
+		</nav>
+<nav class="right-off-canvas-menu">
+	<ul class="off-canvas-list">
+		<li><a href="#services-pp">Services</a></li>
+		<li><a href="#about-pp">About</a></li>
+		<li><a href="#contact-pp">Contact</a></li>
+		<li><a href="https://pointplumbing.silvrback.com/">Blog</a></li>
+		<li><a href="https://www.facebook.com/pages/Point-Plumbing/680341328751178">Facebook</a></li>
+		<li><a href="https://twitter.com/Pointplumbing_">Twitter</a></li>
+		<li><a href="https://www.linkedin.com/pub/point-plumbing/ab/766/708">Linkedin</a></li>
+		<li><a href="https://www.google.com/+PointPlumbingHonolulu">Google Plus</a></li>
+	</ul>
+</nav>
 		<a class="exit-off-canvas"></a>
 	<main>
+<picture>
+	<!--[if IE 9]><video style="display: none;"><![endif]-->
+	<source srcset="http://d3vi9nkvdbmq5l.cloudfront.net/home@700px.jpg"  
+	media="(max-width:700px)">
 
-		<picture> <!-- images serving from amazon cloud -->
-			<!--[if IE 9]><video style="display: none;"><![endif]-->
-			<source srcset="http://d3vi9nkvdbmq5l.cloudfront.net/home@700px.jpg"  
-			media="(max-width:700px)">
+	<source srcset="http://d3vi9nkvdbmq5l.cloudfront.net/home@1024px.jpg" 
+	media="(max-width:1024px)">
+	<!--[if IE 9]></video><![endif]-->
+	<img class="full" srcset ="http://d3vi9nkvdbmq5l.cloudfront.net/Home.jpg" alt="Plumbing Repairs"></img>
+</picture>
 
-			<source srcset="http://d3vi9nkvdbmq5l.cloudfront.net/home@1024px.jpg" 
-			media="(max-width:1024px)">
-			<!--[if IE 9]></video><![endif]-->
-			<img class="full" srcset ="http://d3vi9nkvdbmq5l.cloudfront.net/Home.jpg" alt="Plumbing Repairs"></img>
-		</picture>
+<div id='j1' class="headline-container">
+		<div class="row">
+			<div class="large-8 columns">
+		<h2 class="satisfaction">Your Satisfaction</br>Our Strongest Point.</h2>
+</div>
 
-	<div id='j1' class="headline-container">
-			<div class="row">
-				<div class="large-8 columns">
-			<h2 class="satisfaction">Your Satisfaction</br>Our Strongest Point.</h2>
+<div id="contact-info" class="large-4 columns">
+	<div class="call-to-action">
+			<h1 class="time">Have a plumbing
+			</br>problem you</br>need solved?</h1>
+			<h4 class="contact-now"><a data-scroll href="#get-in-touch" class="touch">Get in touch</a></h4>
+	</div>
+</div>
+
+<div class="contact-device">
+	<div class="medium-4 columns">
+			<div class="phone-box">
+				<div class="number">
+					<a id="phone-number" href="tel:808-848-8821">Call Us</a>
 				</div>
+			</div>
 
-				<div id="contact-info" class="large-4 columns">
-					<div class="call-to-action">
-							<h1 class="time">"It's time to
-							</br> solve your </br> plumbing problems"</h1>
-							<h4 class="contact-now"><a data-scroll href="#get-in-touch" class="touch">Get in touch</a></h4>
-					</div>
-				</div>
-				
-		
-			<div class="contact-device">
-				<div class="medium-4 columns">
-					<div class="phone-box">
-						<div class="number">
-							<a id="phone-number" href="tel:808-848-8821">Call Us</a>
-						</div>
-					</div>
-
-					<div class="email-box">
-						<div class="email-area"><a id="email-contact" href="mailto:etoile@hawaii.rr.com">Email Us</a>
-						</div>
-					</div>
-				</div>
+		<div class="email-box">
+			<div class="email-area"><a id="email-contact" href="mailto:etoile@hawaii.rr.com">Email Us</a>
 			</div>
 		</div>
 	</div>
+</div>
 
-				<picture>
-					<!--[if IE 9]><video style="display: none;"><![endif]-->
-					<source srcset="http://d3vi9nkvdbmq5l.cloudfront.net/services@700px.jpg" 
-					media="(max-width:700px)">
+		</div>
+	</div>
 
-					<source srcset="http://d3vi9nkvdbmq5l.cloudfront.net/services@1024px.jpg" media="(max-width:1024px)">
-					<!--[if IE 9]></video><![endif]-->
-					<img class="full-serv" srcset="http://d3vi9nkvdbmq5l.cloudfront.net/Services.jpg" alt="plumbing services hawaii"></img>
-				</picture>
-	</main>
+<picture>
+	<!--[if IE 9]><video style="display: none;"><![endif]-->
+	<source srcset="http://d3vi9nkvdbmq5l.cloudfront.net/services@700px.jpg" 
+			media="(max-width:700px)">
+	<source srcset="http://d3vi9nkvdbmq5l.cloudfront.net/services@1024px.jpg" media="(max-width:1024px)">
+			<!--[if IE 9]></video><![endif]-->
+	<img class="full-serv" srcset="http://d3vi9nkvdbmq5l.cloudfront.net/Services.jpg" alt="plumbing services hawaii"></img>
+</picture>
 
-	<section id="services-pp" class="services-page">
-		<div class="headline-services">
+</main>
+
+<section id="services-pp" class="services-page">
+	<div class="headline-services">
 			<h2 class="plumbing-repairs">
 			Plumbing Repairs in Honolulu for a variety of plumbing systems.
 			</h2>
+	</div>
+<div class="block-grid-li">
+	<div class="services-block">
+			<h1 class="services-intro">Services</h1>
+		<div class="hint1">
+			<span data-tooltip aria-haspopup="true" class="has-tip tip-right" data-width="200" title="Feel free to click on any of icons bellow for more information on our services.">Plumbing Hint!</span>
 		</div>
-			<div class="block-grid-li">
-				<div class="services-block">
-					<h1 class="services-intro">Services</h1>
+	</div>
 
-						<div class="hint1">
-							<span data-tooltip aria-haspopup="true" class="has-tip tip-right" data-width="200" title="Feel free to click on any of icons bellow for more information on our services.">Plumbing Hint!</span>
-						</div>
-				</div>
+<ul id="align" class="small-block-grid-1 medium-block-grid-2 large-block-grid-4">
+	<li>
+		<a class="repair-hov" href="#" data-reveal-id="repair-mod">
+			<img id="repair" src="http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/Repair.svg" alt="Quality Plumbing Repairs in Honolulu Hawaii">
+			</img>
+		</a>
 
-			<ul id="align" class="small-block-grid-1 medium-block-grid-2 large-block-grid-4">
+<div id="repair-mod" class="reveal-modal" data-reveal>
+	<h2 class="repairs">Repair Services</h2>
+		<p class="repair-lead">With 35 years experience in the plumbing industry, you know you can expect exceptional service.</p>
 
-				<li>
-					<a class="repair-hov" href="#" data-reveal-id="repair-mod">
-						<img id="repair" src="http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/Repair.svg" alt="Quality Plumbing Repairs in Honolulu Hawaii">
-						</img>
-					</a>
+		<p>Over the past 23 years, our customers island-wide have looked to us to help solve a wide range of plumbing problems. That means you’re in trusted hands!</p>
 
-						<div id="repair-mod" class="reveal-modal" data-reveal>
-	  						<h2 class="repairs">Repair Services</h2>
-								<p class="repair-lead">Point plumbing offers a verity of repair services on Oahu.</p>
-									<p>I'm going to be an awesome paragraph about point plumbings quality repair services.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa reiciendis, sapiente nihil delectus voluptatibus veniam nisi, provident modi optio iure ab earum. Esse ea voluptatibus maxime iure eaque eos voluptatum.</p>
-							<a class="close-reveal-modal">&#215;</a>
-						</div>
-					</a>
-				</li>
+		<ul>
+			<li>Solutions for high water bills</li>
+			<li>Shower valves, sink fixtures, and tub maintenance</li>
+			<li>Garbage disposal repair and replacement</li>
+			<li>Repair leaking drains</li>
+			<li>Leak detection</li>
+			<li>Routine maintenance</li>
+			<li>Pipe rerouting(replacement)</li>
+			<li>Find your leaks before mold finds you</li>
+		</ul>
 
-				<li>
-					<a class="heater-hov" href="#" data-reveal-id="heater-mod">
-						<img id="heater" src="http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/Heater.svg" alt="Point Plumbing repairs and installs Hot Water Heaters">
-						</img>
-					</a>
+		<p>Got a question or plumbing problem? Get in touch by just clicking or tapping on the buttons bellow!</p>
 
-						<div id="heater-mod" class="reveal-modal" data-reveal>
-			  				<h2 class="heaters">Hot Water Heaters</h2>
-								<p class="heater-lead">Heaters keep us warm</p>
-									<p>I'm a hot water heater and without me you don't get to have a nice warm shower! Remember..I keep you warm so treat me nice! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias est asperiores quas aperiam eaque quidem tempora, atque dolore provident nostrum, dignissimos sint enim voluptate deserunt consequuntur deleniti itaque voluptates, porro.</p>
-							<a class="close-reveal-modal">&#215;</a>
-						</div>
-					</a>
-				</li>
+		<a id="call-link" href="tel:808-848-8821" class="button small">Call</a>
+		<a id="email-dude" href="mailto:etoile@hawaii.rr.com" class="button small">Email</a>
+		<a class="close-reveal-modal">&#215;</a>
+</div>
+ </a>
+		</li>
+<li>
+	<a class="heater-hov" href="#" data-reveal-id="heater-mod">
+		<img id="heater" src="http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/Heater.svg" alt="Point Plumbing repairs and installs Hot Water Heaters">
+		</img>
+	</a>
 
-				<li>
-					<a class="reroute-hov" href="#" data-reveal-id="reroute-mod">
-						<img id="reroute" src="http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/Reroute.svg" alt="Pipe rerouteing in Honolulu, Hawaii">
-						</img>
-					</a>
+<div id="heater-mod" class="reveal-modal" data-reveal>
+		<h2 class="heaters">Water Heaters</h2>
+			<p class="heater-lead">When it comes to water heaters, we pretty much do it all. No matter if it’s an electric, solar, or gas water heater, we’ve got you covered.</p>
 
-						<div id="reroute-mod" class="reveal-modal" data-reveal>
-			  				<h2 class="pipe-reroute">Pipe Rerouting</h2>
-								<p class="reroute-lead">We can reroute all you're plumbing pipes!</p>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ex voluptatibus vel aut molestiae, quis similique repellat culpa nostrum ullam fugit, soluta cum, quod eius magni rem doloremque rerum quia!</p>
-							<a class="close-reveal-modal">&#215;</a>
-						</div>
-					</a>
-				</li>
+			<p>From common water heater problems, like thermostat and element repairs to sales, water heater replacement, we’ve got the experience and expertise to offer you the best solution at a reasonable price. We’ll even haul away the old water heater to save you the headache. It’s all part of our customer service.</p>
 
-				<li>
-					<a class="water-hov" href="#" data-reveal-id="water-mod">
-						<img id="water" src="http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/Water.svg" alt="Plumbing water systems">	
-						</img>
-					</a>
-						
-						<div id="water-mod" class="reveal-modal" data-reveal>
-			  				<h2 class="water-system">Water Systems</h2>
-								<p class="water-lead">Water system's provide you with water!</p>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam tempora provident quos, ex esse maiores magnam reiciendis aspernatur veritatis rerum fuga distinctio vero nobis, quidem voluptatum praesentium. Illum, similique, consectetur.</p>
-							<a class="close-reveal-modal">&#215;</a>
-						</div>
-					</a>
-				</li>
+			<p>Got a question or plumbing problem? Get in touch by just clicking or tapping on the buttons bellow!</p>
 
-				<li>
-					<a class="waste-hov" href="#" data-reveal-id="waste-mod">
-						<img id="waste" src="http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/Waste.svg" alt="Point Plumbing repairs waste systems">	
-						</img>
-					</a>
-						
-						<div id="waste-mod" class="reveal-modal" data-reveal>
-			  				<h2 class="waste">Waste Systems</h2>
-								<p class="waste-lead">Waste systems take care of waste!</p>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque illo eligendi rerum consequatur ipsam porro asperiores amet unde cumque ut magnam, enim, soluta, ipsum recusandae adipisci dicta aperiam accusamus nulla. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci sequi expedita explicabo, voluptates, atque ab in quae rerum quia reiciendis ducimus, quasi tempore repudiandae. Tempora tenetur laborum expedita, mollitia dolores!</p>
-							<a class="close-reveal-modal">&#215;</a>
-						</div>
-					</a>
-				</li>
+			<a id="call-link" href="tel:808-848-8821" class="button small">Call</a>
+			<a id="email-dude" href="mailto:etoile@hawaii.rr.com" class="button small">Email</a>
+			<a class="close-reveal-modal">&#215;</a>
+</div>
+	</a>
+</li>
 
-				<li>
-					<a class="install-hov" href="#" data-reveal-id="install-mod">
-						<img id="install" src="http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/Installations.svg" alt="Point Plumbing installs and repairs plumbing installations">
-						</img>
-					</a>
+<li>
+	<a class="reroute-hov" href="#" data-reveal-id="reroute-mod">
+		<img id="reroute" src="http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/Reroute.svg" alt="Pipe rerouteing in Honolulu, Hawaii">
+		</img>
+	</a>
 
-						<div id="install-mod" class="reveal-modal" data-reveal>
-			  				<h2 class="installation">Installations</h2>
-								<p class="install-lead">We install awesome new fixtures.</p>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet deleniti reiciendis quae molestiae omnis commodi odit rem harum nihil voluptate necessitatibus rerum autem voluptatem pariatur, soluta vitae animi quaerat laudantium.</p>
-							<a class="close-reveal-modal">&#215;</a>
-						</div>	
-					</a>
-				</li>
+<div id="reroute-mod" class="reveal-modal" data-reveal>
+	<h2 class="pipe-reroute">Pipe Rerouting</h2>
+		<p class="reroute-lead">When do you know you have a problem with your pipes? Here are a few hints!</p>
+				<ul>
+					<li>The piping leaks under normal use</li>
+					<li>The leak poses a hazard to the integrity of the foundation</li>
+					<li>The leak affects the performance of the piping system</li>
+				</ul>
 
-				<li>
-					<a class="pressure-hov" href="#" data-reveal-id="pressure-mod">
-						<img id="pressure" src="http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/Pressure.svg" alt="Point Plumbing repairs Pressure systems">	
-						</img>
-					</a>
+				<p>Gas, water or sewer lines, our plumbers have done them all. And we’re experienced in all the pipe material and fittings your system is equipped with.</p>
 
-						<div id="pressure-mod" class="reveal-modal" data-reveal>
-			  				<h2 class="pressure-s">Pressure Systems</h2>
-								<p class="pressure-lead">Pressure systems make sure you're pipes don't explode.</p>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore omnis, dolor nisi molestias quos aliquid libero magnam sint distinctio sequi aliquam tempora perspiciatis quibusdam saepe ratione hic consequuntur aut delectus?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores quo alias aliquid, excepturi doloremque qui harum quasi quam nemo facere ratione cupiditate corporis quas praesentium accusantium atque cumque aspernatur obcaecati.</p>
-							<a class="close-reveal-modal">&#215;</a>
-						</div>	
-					</a>
-				</li>
+				<p>Need to install new piping for a remodel, or figure out how to reroute pipes where there are permanent walls? We’re just the people to help you solve it. Effectively, efficiently and with as little damage to the surrounding structure as possible.</p>
 
-				<li>
-					<a class="gasline-hov" href="#" data-reveal-id="gasline-mod">
-						<img id="gasline" src="http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/Gasline.svg" alt="Point Plumbing installs gaslines">
-						</img>
-					</a>
+				<p>Got a question or plumbing problem? Get in touch by just clicking or tapping on the buttons bellow!</p>   
 
-						<div id="gasline-mod" class="reveal-modal" data-reveal>
-			  				<h2 class="gasline">Gaslines</h2>
-								<p class="gasline-lead">Point Plumbing offers services on installing gaslines.</p>
-									<p>Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elitCorrupti, possimus rerum neque in odio accusamus nesciunt adipisci, asperiores delectus nam modi incidunt aspernatur doloribus architecto. Voluptatum quaerat veritatis itaque, accusamus! ipsum dolor sit amet, consectetur adipisicing elit. Maiores voluptas, laudantium quas placeat temporibus vero sapiente, hic aspernatur aut, quos amet dolorem numquam soluta minima blanditiis magni obcaecati dolores perferendis!</p>
-							<a class="close-reveal-modal">&#215;</a>
-						</div>
-					</a>
-				</li>
-			</ul>
+				<a id="call-link" href="tel:808-848-8821" class="button small">Call</a>
+				<a id="email-dude" href="mailto:etoile@hawaii.rr.com" class="button small">Email</a>
+				<a class="close-reveal-modal">&#215;</a>
 			</div>
-	</section>
+		</a>
+	</li>
 
-	<section id="about-pp" class="about-page">
-		<div class="headline-about">
-			<h2 class="pipeline">
-				We are your pipeline to successful plumbing solutions.
-			</h2>
+<li>
+<a class="water-hov" href="#" data-reveal-id="water-mod">
+	<img id="water" src="http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/Water.svg" alt="Plumbing water systems">	
+	</img>
+</a>
+						
+<div id="water-mod" class="reveal-modal" data-reveal>
+	<h2 class="water-system">Water Systems</h2>
+		<p class="water-lead">Remodeling, rebuilding or updating your home? Then you’ll probably have to consider how your water system will work with all your new home improvements. We can help.</p>
+
+			<p>Our in-depth knowledge and experience on how best to upgrade or install an entire water system will really help to make the entire process less painful. From the main valve to individual shut-off valves to piping throughout your home, we can help you select the best materials, fixtures and plumbing enhancements. And we’ll do it within your budget.</p>
+
+			<p>Got a question or plumbing problem? Get in touch by just clicking or tapping on the buttons bellow!</p> 
+
+			<a id="call-link" href="tel:808-848-8821" class="button small">Call</a>
+			<a id="email-dude" href="mailto:etoile@hawaii.rr.com" class="button small">Email</a>
+			<a class="close-reveal-modal">&#215;</a>
+	</div>
+	</a>
+</li>
+
+<li>
+	<a class="waste-hov" href="#" data-reveal-id="waste-mod">
+		<img id="waste" src="http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/Waste.svg" alt="Point Plumbing repairs waste systems">	
+		</img>
+	</a>
+						
+<div id="waste-mod" class="reveal-modal" data-reveal>
+		<h2 class="waste">Waste Systems</h2>
+		<p class="waste-lead"></p>
+			<p>Odors, clogs, hair, gunk… it’s all part of our everyday life. And we are happy to handle it so that you don’t. Our plumbers are trained to service waste system breaks and clogged pipes so your home stays clean and sanitary.</p>
+
+			<p>Got a question or plumbing problem? Get in touch by just clicking or tapping on the buttons bellow!</p> 
+
+			<a id="call-link" href="tel:808-848-8821" class="button small">Call</a>
+			<a id="email-dude" href="mailto:etoile@hawaii.rr.com" class="button small">Email</a>
+			<a class="close-reveal-modal">&#215;</a>
+	</div>
+	</a>
+</li>
+
+<li>
+	<a class="install-hov" href="#" data-reveal-id="install-mod">
+		<img id="install" src="http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/Installations.svg" alt="Point Plumbing installs and repairs plumbing installations">
+		</img>
+	</a>
+
+<div id="install-mod" class="reveal-modal" data-reveal>
+		<h2 class="installation">Installations</h2>
+		<p class="install-lead"></p>
+
+		<p>When we say full service, we mean it. From sales to installation, we’re prepared for everything from pipes to washers. Whatever your plumbing needs are, we’ll help you figure out the right plumbing fixtures and supplies to go with your home.</p>
+
+		<ul>
+			<li>Basic fixtures - high quality faucets designed for residences</li>
+			<li>Drains</li>
+			<li>Pipes</li>
+			<li>Fittings</li>
+			<li>Garbage disposals</li>
+			<li>Shower valves</li>
+			<li>Toilets</li>
+			<li>Hot water heaters</li>
+			<li>Laundry trays</li>
+			<li>Washing machine hook-ups</li>
+			<li>Garden hose bibs</li>
+		</ul>
+
+		<p>Got a question or plumbing problem? Get in touch by just clicking or tapping on the buttons bellow!</p> 
+
+		<a id="call-link" href="tel:808-848-8821" class="button small">Call</a>
+		<a id="email-dude" href="mailto:etoile@hawaii.rr.com" class="button small">Email</a>
+		<a class="close-reveal-modal">&#215;</a>
+		</div>	
+	</a>
+</li>
+
+<li>
+	<a class="pressure-hov" href="#" data-reveal-id="pressure-mod">
+		<img id="pressure" src="https://s3-us-west-2.amazonaws.com/pointplumbing/service-icons/Pressure.svg" alt="Point Plumbing repairs Pressure systems">	
+		</img>
+	</a>
+
+<div id="pressure-mod" class="reveal-modal" data-reveal>
+		<h2 class="pressure-s">Pressure Systems</h2>
+		<p class="pressure-lead"></p>
+
+		<p>We know how frustrating low water pressure can be. And it’s usually from something like a broken or clogged pipe, fixture problems, regulators or pumps. If you’re suffering from insufficient water pressure, we’re your remedy.</p>
+
+		<p>Got a question or plumbing problem? Get in touch by just clicking or tapping on the buttons bellow!</p>  
+
+
+		<a id="call-link" href="tel:808-848-8821" class="button small">Call</a>
+		<a id="email-dude" href="mailto:etoile@hawaii.rr.com" class="button small">Email</a>
+		<a class="close-reveal-modal">&#215;</a>
+		</div>	
+	</a>
+</li>
+
+		<li>
+		<a class="gasline-hov" href="#" data-reveal-id="gasline-mod">
+			<img id="gasline" src="http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/Gasline.svg" alt="Point Plumbing installs gaslines">
+			</img>
+		</a>
+
+	<div id="gasline-mod" class="reveal-modal" data-reveal>
+				<h2 class="gasline">Gaslines</h2>
+					<p class="gasline-lead"></p>
+						<p>Need to switch from electric to gas power? We offer a convenient all-in-one solution that takes the load off your shoulders. Our plumbers are trained in both propane and natural gas installations. To ensure all installations and gas line changes are up to code, we’ll set up the piping from source to home, test for leaks and make sure everything is running correctly in your home. An all-in-one solution that takes the worry out of your day!</p>
+
+					<p>Got a question or plumbing problem? Get in touch by just clicking or tapping on the highlighted links bellow!</p>  
+
+					<a id="call-link" href="tel:808-848-8821">Call</a>
+					<a id="email-dude" href="mailto:etoile@hawaii.rr.com">Email</a>
+					<a class="close-reveal-modal">&#215;</a>
+			</div>
+		</a>
+		</li>
+	</ul>
+</div>
+
+</section>
+
+<section id="about-pp" class="about-page">
+	<div class="headline-about">
+		<h2 class="pipeline">
+			We are your pipeline to successful plumbing solutions.
+		</h2>
+	</div>
+
+<picture>
+		<!--[if IE 9]><video style="display: none;"><![endif]-->
+		<source srcset="http://d3vi9nkvdbmq5l.cloudfront.net/about@700px.jpg"  
+		media="(max-width:700px)">
+
+		<source srcset="http://d3vi9nkvdbmq5l.cloudfront.net/about@1024px.jpg" 
+		media="(max-width:1024px)">
+		<!--[if IE 9]></video><![endif]-->
+		<img class="full" srcset="http://d3vi9nkvdbmq5l.cloudfront.net/About.jpg" alt="Plumbing Services Holululu, Hawaii">
+</picture>
+
+<div class="aboutsect1">
+	<div class="row">
+		<div class="large-8 medium-12 small-12 columns">
+			<p class="about-content">Point Plumbing was founded in 1992 by Scott White, a thirty-year veteran of Oahu’s plumbing industry. He’s dedicated his career to ensuring that Point Plumbing clients are always just a call away from having all their plumbing problems solved. Quickly, effectively and affordably.
+			</p>	
 		</div>
 
-			<picture>
-			<!--[if IE 9]><video style="display: none;"><![endif]-->
-			<source srcset="http://d3vi9nkvdbmq5l.cloudfront.net/about@700px.jpg"  
-			media="(max-width:700px)">
-
-			<source srcset="http://d3vi9nkvdbmq5l.cloudfront.net/about@1024px.jpg" 
-			media="(max-width:1024px)">
-			<!--[if IE 9]></video><![endif]-->
-			<img class="full" srcset="http://d3vi9nkvdbmq5l.cloudfront.net/About.jpg" alt="Plumbing Services Holululu, Hawaii">
-			</picture>
-
-		<div class="aboutsect1">
-		<div class="row">
-			<div class="large-8 medium-12 small-12 columns">
-				<p class="about-content">Point Plumbing was founded in 1992 by licensed plumbing contractor Scott White who as been highly dedicated to serving the plumbing industry on the island of Oahu for the past thirty years.</p>	
-			</div>
-					<div class="large-4 medium-12 columns">
+			<div class="large-4 medium-12 columns">
 					<div class="aboutsect2">
-						<p class="we-supply">“We supply you with the
-						expertise and proficiency needed to restore any of your plumbing problems. As a trusted name in the industry, we are your to pipeline to successful plumbing solutions."</p>
+						<p class="we-supply">"We care about what we do. And we care about the customers we work with. We bring dedication and expertise to every job, no matter how big or small it may be. And we’re not done until you’re satisfied. It’s how we’ve earned the trust of our customers, because, at the end of the day, you’re the reason for our success."</p>
 					</div>
-				</div>
 			</div>
 		</div>
+</div>
 	</section>
-	
 
 	<section class="contact-page">
 		<div class="headline-contact">
@@ -327,7 +452,7 @@
 			<div class="row">
 
 			<div class="large-4 columns">
-					<div class="phone-contact">
+				<div class="phone-contact">
 					<h3 class="phone-bottom">
 					<a id="phone-link" href="tel:808-848-8821">Call</a>
 					</h3>
@@ -340,7 +465,6 @@
 					</h3>
 				</div>
 			</div>
-
 				<div class="large-8 columns">
 					<h3 class="solutions">
 						Your plumbing problems, our solutions!
@@ -348,16 +472,8 @@
 				</div>
 			</div>
 		</div>
-			
-	    <!--<div class="headline-form">
-	    	<h3 class="form-intro"> You're only one simple step away from a successful plumbing solution, so to help us determine the best solution for your plumbing problem please take a minute to fill out the simple form bellow.
-	    	</h3>
-	    </div>-->
-
-	</section>
-
+</section>
 	<section class="form">
-
 		<form accept-charset="UTF-8" action="https://formkeep.com/f/2682a022a640" method="POST" class="pp-form" id="spaceing" data-abide>
 		 <input type="hidden" name="utf8" value="✓">
 			<div class="form-bg">
@@ -432,112 +548,114 @@
 	</div>
 </div>
 
-		<div class="social-media">
-			<div class="row">
-				<div id="footer contact" class="large-4 columns">
-					<div class="phone-foot">
-						<span class="number-foot">
+<div class="social-media">
+	<div class="row">
+		<div id="footer contact" class="large-4 columns">
+				<div class="phone-foot">
+					<span class="number-foot">
 							<a id="phone-link" href="tel:808-848-8821">808-848-8821</a>
-						</span>
-					</div>
+					</span>
+				</div>
 
-					<div class="email-foot">
-						<span class="email-address">
+			<div class="email-foot">
+					<span class="email-address">
 							<a id="email-link" href="mailto:etoile@hawaii.rr.com">
 							etoile@hawaii.rr.com</a>
-						</span>
-					</div>
-				</div>
-				
-				<div id="social bar" class="large-8 medium-12 columns">
-					<ul id="social-links">
-
-						<a id="social1" href="https://www.facebook.com/pages/Point-Plumbing/680341328751178">
-							<li class="facebook">
-								<h1 class="face"></h1>
-							</li>
-						</a>
-
-						<a id="social2" href="https://twitter.com/Pointplumbing_"><li class="twitter">
-							<h1 class="twit"></h1>
-						</li></a>
-
-					
-						<a id="social3" href="https://www.linkedin.com/pub/point-plumbing/ab/766/708">
-							<li class="link">
-								<h1 class="link"></h1>
-							</li>
-						</a>
-
-						
-						<a id="social4" href="https://www.google.com/+PointPlumbingHonolulu"><li class="plus">
-							<h1 class="plus"></h1>
-						</li></a>
-
-					</ul>
-				</div>
+					</span>
 			</div>
 		</div>
 
+	<div id="social bar" class="large-8 medium-12 columns">
+
+	<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="600px" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+
+			<ul id="social-links">
+				<a id="social1" href="https://www.facebook.com/pages/Point-Plumbing/680341328751178">
+					<li class="facebook">
+							<h1 class="face"></h1>
+					</li>
+				</a>
+
+				<a id="social2" href="https://twitter.com/Pointplumbing_">
+					<li class="twitter">
+							<h1 class="twit"></h1>
+					</li>
+				</a>
+
+				<a id="social3" href="https://www.linkedin.com/pub/point-plumbing/ab/766/708">
+					<li class="link">
+							<h1 class="link"></h1>
+					</li>
+				</a>
+
+				<a id="social4" href="https://www.google.com/+PointPlumbingHonolulu">
+					<li class="plus">
+							<h1 class="plus"></h1>
+					</li>
+				</a>
+			</ul>
+		</div>
+	</div>
+</div>
 	<div class="bottom-bar">
 		<div class="footer-container">
 			<div class="row">
 				<div class="large-12 medium-12 small-8 small-centered columns">
-						<div class="row">
-							<div class="medium-4 columns">
-									<div class="lic-content">
-									<h3 class="license">License</h3>
-									<ul id="numbers">
-										<li>C-17333</li>
-										<li>C-19203</li>	
-									</ul> 
-								</div>
-							</div>
-							<div id="aff-container"class="medium-4 columns">
-								<h3 class="aff-with">Affiliated With</h3>
-								<a title="Click for the Business Review of Point Plumbing Inc., a Plumbers in Haleiwa HI" href="https://www.bbb.org/hawaii/business-reviews/plumbing-contractors/point-plumbing-in-haleiwa-hi-12000614#sealclick"><img id="bb" alt="Click for the BBB Business Review of this Plumbers in Haleiwa HI" style="border: 0;" src="https://seal-hawaii.bbb.org/seals/blue-seal-120-61-pointplumbinginc-12000614.png" /></a>
-							</div>
+					<div class="row">
 
-						<!--Mail Chimp Email Signup Form-->
-							<div class="medium-4 columns"	
-								<div class="form-container">
-									
-									<div id="mc_embed_signup">
-										<div id="mc_embed_signup">
-											<form action="//github.us9.list-manage.com/subscribe/post?u=2e0fcccf42ce9f352d447e784&amp;id=8dbd732a3c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-												<div id="mc_embed_signup_scroll">
-													<label id="suscribe-to" for="mce-EMAIL">Subscribe to our awesome mailing list!</label>
-													<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-													 <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+			<div class="medium-4 columns">
+						<div class="lic-content">
+							<h3 class="license">License</h3>
+						<ul id="numbers">
+								<li>C-17333</li>
+								<li>C-19203</li>	
+						</ul> 
+						</div>
+			</div>
 
-				    									<div style="position: absolute; left: -5000px;">
-				    										<input type="text" name="b_2e0fcccf42ce9f352d447e784_8dbd732a3c" tabindex="-1" value="">
-				    									</div>
+<div id="aff-container"class="medium-4 columns">
+	<h3 class="aff-with">Affiliated With</h3>
+		<a title="Click for the Business Review of Point Plumbing Inc., a Plumbers in Haleiwa HI" href="https://www.bbb.org/hawaii/business-reviews/plumbing-contractors/point-plumbing-in-haleiwa-hi-12000614#sealclick"><img id="bb" alt="Click for the BBB Business Review of this Plumbers in Haleiwa HI" style="border: 0;" src="https://seal-hawaii.bbb.org/seals/blue-seal-120-61-pointplumbinginc-12000614.png" /></a>
+</div>
+<!--Mail Chimp Email Signup Form-->
+<div class="medium-4 columns">
+	<div class="form-container">
+		<div id="mc_embed_signup">
+			<div id="mc_embed_signup">
+				<form action="//github.us9.list-manage.com/subscribe/post?u=2e0fcccf42ce9f352d447e784&amp;id=8dbd732a3c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+			<div id="mc_embed_signup_scroll">
+					<label id="suscribe-to" for="mce-EMAIL">Subscribe to our awesome mailing list!</label>
+					
+					<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+					<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 
-		    										<div class="clear">
-		    											<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-		    									</div>
-											</form>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>	
-					</div>
+				  <div style="position: absolute; left: -5000px;">
+				    <input type="text" name="b_2e0fcccf42ce9f352d447e784_8dbd732a3c" tabindex="-1" value="">
+				   </div>
+
+		    	<div class="clear">
+		    		<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+		    	</div>
+				</form>
 			</div>
 		</div>
-		<!--OFF CANVAS SLIDE ENDS HERE-->
 	</div>
+</div>
 </div>	
+</div>
+</div>
+</div>
+<!--OFF CANVAS SLIDE ENDS HERE-->
+</div>
 <!--OFF CANVAS SLIDE ENDS HERE-->
 </footer>
-
 	<script src="foundation/js/vendor/jquery.js"></script>
 	<script src="foundation/js/foundation/foundation.js"></script>
 	<script src="foundation/js/foundation/foundation.offcanvas.js"></script>
 	<script src="foundation/js/foundation/foundation.tooltip.js"></script>
 	<script src="foundation/js/foundation/foundation.reveal.js"></script>
-	<script src="foundation/js/foundation/foundation.abide.js"></script>	
+	<script src="foundation/js/foundation/foundation.abide.js"></script>
+	<script src="foundation/js/foundation/foundation.topbar.js"></script>	
 	<script>
 		$(document).foundation({
 			offcanvas : {
@@ -546,8 +664,6 @@
 			}
 		});
 	</script>
-
-
 	<script>
 	    smoothScroll.init({
 	    	speed:800,
@@ -556,6 +672,5 @@
 			offset: 0,
 	    });
 	</script>
-
 </body>
 </html>

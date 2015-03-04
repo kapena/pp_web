@@ -17,7 +17,7 @@ $fontsize: 25pt;
 	.columns {
 		height: 300px;
 		padding: 0;
-			}
+		}
 }
 
 @mixin satisfaction-is {
@@ -60,7 +60,7 @@ $fontsize: 25pt;
 		padding-top: 60px;
 		padding-left: 30px;
 		padding-right: 20px;
-		font-style: italic;
+		// font-style: italic;
 		line-height: 1.2em;
 		margin: 0;
 	}
@@ -127,13 +127,13 @@ $fontsize: 25pt;
 
 @media (max-width: 1174px){
 	.call-to-action .time{
-		padding-top: 40px;
+		padding-top: 55px;
 	}
 }
 
 @media (min-width:1128px){
 	.call-to-action .time{
-		padding-top: 60px;
+		padding-top: 50px;
 	}
 }
 
@@ -221,13 +221,19 @@ $fontsize: 25pt;
 
 @media (max-width: 419px){
 	.call-to-action .time {
-		padding-top: 55px;
+		// padding-top: 55px;
 	}
 }
 
 @media (max-width:380px){
 	.satisfaction{
 		font-size: 2.5em;
+	}
+}
+
+@media (max-width: 355px){
+	.call-to-action .time{
+		font-size: 2.2em;
 	}
 }
 
