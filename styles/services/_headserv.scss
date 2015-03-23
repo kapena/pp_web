@@ -90,7 +90,7 @@ $link-text-size:1em;
 
 	.repair-hov{
 		@include hov-properties;
-		background:url('http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/hov/Repair_h.svg')0 0 no-repeat;
+		background:url('https://s3-us-west-2.amazonaws.com/pointplumbing/service-icons/hov/Repair_h.svg')0 0 no-repeat;
 	}
 
 	.repair-hov #repair{
@@ -108,7 +108,7 @@ $link-text-size:1em;
 // HEATERS //
 
 $heading-reveal:aveniroblique,sans-serif; // Heading 
-$paragraph-reveal:avenirmedium,sans-serif; // Paragraph
+$paragraph-reveal:avenirroman,sans-serif; // Paragraph
 $lead-reveal:avenirroman,sans-serif; // Intro 
 
 .heaters{
@@ -129,7 +129,7 @@ $lead-reveal:avenirroman,sans-serif; // Intro
 
 	.heater-hov{
 		@include hov-properties;
-		background:url('http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/hov/Heater_h.svg')0 0 no-repeat;
+		background:url('https://s3-us-west-2.amazonaws.com/pointplumbing/service-icons/hov/Heater_h.svg')0 0 no-repeat;
 	}
 
 	.heater-hov #heater{
@@ -166,7 +166,7 @@ $lead-reveal:avenirroman,sans-serif; // Intro
 
 	.reroute-hov{
 		@include hov-properties;
-		background:url('http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/hov/Reroute_h.svg')0 0 no-repeat;
+		background:url('https://s3-us-west-2.amazonaws.com/pointplumbing/service-icons/hov/Reroute_h.svg')0 0 no-repeat;
 	}
 
 	.reroute-hov #reroute{
@@ -203,7 +203,7 @@ $lead-reveal:avenirroman,sans-serif; // Intro
 
 	.water-hov{
 		@include hov-properties;
-		background:url('http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/hov/Water_h.svg')0 0 no-repeat;
+		background:url('https://s3-us-west-2.amazonaws.com/pointplumbing/service-icons/hov/Water_h.svg')0 0 no-repeat;
 	}
 
 	.water-hov #water{
@@ -240,7 +240,7 @@ $lead-reveal:avenirroman,sans-serif; // Intro
 
 	.waste-hov{
 		@include hov-properties;
-		background:url('http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/hov/Waste_h.svg')0 0 no-repeat;
+		background:url('https://s3-us-west-2.amazonaws.com/pointplumbing/service-icons/hov/Waste_h.svg')0 0 no-repeat;
 	}
 
 	.waste-hov #waste{
@@ -277,7 +277,7 @@ $lead-reveal:avenirroman,sans-serif; // Intro
 
 	.install-hov{
 		@include hov-properties;
-		background:url('http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/hov/Installations_h.svg')0 0 no-repeat;
+		background:url('https://s3-us-west-2.amazonaws.com/pointplumbing/service-icons/hov/Installations_h.svg')0 0 no-repeat;
 	}
 
 	.install-hov #install{
@@ -347,7 +347,7 @@ $lead-reveal:avenirroman,sans-serif; // Intro
  
  .gasline-hov{
  	@include hov-properties;
- 	background:url('http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/hov/Gasline_h.svg') 0 0 no-repeat;
+ 	background:url('https://s3-us-west-2.amazonaws.com/pointplumbing/service-icons/hov/Gasline_h.svg') 0 0 no-repeat;
  }
 
  .gasline-hov #gasline{
