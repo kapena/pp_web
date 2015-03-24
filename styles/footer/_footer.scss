@@ -118,6 +118,12 @@ $weight: 600;
 	}
 }
 
+@media (max-width: 355px){
+	.secondary-nav{
+		height:450px;
+	}
+}
+
 .fb_iframe_widget{
 	left: 10px;
 	top: 10px;

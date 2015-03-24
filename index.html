@@ -23,7 +23,8 @@
   ga('send', 'pageview');
 </script>
 <!-- End Google Analytics -->
-<link rel="stylesheet" href="foundation/css/foundation.css">
+<link rel="stylesheet" href="foundation/css/foundation.min.css">
+<link rel ="stylesheet" href="foundation/css/normalize.css">
 <link rel="stylesheet" href="css/main.css">
 </head>
 <script src="foundation/js/vendor/modernizr.js"></script>
@@ -32,7 +33,7 @@
 // Picture element HTML5 shiv
 document.createElement( "picture" );
 </script>
-<script src="picturefill.js/min/picturefill-min.js" async></script>
+<script src="js/picturefill-min.js" async></script>
 <script src="js/smooth-scroll.min.js"></script>
 <body>
 <!-- Facebook JS SDK -->
@@ -523,7 +524,7 @@ document.createElement( "picture" );
 
 				<div class="row">
 					<div id="submit-me" class="large-3 medium-3 small-3 columns">
-						<button type="submit">Submit</button>
+						<button id="submit-style" type="submit">Submit</button>
 					</div>
 				</div>
 			</div>
@@ -644,15 +645,15 @@ document.createElement( "picture" );
 
 <div class = "row">
 	<div class="large-4 medium-4 columns">
-		<h5 class = "reserved">Point Plumbing Inc. All Rights Reserved 2015 © </h5>
+		<span class = "reserved">Point Plumbing Inc. All Rights Reserved 2015 © </span>
 	</div>
 
 	<div class="large-3 medium-3 columns">
-		<h5 class="spred-aloha">It's not pointless if it's plumbed right!</h5>
+		<span class="spred-aloha">It's not pointless if it's plumbed right!</span>
 	</div>
 
 	<div class="large-4 medium-4 columns">
-		<h5 class = "built">Website design and development by Brent White</h5>
+		<span class = "built">Website design and development by Brent White</span>
 	</div>
 </div>
 <!--OFF CANVAS SLIDE ENDS HERE-->

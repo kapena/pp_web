@@ -88,8 +88,9 @@ $type-face:Avenir;
 	padding-right: $form-imput-spacing;
 }
 
-#submit{
+#submit-style{
 	font-family: avenir, sans-serif;
+	color: white;
 }
 
 @mixin form-styling{

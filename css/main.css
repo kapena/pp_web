@@ -310,7 +310,9 @@ ul.off-canvas-list li a {
   font-family: avenirroman, sans-serif;
   padding-top: 10px;
   color: white;
-  letter-spacing: 0.02em; }
+  letter-spacing: 0.02em;
+  font-size: 2.5em;
+  margin: 0.22em 0; }
 
 .has-tip {
   font-family: avenirbold, sans-serif;
@@ -905,8 +907,9 @@ ul.off-canvas-list li a {
   padding-left: 30px;
   padding-right: 30px; }
 
-#submit {
-  font-family: avenir, sans-serif; }
+#submit-style {
+  font-family: avenir, sans-serif;
+  color: white; }
 
 #f-name, #f-email, #f-phone, #f-locate, #f-message {
   font-family: avenirroman, sans-serif;
@@ -1020,6 +1023,9 @@ ul.off-canvas-list li a {
 @media (max-width: 640px) {
   .blog {
     display: block; } }
+@media (max-width: 355px) {
+  .secondary-nav {
+    height: 450px; } }
 .fb_iframe_widget {
   left: 10px;
   top: 10px; }
