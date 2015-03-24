@@ -14,6 +14,8 @@ $secondary-nav-type:avenirlight, sans-serif;
 	text-align: center;
 	margin-top: 80px;
 	margin-left: 0px;
+	padding: 0;
+
 }
 
 .home2{
@@ -212,7 +214,7 @@ $footer-type-f:avenirroman, sans-serif;
 }
 
 .bottom-bar{
-	height: 300px;
+	height: 400px;
 	background-color: #1aabe8;
 }
 
@@ -273,7 +275,8 @@ $footer-type-f:avenirroman, sans-serif;
 
 @media (max-width: 640px){
 	.navagation{
-		margin-left: 20px;
+		margin-top: 100px;
+		margin-left: 90%;
 	}
 
 	.bottom-bar{
@@ -300,8 +303,18 @@ $footer-type-f:avenirroman, sans-serif;
 		padding-top: 20px;
 		text-align: center;
 	}
+}
 
+@media (max-width: 611px){
+	.bottom-bar{
+	height: 750px;
+	}
+}
 
+@media (max-width:378px){
+	.bottom-bar{
+		height: 800px;
+	}
 }
 
 @media (max-width:500px){
@@ -362,4 +375,18 @@ $footer-type-f:avenirroman, sans-serif;
 	.googleplus{
 		display: inherit;
 	}
+}
+.reserved{
+font-family: avenirroman, sans-serif;
+color: white;
+}
+
+.spred-aloha{
+font-family: avenirroman, sans-serif;
+color: white;
+}
+
+.built{
+font-family: avenirroman, sans-serif;
+color:white;
 }

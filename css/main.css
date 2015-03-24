@@ -321,16 +321,18 @@ ul.off-canvas-list li a {
 
 #call-link {
   margin-right: 10px;
-  font-size: 1em; }
+  font-size: 1em;
+  font-family: avenirlight,sans-serif; }
 
 #email-dude {
-  font-size: 1em; }
+  font-size: 1em;
+  font-family: avenirlight,sans-serif; }
 
 .repairs {
-  font-family: aveniroblique, sans-serif; }
+  font-family: avenirroman, sans-serif; }
 
 #repair-mod {
-  font-family: avenirmedium, sans-serif; }
+  font-family: avenir, sans-serif; }
 
 #repair-lead {
   font-family: avenirroman, sans-serif; }
@@ -344,7 +346,7 @@ ul.off-canvas-list li a {
   float: left;
   margin: 0;
   padding: 0;
-  background: url("http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/hov/Repair_h.svg") 0 0 no-repeat; }
+  background: url("https://s3-us-west-2.amazonaws.com/pointplumbing/service-icons/hov/Repair_h.svg") 0 0 no-repeat; }
 
 .repair-hov #repair {
   opacity: 1;
@@ -355,13 +357,13 @@ ul.off-canvas-list li a {
   transition: opacity .5s; }
 
 .heaters {
-  font-family: aveniroblique, sans-serif; }
+  font-family: avenirroman, sans-serif; }
 
 #heater-mod {
-  font-family: avenirmedium, sans-serif; }
+  font-family: avenir, sans-serif; }
 
 .heater-lead {
-  font-family: avenirroman, sans-serif; }
+  font-family: avenir, sans-serif; }
 
 #heater {
   width: 230px;
@@ -372,7 +374,7 @@ ul.off-canvas-list li a {
   float: left;
   margin: 0;
   padding: 0;
-  background: url("http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/hov/Heater_h.svg") 0 0 no-repeat; }
+  background: url("https://s3-us-west-2.amazonaws.com/pointplumbing/service-icons/hov/Heater_h.svg") 0 0 no-repeat; }
 
 .heater-hov #heater {
   opacity: 1;
@@ -383,13 +385,13 @@ ul.off-canvas-list li a {
   transition: opacity .5s; }
 
 .pipe-reroute {
-  font-family: aveniroblique, sans-serif; }
+  font-family: avenirroman, sans-serif; }
 
 #reroute-mod {
-  font-family: avenirroman, sans-serif; }
+  font-family: avenir, sans-serif; }
 
 .reroute-lead {
-  font-family: avenirroman, sans-serif; }
+  font-family: avenir, sans-serif; }
 
 #reroute {
   width: 230px;
@@ -400,7 +402,7 @@ ul.off-canvas-list li a {
   float: left;
   margin: 0;
   padding: 0;
-  background: url("http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/hov/Reroute_h.svg") 0 0 no-repeat; }
+  background: url("https://s3-us-west-2.amazonaws.com/pointplumbing/service-icons/hov/Reroute_h.svg") 0 0 no-repeat; }
 
 .reroute-hov #reroute {
   opacity: 1;
@@ -411,13 +413,13 @@ ul.off-canvas-list li a {
   transition: opacity .5s; }
 
 .water-system {
-  font-family: aveniroblique, sans-serif; }
-
-.water-lead {
   font-family: avenirroman, sans-serif; }
 
+.water-lead {
+  font-family: avenir, sans-serif; }
+
 #water-mod {
-  font-family: avenirmedium, sans-serif; }
+  font-family: avenir, sans-serif; }
 
 #water {
   width: 230px;
@@ -428,7 +430,7 @@ ul.off-canvas-list li a {
   float: left;
   margin: 0;
   padding: 0;
-  background: url("http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/hov/Water_h.svg") 0 0 no-repeat; }
+  background: url("https://s3-us-west-2.amazonaws.com/pointplumbing/service-icons/hov/Water_h.svg") 0 0 no-repeat; }
 
 .water-hov #water {
   opacity: 1;
@@ -439,13 +441,13 @@ ul.off-canvas-list li a {
   transition: opacity .5s; }
 
 .waste {
-  font-family: aveniroblique, sans-serif; }
-
-.waste-lead {
   font-family: avenirroman, sans-serif; }
 
+.waste-lead {
+  font-family: avenir, sans-serif; }
+
 #waste-mod {
-  font-family: avenirmedium, sans-serif; }
+  font-family: avenir, sans-serif; }
 
 #waste {
   width: 230px;
@@ -456,7 +458,7 @@ ul.off-canvas-list li a {
   float: left;
   margin: 0;
   padding: 0;
-  background: url("http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/hov/Waste_h.svg") 0 0 no-repeat; }
+  background: url("https://s3-us-west-2.amazonaws.com/pointplumbing/service-icons/hov/Waste_h.svg") 0 0 no-repeat; }
 
 .waste-hov #waste {
   opacity: 1;
@@ -467,13 +469,13 @@ ul.off-canvas-list li a {
   transition: opacity .5s; }
 
 .installation {
-  font-family: aveniroblique, sans-serif; }
-
-.install-lead {
   font-family: avenirroman, sans-serif; }
 
+.install-lead {
+  font-family: avenir, sans-serif; }
+
 #install-mod {
-  font-family: avenirmedium, sans-serif; }
+  font-family: avenir, sans-serif; }
 
 #install {
   width: 230px;
@@ -484,7 +486,7 @@ ul.off-canvas-list li a {
   float: left;
   margin: 0;
   padding: 0;
-  background: url("http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/hov/Installations_h.svg") 0 0 no-repeat; }
+  background: url("https://s3-us-west-2.amazonaws.com/pointplumbing/service-icons/hov/Installations_h.svg") 0 0 no-repeat; }
 
 .install-hov #install {
   opacity: 1;
@@ -495,13 +497,13 @@ ul.off-canvas-list li a {
   transition: opacity .5s; }
 
 .pressure-s {
-  font-family: aveniroblique, sans-serif; }
-
-.pressure-lead {
   font-family: avenirroman, sans-serif; }
 
+.pressure-lead {
+  font-family: avenir, sans-serif; }
+
 #pressure-mod {
-  font-family: avenirmedium, sans-serif; }
+  font-family: avenir, sans-serif; }
 
 #pressure {
   width: 230px;
@@ -523,13 +525,13 @@ ul.off-canvas-list li a {
   transition: opacity .5s; }
 
 .gasline {
-  font-family: aveniroblique, sans-serif; }
-
-.gasline-lead {
   font-family: avenirroman, sans-serif; }
 
+.gasline-lead {
+  font-family: avenir, sans-serif; }
+
 #gasline-mod {
-  font-family: avenirmedium, sans-serif; }
+  font-family: avenir, sans-serif; }
 
 #gasline {
   width: 230px;
@@ -540,7 +542,7 @@ ul.off-canvas-list li a {
   float: left;
   margin: 0;
   padding: 0;
-  background: url("http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/hov/Gasline_h.svg") 0 0 no-repeat; }
+  background: url("https://s3-us-west-2.amazonaws.com/pointplumbing/service-icons/hov/Gasline_h.svg") 0 0 no-repeat; }
 
 .gasline-hov #gasline {
   opacity: 1;
@@ -903,6 +905,9 @@ ul.off-canvas-list li a {
   padding-left: 30px;
   padding-right: 30px; }
 
+#submit {
+  font-family: avenir, sans-serif; }
+
 #f-name, #f-email, #f-phone, #f-locate, #f-message {
   font-family: avenirroman, sans-serif;
   font-weight: 500;
@@ -940,7 +945,8 @@ ul.off-canvas-list li a {
 .navagation {
   text-align: center;
   margin-top: 80px;
-  margin-left: 0px; }
+  margin-left: 0px;
+  padding: 0; }
 
 .home2 {
   display: inline;
@@ -1076,7 +1082,7 @@ ul.off-canvas-list li a {
   background-color: #2989da; }
 
 .bottom-bar {
-  height: 300px;
+  height: 400px;
   background-color: #1aabe8; }
 
 .footer-container {
@@ -1133,7 +1139,8 @@ ul.off-canvas-list li a {
     padding-bottom: 400px; } }
 @media (max-width: 640px) {
   .navagation {
-    margin-left: 20px; }
+    margin-top: 100px;
+    margin-left: 90%; }
 
   .bottom-bar {
     height: 700px; }
@@ -1153,6 +1160,12 @@ ul.off-canvas-list li a {
   #mc_embed_signup_scroll {
     padding-top: 20px;
     text-align: center; } }
+@media (max-width: 611px) {
+  .bottom-bar {
+    height: 750px; } }
+@media (max-width: 378px) {
+  .bottom-bar {
+    height: 800px; } }
 @media (max-width: 500px) {
   .facebook {
     padding-right: 0px; }
@@ -1192,6 +1205,18 @@ ul.off-canvas-list li a {
 
   .googleplus {
     display: inherit; } }
+.reserved {
+  font-family: avenirroman, sans-serif;
+  color: white; }
+
+.spred-aloha {
+  font-family: avenirroman, sans-serif;
+  color: white; }
+
+.built {
+  font-family: avenirroman, sans-serif;
+  color: white; }
+
 /* Generated by Font Squirrel (http://www.fontsquirrel.com) on January 5, 2015 */
 @font-face {
   font-family: 'avenirlight';
@@ -1211,40 +1236,18 @@ ul.off-canvas-list li a {
   src: url("../fontkit/avenir_55_roman-webfont.eot?#iefix") format("embedded-opentype"), url("../fontkit/avenir_55_roman-webfont.woff2") format("woff2"), url("../fontkit/avenir_55_roman-webfont.woff") format("woff"), url("../fontkit/avenir_55_roman-webfont.ttf") format("truetype"), url("../fontkit/avenir_55_roman-webfont.svg#avenirroman") format("svg");
   font-weight: normal;
   font-style: normal; }
-@font-face {
-  font-family: 'aveniroblique';
-  src: url("../fontkit/avenir_55_oblique-webfont.eot");
-  src: url("../fontkit/avenir_55_oblique-webfont.eot?#iefix") format("embedded-opentype"), url("../fontkit/avenir_55_oblique-webfont.woff2") format("woff2"), url("../fontkit/avenir_55_oblique-webfont.woff") format("woff"), url("../fontkit/avenir_55_oblique-webfont.ttf") format("truetype"), url("../fontkit/avenir_55_oblique-webfont.svg#aveniroblique") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'avenirblack';
-  src: url("../fontkit/avenir_95_black-webfont.eot");
-  src: url("../fontkit/avenir_95_black-webfont.eot?#iefix") format("embedded-opentype"), url("../fontkit/avenir_95_black-webfont.woff2") format("woff2"), url("../fontkit/avenir_95_black-webfont.woff") format("woff"), url("../fontkit/avenir_95_black-webfont.ttf") format("truetype"), url("../fontkit/avenir_95_black-webfont.svg#avenirblack") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'avenirheavy';
-  src: url("../fontkit/avenir_85_heavy-webfont.eot");
-  src: url("../fontkit/avenir_85_heavy-webfont.eot?#iefix") format("embedded-opentype"), url("../fontkit/avenir_85_heavy-webfont.woff2") format("woff2"), url("../fontkit/avenir_85_heavy-webfont.woff") format("woff"), url("../fontkit/avenir_85_heavy-webfont.ttf") format("truetype"), url("../fontkit/avenir_85_heavy-webfont.svg#avenirheavy") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-/* html,body{
-	overflow-x:hidden;
-	//overflow-y:scroll;
-	-webkit-overflow-scrolling: touch;
-}*/
 img.full {
   width: 100%; }
 
 .full-serv {
   width: 100%; }
 
-@media (max-width: 640px) {
-  .full-serv {
-    margin-top: 300px; } }
 img.full-contact {
   width: 100%; }
 
 .image-highres {
   width: 100%; }
+
+@media (max-width: 640px) {
+  .full-serv {
+    margin-top: 300px; } }

@@ -88,6 +88,10 @@ $type-face:Avenir;
 	padding-right: $form-imput-spacing;
 }
 
+#submit{
+	font-family: avenir, sans-serif;
+}
+
 @mixin form-styling{
 	font-family:avenirroman, sans-serif;
 	font-weight: 500;
@@ -106,6 +110,8 @@ $type-face:Avenir;
 #message{
 	height: 200px;
 }
+
+
 
 @media (max-width: 1024px){
 	.headline-form{

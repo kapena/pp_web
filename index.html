@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
  <head>
-	<meta charset="utf-8" />
+	<meta charset="UTF-8"/>
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Point Plumbing</title>
 <!-- Open Graph Protocall -->
 <meta property="og:title" content="Point Plumbing Inc" />
 <meta property="og:type" content="http//point.plumbing/ns/website#" />
 <meta property="og:url" content="http://www.point.plumbing.com" />
-<meta property="og:image" content="http://d3vi9nkvdbmq5l.cloudfront.net/Home.jpg" />
+<meta property="og:image" content="https://s3-us-west-2.amazonaws.com/pointplumbing/Home.jpg" />
 <meta property="og:site_name" content="Point Plumbing Inc" />
 <meta property="og:description" content="Point Plumbing was founded in 1992 by Scott White, a thirty-year veteran of Oahu’s plumbing industry. He’s dedicated his career to ensuring that Point Plumbing clients are always just a call away from having all their plumbing problems solved. Quickly, effectively and affordably." />
 <!-- Open Graph Protocall ends -->
@@ -26,6 +26,7 @@
 <link rel="stylesheet" href="foundation/css/foundation.css">
 <link rel="stylesheet" href="css/main.css">
 </head>
+<script src="js/svgeezy.min.js"></script>
 <script src="foundation/js/vendor/modernizr.js"></script>
 <script src="foundation/js/vendor/fastclick.js"></script>
 <script>
@@ -33,9 +34,6 @@
 document.createElement( "picture" );
 </script>
 <script src="picturefill.js/min/picturefill-min.js" async></script>
-<!-- <script type="text/javascript" src="svgeezy/svgeezy.js" async></script>
-<script type="text/javascript">window.onload = function(){
-svgeezy.init(false, 'png');};</script> -->
 <script src="smooth_scroll/smooth-scroll.min.js"></script>
 <body>
 <!-- Facebook JS SDK -->
@@ -71,7 +69,7 @@ svgeezy.init(false, 'png');};</script> -->
 		<div class="row">
 			<div class="large-12 medium-12 small-12 columns">
 				<a href="/" title="Point Plumbing" id="logo">
-					<img id="pp-logo" src="http://d3vi9nkvdbmq5l.cloudfront.net/logo/pplogo.svg" alt="Point Plumbing">
+					<img id="pp-logo" src="https://s3-us-west-2.amazonaws.com/pointplumbing/logo/pplogo.svg" alt="Point Plumbing">
 				</a>
 			<ul class="icons">
 					<a data-scroll href="#services-pp" title="services">
@@ -89,7 +87,7 @@ svgeezy.init(false, 'png');};</script> -->
 							<h3 class="contact-text">Contact</h3>
 						</li>
 					</a>
-					<a href="https://pointplumbing.silvrback.com/" title="blog">
+					<a target="_blank" href="https://pointplumbing.silvrback.com/" title="blog">
 						<li class="blog-pp">
 							<h3 class="blog-text">Blog</h3>
 						</li>
@@ -127,13 +125,13 @@ svgeezy.init(false, 'png');};</script> -->
 	<main>
 <picture>
 	<!--[if IE 9]><video style="display: none;"><![endif]-->
-	<source srcset="http://d3vi9nkvdbmq5l.cloudfront.net/home@700px.jpg"  
+	<source srcset="https://s3-us-west-2.amazonaws.com/pointplumbing/home%40700px.jpg"
 	media="(max-width:700px)">
 
-	<source srcset="http://d3vi9nkvdbmq5l.cloudfront.net/home@1024px.jpg" 
+	<source srcset="https://s3-us-west-2.amazonaws.com/pointplumbing/home%401024px.jpg" 
 	media="(max-width:1024px)">
 	<!--[if IE 9]></video><![endif]-->
-	<img class="full" srcset ="http://d3vi9nkvdbmq5l.cloudfront.net/Home.jpg" alt="Plumbing Repairs"></img>
+	<img class="full" srcset ="https://s3-us-west-2.amazonaws.com/pointplumbing/Home.jpg" alt="Plumbing Repairs"></img>
 </picture>
 
 <div id='j1' class="headline-container">
@@ -170,11 +168,11 @@ svgeezy.init(false, 'png');};</script> -->
 
 <picture>
 	<!--[if IE 9]><video style="display: none;"><![endif]-->
-	<source srcset="http://d3vi9nkvdbmq5l.cloudfront.net/services@700px.jpg" 
+	<source srcset="https://s3-us-west-2.amazonaws.com/pointplumbing/services%40700px.jpg" 
 			media="(max-width:700px)">
-	<source srcset="http://d3vi9nkvdbmq5l.cloudfront.net/services@1024px.jpg" media="(max-width:1024px)">
+	<source srcset="https://s3-us-west-2.amazonaws.com/pointplumbing/services%401024px.jpg" media="(max-width:1024px)">
 			<!--[if IE 9]></video><![endif]-->
-	<img class="full-serv" srcset="http://d3vi9nkvdbmq5l.cloudfront.net/Services.jpg" alt="plumbing services hawaii"></img>
+	<img class="full-serv" srcset="https://s3-us-west-2.amazonaws.com/pointplumbing/Services.jpg"></img>
 </picture>
 
 </main>
@@ -196,7 +194,7 @@ svgeezy.init(false, 'png');};</script> -->
 <ul id="align" class="small-block-grid-1 medium-block-grid-2 large-block-grid-4">
 	<li>
 		<a class="repair-hov" href="#" data-reveal-id="repair-mod">
-			<img id="repair" src="http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/Repair.svg" alt="Quality Plumbing Repairs in Honolulu Hawaii">
+			<img id="repair" src="https://s3-us-west-2.amazonaws.com/pointplumbing/service-icons/Repair.svg" alt="Quality Plumbing Repairs in Honolulu Hawaii">
 			</img>
 		</a>
 
@@ -227,7 +225,7 @@ svgeezy.init(false, 'png');};</script> -->
 		</li>
 <li>
 	<a class="heater-hov" href="#" data-reveal-id="heater-mod">
-		<img id="heater" src="http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/Heater.svg" alt="Point Plumbing repairs and installs Hot Water Heaters">
+		<img id="heater" src="https://s3-us-west-2.amazonaws.com/pointplumbing/service-icons/Heater.svg" alt="Point Plumbing repairs and installs Hot Water Heaters">
 		</img>
 	</a>
 
@@ -248,7 +246,7 @@ svgeezy.init(false, 'png');};</script> -->
 
 <li>
 	<a class="reroute-hov" href="#" data-reveal-id="reroute-mod">
-		<img id="reroute" src="http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/Reroute.svg" alt="Pipe rerouteing in Honolulu, Hawaii">
+		<img id="reroute" src="https://s3-us-west-2.amazonaws.com/pointplumbing/service-icons/Reroute.svg" alt="Pipe rerouteing in Honolulu, Hawaii">
 		</img>
 	</a>
 
@@ -276,7 +274,7 @@ svgeezy.init(false, 'png');};</script> -->
 
 <li>
 <a class="water-hov" href="#" data-reveal-id="water-mod">
-	<img id="water" src="http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/Water.svg" alt="Plumbing water systems">	
+	<img id="water" src="https://s3-us-west-2.amazonaws.com/pointplumbing/service-icons/Water.svg" alt="Plumbing water systems">	
 	</img>
 </a>
 						
@@ -297,7 +295,7 @@ svgeezy.init(false, 'png');};</script> -->
 
 <li>
 	<a class="waste-hov" href="#" data-reveal-id="waste-mod">
-		<img id="waste" src="http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/Waste.svg" alt="Point Plumbing repairs waste systems">	
+		<img id="waste" src="https://s3-us-west-2.amazonaws.com/pointplumbing/service-icons/Waste.svg" alt="Point Plumbing repairs waste systems">	
 		</img>
 	</a>
 						
@@ -317,7 +315,7 @@ svgeezy.init(false, 'png');};</script> -->
 
 <li>
 	<a class="install-hov" href="#" data-reveal-id="install-mod">
-		<img id="install" src="http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/Installations.svg" alt="Point Plumbing installs and repairs plumbing installations">
+		<img id="install" src="https://s3-us-west-2.amazonaws.com/pointplumbing/service-icons/Installations.svg" alt="Point Plumbing installs and repairs plumbing installations">
 		</img>
 	</a>
 
@@ -374,7 +372,7 @@ svgeezy.init(false, 'png');};</script> -->
 
 		<li>
 		<a class="gasline-hov" href="#" data-reveal-id="gasline-mod">
-			<img id="gasline" src="http://d3vi9nkvdbmq5l.cloudfront.net/service-icons/Gasline.svg" alt="Point Plumbing installs gaslines">
+			<img id="gasline" src="https://s3-us-west-2.amazonaws.com/pointplumbing/service-icons/Gasline.svg" alt="Point Plumbing installs gaslines">
 			</img>
 		</a>
 
@@ -385,8 +383,8 @@ svgeezy.init(false, 'png');};</script> -->
 
 					<p>Got a question or plumbing problem? Get in touch by just clicking or tapping on the highlighted links bellow!</p>  
 
-					<a id="call-link" href="tel:808-848-8821">Call</a>
-					<a id="email-dude" href="mailto:etoile@hawaii.rr.com">Email</a>
+					<a id="call-link" href="tel:808-848-8821" class="button small">Call</a>
+					<a id="email-dude" href="mailto:etoile@hawaii.rr.com" class="button small">Email</a>
 					<a class="close-reveal-modal">&#215;</a>
 			</div>
 		</a>
@@ -405,19 +403,19 @@ svgeezy.init(false, 'png');};</script> -->
 
 <picture>
 		<!--[if IE 9]><video style="display: none;"><![endif]-->
-		<source srcset="http://d3vi9nkvdbmq5l.cloudfront.net/about@700px.jpg"  
+		<source srcset="https://s3-us-west-2.amazonaws.com/pointplumbing/about%40700px.jpg"  
 		media="(max-width:700px)">
 
-		<source srcset="http://d3vi9nkvdbmq5l.cloudfront.net/about@1024px.jpg" 
+		<source srcset="https://s3-us-west-2.amazonaws.com/pointplumbing/about%401024px.jpg" 
 		media="(max-width:1024px)">
 		<!--[if IE 9]></video><![endif]-->
-		<img class="full" srcset="http://d3vi9nkvdbmq5l.cloudfront.net/About.jpg" alt="Plumbing Services Holululu, Hawaii">
+		<img class="full" srcset="https://s3-us-west-2.amazonaws.com/pointplumbing/About.jpg">
 </picture>
 
 <div class="aboutsect1">
 	<div class="row">
 		<div class="large-8 medium-12 small-12 columns">
-			<p class="about-content">Point Plumbing was founded in 1992 by Scott White, a thirty-year veteran of Oahu’s plumbing industry. He’s dedicated his career to ensuring that Point Plumbing clients are always just a call away from having all their plumbing problems solved. Quickly, effectively and affordably.
+			<p class="about-content">Point Plumbing was founded in 1992 by Scott White, a thirty-year expert of Oahu’s plumbing industry. He’s dedicated his career to ensuring that Point Plumbing clients are always just a call away from having all their plumbing problems solved. Quickly, effectively and affordably.
 			</p>	
 		</div>
 
@@ -439,13 +437,13 @@ svgeezy.init(false, 'png');};</script> -->
 
 		<picture>
 			<!--[if IE 9]><video style="display: none;"><![endif]-->
-			<source srcset="http://d3vi9nkvdbmq5l.cloudfront.net/contact@700px.jpg"  
+			<source srcset="https://s3-us-west-2.amazonaws.com/pointplumbing/contact%40700px.jpg"  
 			media="(max-width:700px)">
 
-			<source srcset="http://d3vi9nkvdbmq5l.cloudfront.net/contact@1024px.jpg" 
+			<source srcset="https://s3-us-west-2.amazonaws.com/pointplumbing/contact%401024px.jpg" 
 			media="(max-width:1024px)">
 			<!--[if IE 9]></video><![endif]-->
-			<img id="contact-pp" class="full-contact" srcset="http://d3vi9nkvdbmq5l.cloudfront.net/Contact.jpg" alt="Plumbing Services Holululu, Hawaii">
+			<img id="contact-pp" class="full-contact" srcset="https://s3-us-west-2.amazonaws.com/pointplumbing/Contact.jpg">
 		</picture>
 
 		<div id="get-in-touch" class="sub-headline">
@@ -567,7 +565,7 @@ svgeezy.init(false, 'png');};</script> -->
 
 	<div id="social bar" class="large-8 medium-12 columns">
 
-	<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="600px" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+	<div class="fb-like" data-href=data-href="https://www.facebook.com/profile.php?id=100008760942703" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
 
 			<ul id="social-links">
 				<a id="social1" href="https://www.facebook.com/pages/Point-Plumbing/680341328751178">
@@ -624,7 +622,7 @@ svgeezy.init(false, 'png');};</script> -->
 			<div id="mc_embed_signup">
 				<form action="//github.us9.list-manage.com/subscribe/post?u=2e0fcccf42ce9f352d447e784&amp;id=8dbd732a3c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 			<div id="mc_embed_signup_scroll">
-					<label id="suscribe-to" for="mce-EMAIL">Subscribe to our awesome mailing list!</label>
+					<label id="suscribe-to" for="mce-EMAIL">Subscribe to the mailing list!</label>
 					
 					<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
 					<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
@@ -644,6 +642,19 @@ svgeezy.init(false, 'png');};</script> -->
 </div>	
 </div>
 </div>
+
+<div class = "row">
+	<div class="large-4 medium-4 columns">
+		<h5 class = "reserved">Point Plumbing Inc. All Rights Reserved 2015 © </h5>
+	</div>
+
+	<div class="large-3 medium-3 columns">
+		<h5 class="spred-aloha">It's not pointless if it's plumbed right!</h5>
+	</div>
+
+	<div class="large-4 medium-4 columns">
+		<h5 class = "built">Website design and development by Brent White</h5>
+	</div>
 </div>
 <!--OFF CANVAS SLIDE ENDS HERE-->
 </div>
@@ -657,6 +668,7 @@ svgeezy.init(false, 'png');};</script> -->
 	<script src="foundation/js/foundation/foundation.abide.js"></script>
 	<script src="foundation/js/foundation/foundation.topbar.js"></script>	
 	<script>
+
 		$(document).foundation({
 			offcanvas : {
 				open_method: "move",
