@@ -25,6 +25,8 @@ $services-intro:avenirroman,sans-serif; // Services
 	padding-top:10px;
 	color: white;
 	letter-spacing: 0.02em;
+	font-size:2.5em;
+	margin: 0.22em 0;
 }
 
 .has-tip{
@@ -53,8 +55,8 @@ height: $service-icon-height;
 
 // Service Reveal Module Text Styling 
 
-$heading-reveal:aveniroblique,sans-serif; // Heading 
-$paragraph-reveal:avenirmedium,sans-serif; // Paragraph
+$heading-reveal:avenirroman,sans-serif; // Heading 
+$paragraph-reveal:avenir,sans-serif; // Paragraph
 $lead-reveal:avenirroman,sans-serif; // Intro 
 
 // Link styling
@@ -64,9 +66,11 @@ $link-text-size:1em;
 #call-link{
 	margin-right: $link-spacing;
 	font-size: $link-text-size;
+	font-family: avenirlight,sans-serif;
 }
 	#email-dude {
 		font-size: $link-text-size;
+		font-family: avenirlight,sans-serif;
 	}
 
 
@@ -107,9 +111,9 @@ $link-text-size:1em;
 
 // HEATERS //
 
-$heading-reveal:aveniroblique,sans-serif; // Heading 
-$paragraph-reveal:avenirroman,sans-serif; // Paragraph
-$lead-reveal:avenirroman,sans-serif; // Intro 
+$heading-reveal:avenirroman,sans-serif; // Heading 
+$paragraph-reveal:avenir,sans-serif; // Paragraph
+$lead-reveal:avenir,sans-serif; // Intro 
 
 .heaters{
 	font-family: $heading-reveal;
@@ -144,9 +148,9 @@ $lead-reveal:avenirroman,sans-serif; // Intro
 
 // PIPE REROUTE //
 
-$heading-reveal:aveniroblique,sans-serif; // Heading 
-$paragraph-reveal:avenirmedium,sans-serif; // Paragraph
-$lead-reveal:avenirroman,sans-serif; // Intro 
+$heading-reveal:avenirroman,sans-serif; // Heading 
+$paragraph-reveal:avenir,sans-serif; // Paragraph
+$lead-reveal:avenir,sans-serif; // Intro 
 
 .pipe-reroute{
 	font-family: $heading-reveal;
@@ -181,9 +185,9 @@ $lead-reveal:avenirroman,sans-serif; // Intro
 
 // WATER SYSTEM // 
 
-$heading-reveal:aveniroblique,sans-serif; // Heading 
-$paragraph-reveal:avenirmedium,sans-serif; // Paragraph
-$lead-reveal:avenirroman,sans-serif; // Intro
+$heading-reveal:avenirroman,sans-serif; // Heading 
+$paragraph-reveal:avenir,sans-serif; // Paragraph
+$lead-reveal:avenir,sans-serif; // Intro
 
 .water-system{
 	font-family: $heading-reveal;
@@ -218,9 +222,9 @@ $lead-reveal:avenirroman,sans-serif; // Intro
 
 // WASTE SYSTEMS // 
 
-$heading-reveal:aveniroblique,sans-serif; // Heading 
-$paragraph-reveal:avenirmedium,sans-serif; // Paragraph
-$lead-reveal:avenirroman,sans-serif; // Intro 
+$heading-reveal:avenirroman,sans-serif; // Heading 
+$paragraph-reveal:avenir,sans-serif; // Paragraph
+$lead-reveal:avenir,sans-serif; // Intro 
 
 .waste{
 	font-family:$heading-reveal;
@@ -255,9 +259,9 @@ $lead-reveal:avenirroman,sans-serif; // Intro
 
 // INSTALLATIONS //
 
-$heading-reveal:aveniroblique,sans-serif; // Heading 
-$paragraph-reveal:avenirmedium,sans-serif; // Paragraph
-$lead-reveal:avenirroman,sans-serif; // Intro
+$heading-reveal:avenirroman,sans-serif; // Heading 
+$paragraph-reveal:avenir,sans-serif; // Paragraph
+$lead-reveal:avenir,sans-serif; // Intro
 
 .installation{
 	font-family:$heading-reveal;
@@ -292,9 +296,9 @@ $lead-reveal:avenirroman,sans-serif; // Intro
 
 // PRESSURE // 
 
-$heading-reveal:aveniroblique,sans-serif; // Heading 
-$paragraph-reveal:avenirmedium,sans-serif; // Paragraph
-$lead-reveal:avenirroman,sans-serif; // Intro
+$heading-reveal:avenirroman,sans-serif; // Heading 
+$paragraph-reveal:avenir,sans-serif; // Paragraph
+$lead-reveal:avenir,sans-serif; // Intro
 
 .pressure-s{
 	font-family: $heading-reveal;
@@ -426,7 +430,7 @@ $lead-reveal:avenirroman,sans-serif; // Intro
 
 	.services-intro{
 		position: relative;
-		top:8px;
+		top:3px;
 	}
 
 	.hint1{
