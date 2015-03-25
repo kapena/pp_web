@@ -225,7 +225,7 @@ $footer-type-f:avenirroman, sans-serif;
 }
 
 .bottom-bar{
-	height: 400px;
+	height: 380px;
 	background-color: #1aabe8;
 }
 
@@ -275,6 +275,23 @@ $footer-type-f:avenirroman, sans-serif;
 	padding-left: 5px;
 }
 
+.reserved{
+font-family: avenirroman, sans-serif;
+color: white;
+font-size: 0.9em;
+}
+
+.spred-aloha{
+font-family: avenirroman, sans-serif;
+color: white;
+font-size: 0.9em;
+}
+
+.built{
+font-family: avenirroman, sans-serif;
+color:white;
+font-size: 0.9em;
+}
 
 
 @media (max-width:1024px){
@@ -318,13 +335,19 @@ $footer-type-f:avenirroman, sans-serif;
 
 @media (max-width: 611px){
 	.bottom-bar{
-	height: 750px;
+	height: 700px;
 	}
 }
 
-@media (max-width:378px){
+@media (max-width: 349px){
 	.bottom-bar{
-		height: 800px;
+		height: 730px
+	}
+}
+
+@media (max-width: 335px){
+	.bottom-bar{
+		height: 770px
 	}
 }
 
@@ -386,18 +409,4 @@ $footer-type-f:avenirroman, sans-serif;
 	.googleplus{
 		display: inherit;
 	}
-}
-.reserved{
-font-family: avenirroman, sans-serif;
-color: white;
-}
-
-.spred-aloha{
-font-family: avenirroman, sans-serif;
-color: white;
-}
-
-.built{
-font-family: avenirroman, sans-serif;
-color:white;
 }
