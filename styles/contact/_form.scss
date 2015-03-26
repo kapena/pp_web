@@ -1,7 +1,7 @@
 $color-headline-form:#1571be;
 $color-plumbing-fact:#2989da;
 $color-form-bg:#bcbec0;
-$form-imput-spacing:30px;
+$form-imput-spacing:45px;
 $type-face:Avenir;
 
 .headline-form{
@@ -42,8 +42,23 @@ $type-face:Avenir;
 }
 
 .form-bg{
-	height: 720px;
+	height: 850px;
 	background-color: $color-form-bg;
+}
+
+.form-info{
+	margin: 0;
+	padding: 0;
+	padding-top: 30px;
+	padding-left: 45px;
+	font-family: avenirroman,sans-serif;
+	color:#4d4d4d;
+}
+
+.hint3{
+	margin: 0;
+	padding:0;
+	padding-top:60px;
 }
 
 
@@ -146,6 +161,6 @@ $type-face:Avenir;
 @media (max-width:640px) {
 	.form-bg{
 		//margin-top:300px;
-		height:850px;
+		height:1000px;
 	}
 }

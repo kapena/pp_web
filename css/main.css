@@ -334,7 +334,7 @@ ul.off-canvas-list li a {
   font-family: avenirroman, sans-serif; }
 
 #repair-mod {
-  font-family: avenir, sans-serif; }
+  font-family: avenirroman, sans-serif; }
 
 #repair-lead {
   font-family: avenirroman, sans-serif; }
@@ -362,10 +362,10 @@ ul.off-canvas-list li a {
   font-family: avenirroman, sans-serif; }
 
 #heater-mod {
-  font-family: avenir, sans-serif; }
+  font-family: avenirroman, sans-serif; }
 
 .heater-lead {
-  font-family: avenir, sans-serif; }
+  font-family: avenirroman, sans-serif; }
 
 #heater {
   width: 230px;
@@ -390,10 +390,10 @@ ul.off-canvas-list li a {
   font-family: avenirroman, sans-serif; }
 
 #reroute-mod {
-  font-family: avenir, sans-serif; }
+  font-family: avenirroman, sans-serif; }
 
 .reroute-lead {
-  font-family: avenir, sans-serif; }
+  font-family: avenirroman, sans-serif; }
 
 #reroute {
   width: 230px;
@@ -418,10 +418,10 @@ ul.off-canvas-list li a {
   font-family: avenirroman, sans-serif; }
 
 .water-lead {
-  font-family: avenir, sans-serif; }
+  font-family: avenirroman, sans-serif; }
 
 #water-mod {
-  font-family: avenir, sans-serif; }
+  font-family: avenirroman, sans-serif; }
 
 #water {
   width: 230px;
@@ -446,10 +446,10 @@ ul.off-canvas-list li a {
   font-family: avenirroman, sans-serif; }
 
 .waste-lead {
-  font-family: avenir, sans-serif; }
+  font-family: avenirroman, sans-serif; }
 
 #waste-mod {
-  font-family: avenir, sans-serif; }
+  font-family: avenirroman, sans-serif; }
 
 #waste {
   width: 230px;
@@ -474,10 +474,10 @@ ul.off-canvas-list li a {
   font-family: avenirroman, sans-serif; }
 
 .install-lead {
-  font-family: avenir, sans-serif; }
+  font-family: avenirroman, sans-serif; }
 
 #install-mod {
-  font-family: avenir, sans-serif; }
+  font-family: avenirroman, sans-serif; }
 
 #install {
   width: 230px;
@@ -502,10 +502,10 @@ ul.off-canvas-list li a {
   font-family: avenirroman, sans-serif; }
 
 .pressure-lead {
-  font-family: avenir, sans-serif; }
+  font-family: avenirroman, sans-serif; }
 
 #pressure-mod {
-  font-family: avenir, sans-serif; }
+  font-family: avenirroman, sans-serif; }
 
 #pressure {
   width: 230px;
@@ -530,10 +530,10 @@ ul.off-canvas-list li a {
   font-family: avenirroman, sans-serif; }
 
 .gasline-lead {
-  font-family: avenir, sans-serif; }
+  font-family: avenirroman, sans-serif; }
 
 #gasline-mod {
-  font-family: avenir, sans-serif; }
+  font-family: avenirroman, sans-serif; }
 
 #gasline {
   width: 230px;
@@ -780,24 +780,38 @@ ul.off-canvas-list li a {
   font-family: avenirroman, sans-serif;
   font-weight: 600;
   color: white;
-  padding-left: 60px;
+  padding-left: 50px;
   font-size: 1.5em;
   margin: 0px;
-  padding-top: 65px; }
+  padding-top: 50px; }
   .phone-bottom #phone-link {
-    color: white; }
+    color: white;
+    font-size: 0.9em; }
+
+#call-now {
+  font-family: avenirroman, sans-serif;
+  font-size: 1.2em;
+  padding-left: 50px;
+  color: #f3f5f7; }
+
+#email-now {
+  font-family: avenirroman, sans-serif;
+  font-size: 1.2em;
+  padding-left: 50px;
+  color: #f3f5f7; }
 
 .email-bottom {
   font-family: avenirroman, sans-serif;
   font-weight: 600;
   color: white;
-  padding-left: 60px;
+  padding-left: 50px;
   font-size: 1.5em;
   margin: 0px;
-  padding-top: 65px; }
+  padding-top: 50px; }
 
 #email-link {
-  color: white; }
+  color: #f3f5f7;
+  font-size: 0.9em; }
 
 .email-contact {
   height: 150px;
@@ -871,41 +885,54 @@ ul.off-canvas-list li a {
   padding-left: 40px; }
 
 .form-bg {
-  height: 720px;
+  height: 850px;
   background-color: #bcbec0; }
+
+.form-info {
+  margin: 0;
+  padding: 0;
+  padding-top: 30px;
+  padding-left: 45px;
+  font-family: avenirroman,sans-serif;
+  color: #4d4d4d; }
+
+.hint3 {
+  margin: 0;
+  padding: 0;
+  padding-top: 60px; }
 
 #spaceing {
   margin: 0px; }
 
 #name {
-  padding-top: 30px;
-  padding-left: 30px;
-  padding-right: 30px; }
+  padding-top: 45px;
+  padding-left: 45px;
+  padding-right: 45px; }
 
 #email {
-  padding-top: 30px;
-  padding-left: 30px;
-  padding-right: 30px; }
+  padding-top: 45px;
+  padding-left: 45px;
+  padding-right: 45px; }
 
 #phone {
-  padding-top: 30px;
-  padding-left: 30px;
-  padding-right: 30px; }
+  padding-top: 45px;
+  padding-left: 45px;
+  padding-right: 45px; }
 
 #location {
-  padding-top: 30px;
-  padding-left: 30px;
-  padding-right: 30px; }
+  padding-top: 45px;
+  padding-left: 45px;
+  padding-right: 45px; }
 
 #message-area {
-  padding-top: 30px;
-  padding-left: 30px;
-  padding-right: 30px; }
+  padding-top: 45px;
+  padding-left: 45px;
+  padding-right: 45px; }
 
 #submit-me {
-  padding-top: 30px;
-  padding-left: 30px;
-  padding-right: 30px; }
+  padding-top: 45px;
+  padding-left: 45px;
+  padding-right: 45px; }
 
 #submit-style {
   font-family: avenir, sans-serif;
@@ -940,7 +967,7 @@ ul.off-canvas-list li a {
     font-size: 1.4em; } }
 @media (max-width: 640px) {
   .form-bg {
-    height: 850px; } }
+    height: 1000px; } }
 .secondary-nav {
   height: 200px;
   background-color: #029bae; }

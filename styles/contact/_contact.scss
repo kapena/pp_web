@@ -69,10 +69,10 @@ $type-face:avenirroman,sans-serif;
 	font-family:$type-face;
 	font-weight: 600;
 	color: white;
-	padding-left: 60px;
+	padding-left: 50px;
 	font-size: 1.5em;
 	margin: 0px;
-	padding-top: 65px;
+	padding-top: 50px;
 	//padding-left: 100px;
 }
 
@@ -81,16 +81,35 @@ $type-face:avenirroman,sans-serif;
 
 	#phone-link{
 		color: white;
+		font-size: 0.9em;
 	}
+}
+
+$old-way:rgb(243, 245, 247);
+
+@mixin contact-now{
+	font-family: $type-face;
+	font-size: 1.2em;
+	padding-left: 50px;
+	color:$old-way;
+}
+
+#call-now{
+	@include contact-now;
+}
+
+#email-now{
+	@include contact-now;
 }
 
 .email-bottom{
 	@include lower-contact;
 }
 
-	#email-link{
-			color:white;
-		}
+#email-link{
+	color:$old-way;
+	font-size: 0.9em;
+}
 
 .email-contact{
 	height: 150px;
